@@ -1057,7 +1057,7 @@ const EnhancedServicesSection: React.FC = () => {
       contact: t('homepage.services.indigenous.contact', '劉經理'),
       phone: t('homepage.services.indigenous.phone', '02-23911368#1382'),
       images: [
-        require('../assets/img/services/健康照護(NANA)/健康照護(NANA)_1.jpg'),
+        require('../assets/img/services/原民通路與產業/LiMA照片.jpg'),
         require('../assets/img/services/健康照護(NANA)/健康照護(NANA)_2.jpg'),
         require('../assets/img/services/健康照護(NANA)/健康照護(NANA)_3.jpg'),
       ],
@@ -1077,7 +1077,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.indigenous.cases.0.results.1', '商品種類超過1,000種'),
             t('homepage.services.indigenous.cases.0.results.2', '年營業額成長30%')
           ],
-          image: require('../assets/img/services/健康照護(NANA)/健康照護(NANA)_1.jpg')
+          image: require('../assets/img/services/原民通路與產業/LiMA照片.jpg')
         },
         {
           company: t('homepage.services.indigenous.cases.1.company', '部落產業合作社'),
