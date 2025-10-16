@@ -1111,7 +1111,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.indigenous.cases.2.results.1', '設計師培訓50人'),
             t('homepage.services.indigenous.cases.2.results.2', '商品銷售成長40%')
           ],
-          image: require('../assets/img/services/健康照護(NANA)/健康照護(NANA)_3.jpg')
+          image: require('../assets/img/services/原民通路與產業/原民商品設計.jpg')
         }
       ],
       results: [
