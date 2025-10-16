@@ -20,7 +20,7 @@ import {
   Divider,
   Fade,
 } from '@mui/material';
-import teamImage from '../assets/img/services/05聯絡我們/前瞻部北海漁村聚餐.jpg';
+import teamImage from '../assets/img/services/前瞻永續/前瞻永續組_淨零永續_1.jpg';
 import {
   Phone as PhoneIcon,
   Email as EmailIcon,
@@ -369,7 +369,7 @@ const ContactSection: React.FC = () => {
                       <Box
                         component="img"
                         src={teamImage}
-                        alt="前瞻部北海漁村聚餐"
+                        alt="前瞻永續組淨零永續"
                         sx={{
                           width: '100%',
                           maxWidth: '600px',

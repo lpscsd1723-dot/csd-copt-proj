@@ -1223,9 +1223,9 @@ const EnhancedServicesSection: React.FC = () => {
       contact: t('homepage.services.sustainability.contact', '陳經理'),
       phone: t('homepage.services.sustainability.phone', '02-23911368#1189'),
       images: [
-        require('../assets/img/services/健康照護-運動科技/sports-tech-2024.jpg'),
-        require('../assets/img/services/健康照護-運動科技/sports-tech-2023.jpg'),
-        require('../assets/img/services/健康照護-運動科技/sports-tech-2022.jpg'),
+        require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_1.jpg'),
+        require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_2.jpg'),
+        require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_3.png'),
       ],
       cases: [
         {
