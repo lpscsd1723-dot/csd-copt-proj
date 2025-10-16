@@ -1094,7 +1094,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.indigenous.cases.1.results.1', '就業機會增加200個'),
             t('homepage.services.indigenous.cases.1.results.2', '文化傳承率提升50%')
           ],
-          image: require('../assets/img/services/健康照護(NANA)/健康照護(NANA)_2.jpg')
+          image: require('../assets/img/services/原民通路與產業/部落產業合作社.jpg')
         },
         {
           company: t('homepage.services.indigenous.cases.2.company', '原民商品設計'),
