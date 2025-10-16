@@ -1244,7 +1244,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.sustainability.cases.0.results.1', '能源效率提升30%'),
             t('homepage.services.sustainability.cases.0.results.2', 'ESG評級提升2級')
           ],
-          image: require('../assets/img/services/健康照護-運動科技/sports-tech-2024.jpg')
+          image: require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_4.jpg')
         },
         {
           company: t('homepage.services.sustainability.cases.1.company', '商圈智慧化'),
@@ -1262,7 +1262,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.sustainability.cases.1.results.1', '碳排放減少20%'),
             t('homepage.services.sustainability.cases.1.results.2', '營收成長15%')
           ],
-          image: require('../assets/img/services/健康照護-運動科技/sports-tech-2023.jpg')
+          image: require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_2.jpg')
         },
         {
           company: t('homepage.services.sustainability.cases.2.company', '農業碳管理'),
@@ -1280,7 +1280,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.sustainability.cases.2.results.1', '水資源使用效率提升25%'),
             t('homepage.services.sustainability.cases.2.results.2', '有機耕作面積增加40%')
           ],
-          image: require('../assets/img/services/健康照護-運動科技/sports-tech-2022.jpg')
+          image: require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_1.jpg')
         }
       ],
       results: [
