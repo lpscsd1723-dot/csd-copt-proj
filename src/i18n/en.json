@@ -1,0 +1,781 @@
+{
+  "homepage": {
+    "title": "Home",
+    "nav": {
+      "brand": "CSDC - Foresight Services",
+      "brand-short": "CSDC",
+      "center-history": "Background",
+      "center-history-short": "Background",
+      "center-development": "Development",
+      "center-development-short": "Development",
+      "department": "Department",
+      "department-short": "Department",
+      "department-intro": "Background",
+      "department-development": "Development",
+      "department-structure": "Structure & Business",
+      "services": "Services",
+      "insights": "Insights",
+      "insights-short": "Insights",
+      "contact": "Contact",
+      "contact-short": "Contact",
+      "language": "Language",
+      "language-zh": "Chinese",
+      "language-en": "English",
+      "language-ja": "Japanese"
+    },
+    "voice-assistant": {
+      "listening": "Listening...",
+      "recognized": "Recognized!",
+      "no-match": "No Match Found",
+      "help-title": "Voice Assistant Help",
+      "help-description": "Unable to recognize your command",
+      "help-you-said": "You said",
+      "help-available-pages": "Available Pages",
+      "help-language-switch": "Language Switch",
+      "help-close": "Close",
+      "aria-label": "Voice Assistant",
+      "match-exact": "Exact Match",
+      "match-fuzzy": "Fuzzy Match",
+      "navigating-to": "Navigating to"
+    },
+    "hero": {
+      "title": "CSDC",
+      "subtitle": "Foresight Services",
+      "description": "Driving cross-domain industry transformation with agriculture, healthcare, indigenous industries, and sustainable development at the core, assisting enterprises in digital transformation and ESG sustainable management",
+      "explore-button": "🚀 Explore Services",
+      "contact-button": "📞 Contact Us"
+    },
+    "center-history": {
+      "title": "Background",
+      "establishment": {
+        "title": "Background",
+        "summary": "In the 1970s-1980s, Taiwan transitioned from import substitution to export orientation, with SMEs facing quality management challenges. The Ministry of Economic Affairs promoted the satellite factory system to address dispersed production issues",
+        "body": [
+          "The 1970s-1980s marked Taiwan's crucial transition from import substitution to export orientation. Manufacturing flourished, but most SMEs remained family-run, small-scale, dispersed, and limited in technical capabilities.",
+          "As international orders increased and quality requirements rose, SMEs faced bottlenecks in stable supply, quality consistency, and delivery management. The Ministry of Economic Affairs observed that SMEs lacked systematic production and quality management of large enterprises, but their flexibility and low costs were key to Taiwan's industrial competitiveness.",
+          "Therefore, policy goals shifted to organizing SMEs into clustered production networks through the 'Satellite Factory System' to solve efficiency problems caused by dispersed production.",
+          "In 1984, the Ministry of Economic Affairs Industrial Development Bureau established the 'Center-Satellite Factory System Promotion Group' to promote the 'Center-Satellite Factory System', fostering collaborative production systems between large enterprises (center factories) and SMEs (satellite factories)."
+        ],
+        "key-measures": "Key Measures",
+        "important-projects": "Important Projects",
+        "view-all-projects": "View All",
+        "projects-unit": "Projects",
+        "bullets": [
+          "Introducing Japanese satellite factory experience and guidance techniques",
+          "Guiding domestic large enterprises to establish division of labor systems",
+          "Teaching SMEs to implement quality management (QC) and production management (TQC/TQM)",
+          "Establishing contract systems and cooperation mechanisms between center and satellite factories"
+        ]
+      },
+      "development": {
+        "title": "Center Development History",
+        "summary": "CSDC has gone through four important development phases, from vertical integration to horizontal cooperation, then to digital transformation and sustainable development",
+        "phases": [
+          {
+            "title": "System Foundation & Vertical Integration Period",
+            "period": "1984–2000",
+            "summary": "Establishing vertical collaborative supply chain systems, creating synergistic industrial upgrade models",
+            "key-projects": [
+              "CSDC system promotion establishing 'Center-Satellite Factory' cooperation mechanisms (1984)",
+              "Industrial technology talent training program (1984)",
+              "First CSDC system team circle activity competition (1985)",
+              "First National Quality Award execution (1995)",
+              "Industrial automation talent training and guidance team (1993)",
+              "Automotive (transportation) talent training program (1995)",
+              "Creating Taichung Jingming Street as the first commercial street guidance case (1995)"
+            ]
+          },
+          {
+            "title": "Horizontal Cooperation & Service Innovation Period",
+            "period": "2000–2010",
+            "summary": "Transitioning from manufacturing-oriented to innovation and service-oriented, expanding to cross-industry, cross-regional horizontal cooperation networks",
+            "key-projects": [
+              "A-Team bicycle system (2003)",
+              "Creative lifestyle industry development (2003)",
+              "OTOP local specialty industry development plan (2005)",
+              "M-Team machine tool dual-core system (2006)",
+              "First Taiwan OTOP product design award (2007)",
+              "Health care industry professional incubation program execution (2008)",
+              "MIT smile mark marketing promotion plan (2009)",
+              "Technology agricultural enterprise guidance program execution (2009)"
+            ]
+          },
+          {
+            "title": "Digital Transformation & Sustainable Deepening Period",
+            "period": "2010–2020",
+            "summary": "With the advent of cloud and smart manufacturing era, CSDC focuses on 'Lean + Smart' as the main axis, integrating digitalization, systematization, and international linkage transformation guidance capabilities",
+            "key-projects": [
+              "Industry energy technology project promotion and management office establishment (2012)",
+              "First Excellence Middle Enterprise Award (2013)",
+              "First MIT Taiwan Gold Selection execution (2014)",
+              "Aerospace A-Team project (2016)",
+              "Ford Lioho Motor supply chain guidance (2017)",
+              "Taiwan-Japan local creation summit forum (2019)"
+            ]
+          },
+          {
+            "title": "Multi-Axis Smart Sustainability Period",
+            "period": "2020–Present",
+            "summary": "In the era of supply chain restructuring, carbon neutrality, and AI, CSDC promotes three main axes of smart, low-carbon, and internationalization, with AI, ESG, and international linkage as the core",
+            "key-projects": [
+              "Production traceability expansion promotion project management plan execution (2020)",
+              "Consumer awareness (Buy Local) initiative promotion (2021)",
+              "Small Business Innovation Research (SBIR) execution (2021)",
+              "Indigenous product channel management and operation guidance plan execution, LIMA flagship store establishment (2022)",
+              "Net-zero guidance, carbon inventory, ISO14064-1 verification (2022)",
+              "Commercial district smart and low-carbon guidance (2023)",
+              "Agricultural carbon inventory and low-carbon business promotion (2023)"
+            ]
+          }
+        ]
+      }
+    },
+    "department-intro": {
+      "title": "Background",
+      "establishment": {
+        "title": "Background",
+        "summary": "Established in 2015 in response to cross-domain industry transformation needs and government policy direction, building a forward-looking smart service professional image",
+        "body": [
+          "Establishment time: 2015",
+          "Responding to cross-domain industry transformation needs and government policy direction (particularly in agriculture, healthcare, and technology application)",
+          "Aligning with the Ministry of Economic Affairs' 'Service Manufacturing' and 'Smart, Sustainable, Local' policy trends, expanding CSDC service capabilities to non-manufacturing industries",
+          "Aiming to establish a 'Forward-looking, Smart Service' professional image as a strategic partner for government and enterprises in innovation development and industrial upgrading"
+        ],
+        "key-features": "Key Features",
+        "features": [
+          "Cross-domain integration of industry value systems",
+          "Forward-looking smart service professional image",
+          "Strategic partner for government and enterprises",
+          "Innovation development and industrial upgrading"
+        ]
+      },
+      "development": {
+        "title": "Center Development History",
+        "view-all-services": "View All",
+        "services-unit": "Services",
+        "expand-details": "Expand Details",
+        "collapse-details": "Collapse Details",
+        "phases": [
+          {
+            "title": "2015-2019 Development Period: Establishing Cross-Domain Forward-Looking Systems",
+            "summary": "Cross-domain integration of industry value systems, becoming the preferred forward-looking, smart service partner for government and enterprise consulting markets",
+            "scope": [
+              "New Agriculture: Agricultural enterprises, young farmers, food education, local production and consumption",
+              "Health Services: Long-term care 2.0, sports industry, health promotion",
+              "Technology Applications: Smart, AI, big data, cloud, command center setup"
+            ]
+          },
+          {
+            "title": "2020-2025 Maturity Period: Digital × Sustainability Dual-Axis Transformation",
+            "summary": "Management + AI transformation; focusing on agriculture, health, intellectual property, indigenous, and sustainability as core, introducing management, ESG and net-zero strategies",
+            "scope": [
+              "Technology agricultural enterprise guidance (AI×Digital×Sustainability)",
+              "Production traceability instructor training",
+              "Domestic grain integrated marketing",
+              "Agricultural carbon management and carbon label product marketing",
+              "Rural industry value-added and tourism integration (Taitung, Tainan)",
+              "Indigenous industry (LiMA channel, tribal industry, cooperative guidance)",
+              "Health and long-term care (care management center quality management, sports health technology)",
+              "Intellectual property promotion (IP competition, patent layout guidance)",
+              "National nursing home evaluation and public safety guidance",
+              "Net-zero just transition (Climate Change Response Act related promotion)"
+            ]
+          }
+        ]
+      }
+    },
+    "department-structure": {
+      "title": "Department Structure & Business",
+      "groups": [
+        {
+          "title": "Agricultural Innovation Group",
+          "members": "Qi-Chang, Li-Wan, Shi-Xun",
+          "summary": "Promoting agricultural digital transformation and sustainable development, assisting agricultural enterprises in implementing AI, digital tools, and ESG strategies"
+        },
+        {
+          "title": "Healthcare Group",
+          "members": "Yu-Chuo",
+          "summary": "Promoting public health and building smart care systems, combining medical institutions, industry, and community to promote health, long-term care services, smart healthcare, and local health management",
+          "achievements": [
+            "Organized hundreds of health activities",
+            "Trained thousands of professionals",
+            "Built multiple smart care products and cloud management platforms",
+            "Promoted integration of medical and long-term care resources",
+            "Promoted AI and big data applications in health services"
+          ]
+        },
+        {
+          "title": "Indigenous Industry Group",
+          "members": "Yi-Cheng, Xiao-Meng",
+          "summary": "Assisting the Council of Indigenous Peoples in policy execution, promoting indigenous industry development, building culture-centered sustainable business development models",
+          "focus-areas": [
+            "Shaping the largest indigenous channel brand LiMA nationwide",
+            "Assisting tribal industry upgrading",
+            "Indigenous cooperative guidance"
+          ]
+        },
+        {
+          "title": "Forward-Looking Sustainability Group",
+          "members": "NANA",
+          "summary": "Responding to global climate change and international net-zero trends, assisting government in promoting sustainability policies and guiding enterprises in ESG transformation",
+          "goals": [
+            "Cultivating sustainability management consultant talent, leveraging internal synergies, building sustainability guidance models and teams",
+            "Focusing on ESG social responsibility (S) areas, establishing resource integration platforms",
+            "Assisting government in promoting sustainability-related policies, focusing on net-zero policy lifestyle and social transformation action plans"
+          ]
+        }
+      ]
+    },
+    "services": {
+      "title": "Four Major Service Areas",
+      "description": "Providing comprehensive industry guidance services, from agricultural innovation to healthcare, from indigenous industries to sustainable development",
+      "agriculture": {
+        "title": "Agricultural Management & Innovation Transformation",
+        "summary": "Assisting agricultural enterprises in implementing AI, digital tools, and sustainable strategies, promoting agricultural digital transformation",
+        "features": [
+          "Tech Agricultural Enterprise Guidance",
+          "Rural Industry Development",
+          "Traceability Guidance",
+          "Sustainable Agriculture Transformation"
+        ],
+        "achievements": [
+          "Guided over 500 agricultural enterprises",
+          "Trained 240 traceability guidance personnel",
+          "Promoted agricultural carbon accounting and low-carbon practices"
+        ],
+        "contact": "Manager Zhu",
+        "phone": "02-23911368#8842",
+        "cases": [
+          {
+            "company": "Hongyang Food",
+            "title": "Sustainable Lean × Low-Carbon Transformation",
+            "summary": "Using a three-stage approach of 'Disclosure → Reduction → Neutralization', implementing carbon accounting and energy digitization, starting from on-site lean improvement to balance cost, efficiency, and risk control",
+            "description": "Through CSDC guidance, Hongyang Food established a complete carbon and energy management system, starting from on-site lean improvement to gradually build a sustainable business model. Through data management, not only improved operational efficiency but also established trust foundation in supply chain dialogue.",
+            "features": [
+              "Establish carbon and energy management foundation",
+              "On-site lean production improvement",
+              "Enhanced trust in supply chain dialogue"
+            ],
+            "results": [
+              "15% improvement in energy efficiency",
+              "20% reduction in production process time",
+              "30% reduction in carbon footprint"
+            ]
+          },
+          {
+            "company": "Rural Industry Cooperative",
+            "title": "Domestic Grain Integration Marketing",
+            "summary": "Promoting domestic grain branding, establishing a complete value chain from production to sales",
+            "description": "Assisting rural cooperatives in establishing brand identity, integrating marketing resources, and enhancing market competitiveness of domestic grains. Through digital tools, establishing a traceability system that allows consumers to track product origins.",
+            "features": [
+              "Brand identity establishment",
+              "Digital marketing promotion",
+              "Product traceability tracking"
+            ],
+            "results": [
+              "40% increase in brand awareness",
+              "25% increase in sales channels",
+              "30% increase in farmer income"
+            ]
+          }
+        ],
+        "results": [
+          {
+            "title": "Tiered Guidance Results",
+            "items": [
+              "Operational strengthening: smoother processes, reduced waste, visualized key indicators",
+              "Digital implementation: from forms to systematic (ERP/BI/IoT)",
+              "Sustainable lean: using 'Disclosure → Reduction → Neutralization' to drive energy saving, waste reduction, and circular reuse"
+            ],
+            "statistics": [
+              { "label": "Enterprises Guided", "value": "500+", "unit": "companies" },
+              { "label": "Training Sessions", "value": "240", "unit": "person-times" },
+              { "label": "Carbon Accounting Completed", "value": "150", "unit": "companies" }
+            ]
+          },
+          {
+            "title": "Talent Development Results",
+            "items": [
+              "Focus on practice: modular learning in strategy × IP × data × sustainability",
+              "Learn and apply: students complete action plans with enterprise propositions",
+              "Cross-domain connections: building networks and case exchange mechanisms"
+            ],
+            "statistics": [
+              { "label": "Training Courses", "value": "15", "unit": "sessions" },
+              { "label": "Participants", "value": "300+", "unit": "people" },
+              { "label": "Action Plans", "value": "50+", "unit": "projects" }
+            ]
+          },
+          {
+            "title": "Benchmark Diffusion Results",
+            "items": [
+              "Replicable benchmarks: using award-winning and shortlisted cases to accumulate 'methods + tools + indicators'",
+              "Reputation and visibility: special publications, websites, and media exposure",
+              "From 'projects' to 'routine': making digital and sustainability part of daily management"
+            ],
+            "statistics": [
+              { "label": "Award Winners", "value": "20", "unit": "companies" },
+              { "label": "Media Exposure", "value": "50+", "unit": "times" },
+              { "label": "Publications", "value": "3", "unit": "issues" }
+            ]
+          }
+        ],
+        "processes": [
+          {
+            "title": "Tiered Guidance Process",
+            "summary": "Complete guidance process from needs assessment to results tracking",
+            "process": [
+              "Online application → Fill in basic information and challenges",
+              "Site visit and diagnosis → Consultants and mentors on-site, focusing on core issues",
+              "Proposal and review → Develop work items and KPIs, confirm feasibility",
+              "Execution support → Implement digital/AI, sustainable lean and management mechanisms",
+              "Results presentation and tracking → Effectiveness review, diffusion sharing"
+            ],
+            "duration": "6-12 months",
+            "requirements": ["Company basic information", "Current situation analysis report", "Improvement goal setting"]
+          },
+          {
+            "title": "Talent Development Process",
+            "summary": "AMMOT+ and AMEP+ professional talent training",
+            "process": [
+              "Online registration → Fill in registration form and company background",
+              "Qualification review → Assess learning motivation and company needs",
+              "Admission announcement → Notify admission results and course arrangements",
+              "Registration and payment → Complete registration procedures",
+              "Course learning → Modular courses and practical exercises",
+              "Action plan → Complete implementation with enterprise propositions",
+              "Results presentation → Share learning outcomes and applications"
+            ],
+            "duration": "3-6 months",
+            "requirements": ["Mid-to-senior management personnel", "Relevant work experience", "Company recommendation letter"]
+          },
+          {
+            "title": "Excellence Award Application Process",
+            "summary": "Recognizing excellent agricultural enterprises for innovative R&D and technology application",
+            "process": [
+              "Application submission → Fill in application form and submit relevant documents",
+              "Document review → Expert review of written materials",
+              "On-site review → Committee on-site inspection or online review",
+              "Final selection → Final review and ranking",
+              "Award ceremony → Public recognition and media promotion",
+              "Publication production → Compile award-winning cases and experience sharing"
+            ],
+            "duration": "4-6 months",
+            "requirements": ["Innovation technology proof", "Results data", "Promotion plan"]
+          }
+        ]
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "summary": "Promoting public health and building smart care systems, combining medical institutions, industry, and community",
+        "features": [
+          "Long-term Care Services",
+          "Healthcare Evaluation",
+          "Sports Technology Applications",
+          "Smart Healthcare Integration"
+        ],
+        "achievements": [
+          "Organized hundreds of health activities",
+          "Trained thousands of professionals",
+          "Evaluated 920 nursing homes"
+        ],
+        "contact": "Manager Chen",
+        "phone": "02-23911368#1189",
+        "cases": [
+          {
+            "company": "China Chemical & Pharmaceutical",
+            "title": "Quality Home Care Service Network Development Plan",
+            "summary": "Guiding the establishment of quality home care service networks to improve long-term care service quality and efficiency",
+            "description": "Assisting China Chemical & Pharmaceutical in establishing a complete home care service network through standardized processes, professional training, and quality monitoring to enhance the professional level and service efficiency of long-term care services. Establishing a complete process from application to service completion to ensure service quality consistency.",
+            "features": [
+              "Service Network Establishment",
+              "Service Quality Enhancement",
+              "Service Efficiency Optimization"
+            ],
+            "results": [
+              "Service coverage increased by 60%",
+              "Service satisfaction reached 95%",
+              "Service efficiency improved by 40%"
+            ]
+          },
+          {
+            "company": "Min-Sheng Medical Control",
+            "title": "24/7 Caring Nursing Home Chain Service Model",
+            "summary": "Promoting 24/7 caring nursing home chain service model to provide more comprehensive long-term care services",
+            "description": "Assisting Min-Sheng Medical Control in establishing a 24/7 nursing service model through chain operations and standardized management, providing uninterrupted 24-hour care services. Integrating medical resources with community services to establish a complete care ecosystem.",
+            "features": [
+              "24/7 Service",
+              "Chain Service Model",
+              "Caring Nursing Service"
+            ],
+            "results": [
+              "Service hours extended to 24 hours",
+              "Chain locations increased to 15",
+              "Service quality evaluation: Excellent"
+            ]
+          },
+          {
+            "company": "Sports Technology Applications",
+            "title": "Smart Health Management Platform",
+            "summary": "Combining wearable devices with AI analysis to establish personalized health management systems",
+            "description": "Utilizing the latest sports technology, including wearable devices, AI skeleton analysis, gait analysis, and other technologies to establish personalized health management platforms. Through data collection and analysis, providing precise health recommendations and exercise guidance.",
+            "features": [
+              "Wearable Device Integration",
+              "AI Health Analysis",
+              "Personalized Recommendations"
+            ],
+            "results": [
+              "Cumulative service to 13,000 people",
+              "Interaction sessions: 496,000 times",
+              "Health indicator improvement rate: 80%"
+            ]
+          }
+        ],
+        "processes": [
+          {
+            "title": "Consultant Guidance Process",
+            "summary": "Providing resource application, consulting services, site visits, business guidance, and operational model guidance",
+            "process": [
+              "Resource Application Assistance → Assisting with government subsidy and resource applications",
+              "Consulting Service Provision → Professional consultants providing consulting services",
+              "Site Visit and Diagnosis → On-site visits and current situation diagnosis",
+              "Business Guidance Planning → Developing improvement plans and guidance programs",
+              "Operational Model Guidance → Establishing sustainable operational models"
+            ],
+            "duration": "3-12 months",
+            "requirements": ["Institution basic information", "Current situation analysis report", "Improvement needs description"]
+          },
+          {
+            "title": "Evaluation Process",
+            "summary": "Innovation in nursing home evaluation system",
+            "process": [
+              "Evaluation Process Launch → Announce evaluation schedule and standards",
+              "Health Bureau Initial Review → Local government preliminary review",
+              "Online Data Verification → Online system data verification",
+              "Evaluation Committee Site Visit → Committee on-site evaluation",
+              "Night Disaster Scenario Simulation → Emergency response capability testing",
+              "Score Assessment and Confirmation → Scoring and result confirmation",
+              "Evaluation Certificate Issuance → Issuing qualification certificates"
+            ],
+            "duration": "6-12 months",
+            "requirements": ["Evaluation application form", "Operational data", "Personnel certificates"]
+          },
+          {
+            "title": "Sports Technology Application Process",
+            "summary": "Promoting sports technology applications in healthcare",
+            "process": [
+              "Needs Assessment → Assessing venue needs and technical feasibility",
+              "Equipment Introduction → Installing sports technology equipment",
+              "Personnel Training → Training operators and managers",
+              "Trial Operation → Small-scale trial operation and adjustment",
+              "Formal Operation → Full promotion and service",
+              "Effectiveness Tracking → Continuous monitoring and improvement"
+            ],
+            "duration": "3-6 months",
+            "requirements": ["Venue assessment", "Equipment needs", "Personnel training"]
+          }
+        ]
+      },
+      "indigenous": {
+        "title": "Indigenous Channels & Industry",
+        "summary": "Shaping Taiwan's largest indigenous product channel brand LiMA, integrating online and offline shopping",
+        "features": [
+          "LiMA Channel Brand",
+          "Indigenous Product Promotion",
+          "Tribal Industry Guidance",
+          "Cultural Sustainable Development"
+        ],
+        "achievements": [
+          "Established Taiwan's largest indigenous channel",
+          "Promoted indigenous enterprise SDGs",
+          "Strengthened sustainable business capabilities"
+        ],
+        "contact": "Manager Liu",
+        "phone": "02-23911368#1382",
+        "cases": [
+          {
+            "company": "LiMA Indigenous Channel",
+            "title": "Taiwan's Largest Indigenous Product Channel Brand",
+            "summary": "Brand name derived from the common word 'five' in Austronesian languages, symbolizing indigenous peoples from various regions joining hands",
+            "description": "LiMA is a channel brand established by the Council of Indigenous Peoples, dedicated to promoting indigenous products and culture. Through integrated online and offline sales models, establishing a complete product supply chain, enabling more people to discover and purchase quality indigenous products.",
+            "features": [
+              "Continuously nurturing indigenous businesses and products",
+              "Expanding diverse market touchpoints domestically and internationally",
+              "Promoting LiMA Indigenous Power Sustainability Awards"
+            ],
+            "results": [
+              "Over 200 partner businesses",
+              "Over 1,000 product varieties",
+              "Annual revenue growth of 30%"
+            ]
+          },
+          {
+            "company": "Tribal Industry Cooperative",
+            "title": "Indigenous Tribal Industry Upgrading",
+            "summary": "Assisting indigenous tribes in establishing cooperatives, promoting cultural industrialization and sustainable development",
+            "description": "Assisting indigenous tribes in establishing cooperative organizations, combining traditional culture with modern business models to promote cultural industrialization. Through professional guidance and resource integration, helping tribes establish sustainable economic models.",
+            "features": [
+              "Cooperative Organization Establishment",
+              "Cultural Industrialization",
+              "Sustainable Business Model"
+            ],
+            "results": [
+              "Guided 15 cooperatives",
+              "Increased employment opportunities by 200",
+              "Cultural heritage rate increased by 50%"
+            ]
+          },
+          {
+            "company": "Indigenous Product Design",
+            "title": "Indigenous Cultural Creative Product Development",
+            "summary": "Combining traditional culture with modern design to develop culturally creative products with market competitiveness",
+            "description": "Assisting indigenous businesses in developing culturally distinctive creative products, combining traditional craftsmanship with modern design concepts to create products with both cultural value and market demand.",
+            "features": [
+              "Cultural Creative Product Development",
+              "Design Capability Enhancement",
+              "Market Channel Expansion"
+            ],
+            "results": [
+              "100+ product designs",
+              "50 designers trained",
+              "Product sales growth of 40%"
+            ]
+          }
+        ],
+        "processes": [
+          {
+            "title": "Review Process",
+            "summary": "Open registration, all applications submitted by mail",
+            "process": [
+              "New partners: Must fill out application form and submit required documents for initial qualification review",
+              "Existing partners: Must supplement cooperation agreement for subsequent review"
+            ],
+            "duration": "1-2 weeks",
+            "requirements": ["Application form", "Basic information", "Product samples"]
+          },
+          {
+            "title": "Qualification Review",
+            "summary": "After receiving application materials, working group conducts qualification review",
+            "process": [
+              "After receiving application materials, working group conducts qualification review, qualified applicants pass initial review",
+              "Incomplete documents must be supplemented within 7 days of working group notification, with only one supplement allowed"
+            ],
+            "duration": "1 week",
+            "requirements": ["Complete application materials", "Product quality certification", "Indigenous identity proof"]
+          },
+          {
+            "title": "Product Review",
+            "summary": "After passing qualification verification, conduct product review and evaluation",
+            "process": [
+              "Product Quality Inspection → Check product quality and safety",
+              "Cultural Feature Assessment → Evaluate product cultural value",
+              "Market Competitiveness Analysis → Analyze product market potential",
+              "Review Result Notification → Notify review results and follow-up procedures"
+            ],
+            "duration": "2-3 weeks",
+            "requirements": ["Product samples", "Quality certification", "Cultural description"]
+          },
+          {
+            "title": "Partnership Agreement",
+            "summary": "Sign cooperation agreement and complete product listing",
+            "process": [
+              "Sign Partnership Agreement → Confirm cooperation terms and rights/obligations",
+              "Product Listing → Complete product data entry and listing",
+              "System Function Setup → Configure product management and sales functions",
+              "Ongoing Operational Support → Provide operational guidance and technical support"
+            ],
+            "duration": "1-2 weeks",
+            "requirements": ["Cooperation agreement", "Product data", "Business plan"]
+          }
+        ]
+      },
+      "sustainability": {
+        "title": "Forward-Looking Sustainability",
+        "summary": "Responding to global climate change and international net-zero trends, assisting government in promoting sustainability policies",
+        "features": [
+          "ESG Transformation Guidance",
+          "Net-Zero Carbon Strategy",
+          "Sustainability Management Consulting",
+          "Climate Change Response"
+        ],
+        "achievements": [
+          "Cultivated sustainability management consultant talent",
+          "Established sustainability guidance models",
+          "Promoted net-zero policies"
+        ],
+        "contact": "Manager Chen",
+        "phone": "02-23911368#1189",
+        "cases": [
+          {
+            "company": "Manufacturing ESG Transformation",
+            "title": "ESG Transformation and Net-Zero Strategy",
+            "summary": "Assisting manufacturing industry in ESG transformation, establishing sustainable business models, promoting net-zero carbon strategies",
+            "description": "Assisting traditional manufacturing in ESG transformation, establishing sustainable business models from environmental, social, and governance perspectives. Through carbon accounting, energy management, supply chain management and other tools, helping enterprises establish complete sustainability management systems.",
+            "features": [
+              "ESG Transformation Guidance",
+              "Net-Zero Carbon Strategy",
+              "Sustainability Management Consulting",
+              "Climate Change Response"
+            ],
+            "results": [
+              "Carbon emissions reduced by 25%",
+              "Energy efficiency improved by 30%",
+              "ESG rating improved by 2 levels"
+            ]
+          },
+          {
+            "company": "Smart Commercial District",
+            "title": "Smart Commercial District and Low-Carbon Guidance",
+            "summary": "Promoting smart commercial district transformation, combining digital technology with low-carbon strategies",
+            "description": "Assisting commercial districts in smart transformation, introducing digital technology and low-carbon strategies to improve operational efficiency and environmental friendliness. Through smart management systems, low-carbon transportation, green energy and other solutions, establishing smart sustainable commercial districts.",
+            "features": [
+              "Smart Management System",
+              "Low-Carbon Transportation Solutions",
+              "Green Energy Introduction",
+              "Digital Marketing Promotion"
+            ],
+            "results": [
+              "Commercial district digitalization rate reached 80%",
+              "Carbon emissions reduced by 20%",
+              "Revenue growth of 15%"
+            ]
+          },
+          {
+            "company": "Agricultural Carbon Management",
+            "title": "Agricultural Carbon Accounting and Low-Carbon Practices",
+            "summary": "Promoting agricultural carbon accounting and low-carbon practices, establishing sustainable agricultural development models",
+            "description": "Assisting agricultural sector in establishing carbon accounting and low-carbon mechanisms, through precision agriculture, smart irrigation, organic farming and other methods, reducing agricultural carbon emissions and establishing sustainable agricultural development models.",
+            "features": [
+              "Agricultural Carbon Accounting",
+              "Smart Irrigation System",
+              "Organic Farming Promotion",
+              "Carbon Credit Trading Mechanism"
+            ],
+            "results": [
+              "Agricultural carbon emissions reduced by 30%",
+              "Water resource efficiency improved by 25%",
+              "Organic farming area increased by 40%"
+            ]
+          }
+        ],
+        "processes": [
+          {
+            "title": "ESG Transformation Guidance Process",
+            "summary": "Assisting enterprises in ESG transformation",
+            "process": [
+              "ESG Current Status Assessment → Assess enterprise ESG status and challenges",
+              "Transformation Strategy Planning → Develop ESG transformation strategies and goals",
+              "Implementation Plan Design → Design specific implementation plans and timelines",
+              "Effectiveness Tracking and Review → Continuously track transformation effectiveness and adjustments"
+            ],
+            "duration": "6-18 months",
+            "requirements": ["Enterprise basic information", "ESG status report", "Transformation goal setting"]
+          },
+          {
+            "title": "Net-Zero Carbon Guidance Process",
+            "summary": "Assisting enterprises in establishing net-zero carbon strategies",
+            "process": [
+              "Carbon Accounting Execution → Establish enterprise carbon emission baseline",
+              "Carbon Reduction Strategy Planning → Develop carbon reduction strategies and pathways",
+              "Technology Introduction → Introduce low-carbon technology and equipment",
+              "Carbon Credit Trading → Establish carbon credit trading mechanism",
+              "Effectiveness Verification → Verify carbon reduction effectiveness and certification"
+            ],
+            "duration": "12-24 months",
+            "requirements": ["Energy usage data", "Production process data", "Carbon reduction goal setting"]
+          },
+          {
+            "title": "Sustainability Management Consultant Training",
+            "summary": "Cultivating professional sustainability management consultant talent",
+            "process": [
+              "Basic Courses → Sustainability development fundamental theory",
+              "Practical Training → Actual case operation and practice",
+              "Professional Certification → Pass professional certification exams",
+              "Internship Guidance → Actual enterprise case guidance",
+              "Continuous Learning → Regular professional knowledge updates"
+            ],
+            "duration": "6-12 months",
+            "requirements": ["Relevant educational background", "Work experience proof", "Learning motivation statement"]
+          }
+        ]
+      }
+    },
+    "insights": {
+      "title": "Insights & Perspectives",
+      "industry-trends": {
+        "title": "Industry Trend Articles"
+      },
+      "research": {
+        "title": "Special Research"
+      }
+    },
+    "ui": {
+      "success-cases": "Success Cases",
+      "service-features": "Service Features",
+      "service-results": "Service Results",
+      "contact-us": "Contact Us",
+      "close": "Close",
+      "apply-now": "Apply Now",
+      "case-showcase": "Success Case Showcase",
+      "service-results-stats": "Service Results Statistics",
+      "application-process": "Application Process",
+      "feature-highlights": "Feature Highlights:",
+      "specific-results": "Specific Results:",
+      "quantitative-indicators": "Quantitative Indicators:",
+      "estimated-duration": "Estimated Duration:",
+      "required-documents": "Required Documents:",
+      "process-steps": "Process Steps:",
+      "case-study": "Case Study",
+      "results": "Results",
+      "application-process": "Guidance Application Process"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Let's create a better future together 🌟",
+      "professional-team": "Professional Team",
+      "headquarters": "CSDC Headquarters",
+      "address": "No. 41, Section 3, Xinyi Road, Da'an District, Taipei",
+      "contacts": [
+        {
+          "service": "Agricultural Enterprise Management & Innovation Transformation",
+          "contact": "Manager Zhu",
+          "phone": "02-23911368#8842"
+        },
+        {
+          "service": "Healthcare",
+          "contact": "Manager Chen",
+          "phone": "02-23911368#1189"
+        },
+        {
+          "service": "Indigenous Channels & Industry",
+          "contact": "Manager Liu",
+          "phone": "02-23911368#1382"
+        },
+        {
+          "service": "Just Transition & Sustainable Development",
+          "contact": "Manager Chen",
+          "phone": "02-23911368#1189"
+        }
+      ],
+      "online-form": {
+        "title": "Online Form",
+        "service-category": "Service Category",
+        "name": "Name",
+        "email": "Email",
+        "description": "Description",
+        "submit": "Submit Form",
+        "submitting": "Submitting...",
+        "success": "Form submitted successfully! We will contact you soon.",
+        "errors": {
+          "service-category": "Please select a service category",
+          "name": "Please enter your name",
+          "email": "Please enter your email",
+          "email-format": "Please enter a valid email format",
+          "description": "Please describe your requirements"
+        }
+      }
+    }
+  }
+}
+
+

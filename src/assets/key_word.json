@@ -1,0 +1,52 @@
+{
+    "pages": [
+      {
+        "title": "中心成立背景與發展歷程",
+        "keywords": ["成立背景", "發展歷程", "中心介紹", "中心的歷史", "我想了解中心", "中心是怎麼成立的", "中心的故事"],
+        "route": "/about-center"
+      },
+      {
+        "title": "中衛成就",
+        "keywords": ["成就", "獎項", "貢獻", "中衛的成果", "有哪些榮譽", "中衛做過什麼"],
+        "route": "/achievements"
+      },
+      {
+        "title": "部門介紹",
+        "keywords": ["部門介紹", "各部門", "組織結構", "我想知道有哪些部門", "看看部門內容", "組織介紹"],
+        "route": "/departments",
+        "subPages": [
+          {
+            "title": "部門成立背景與發展歷程",
+            "keywords": ["部門成立背景", "部門歷史", "這個部門是怎麼開始的", "部門的發展過程"],
+            "route": "/departments/history"
+          },
+          {
+            "title": "部門架構與業務",
+            "keywords": ["架構", "業務", "職責", "誰負責什麼", "部門在做什麼", "部門組成"],
+            "route": "/departments/structure"
+          },
+          {
+            "title": "四大服務專區",
+            "keywords": ["服務專區", "四大服務", "有哪些服務", "想看服務內容", "四個主要服務"],
+            "route": "/departments/services"
+          },
+          {
+            "title": "洞察觀點",
+            "keywords": ["洞察", "見解", "專欄", "看最新觀點", "有哪些文章", "中衛怎麼看"],
+            "route": "/departments/insights"
+          },
+          {
+            "title": "聯絡我們",
+            "keywords": ["聯絡", "聯絡方式", "地址", "電話", "我要聯絡你們", "有客服嗎", "怎麼聯繫"],
+            "route": "/departments/contact"
+          },
+          {
+            "title": "線上表單",
+            "keywords": ["表單", "線上填寫", "我要填表單", "我要報名", "我要詢問"],
+            "route": "/departments/form"
+          }
+        ]
+      }
+    ]
+  }
+  
