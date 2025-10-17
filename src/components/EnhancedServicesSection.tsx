@@ -1243,11 +1243,11 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/前瞻永續/前瞻永續_農業淨零國際交流.jpg')
         },
         {
-          company: t('homepage.services.sustainability.cases.1.company', '商圈智慧化'),
-          services_item: t('homepage.services.sustainability.cases.1.services_item', '商圈智慧化'),
-          title: t('homepage.services.sustainability.cases.1.title', '商圈智慧化及低碳化輔導'),
-          summary: t('homepage.services.sustainability.cases.1.summary', '推動商圈智慧化轉型，結合數位科技與低碳策略'),
-          description: t('homepage.services.sustainability.cases.1.description', '協助商圈進行智慧化轉型，導入數位科技與低碳策略，提升商圈營運效率與環境友善度。透過智慧管理系統、低碳交通、綠色能源等方案，建立智慧永續商圈。'),
+          company: t('homepage.services.sustainability.cases.1.company', '淨零公正轉型'),
+          services_item: t('homepage.services.sustainability.cases.1.services_item', '淨零公正轉型'),
+          title: t('homepage.services.sustainability.cases.1.title', '確保企業在淨零轉型過程中實現社會公平與勞工權益之保障'),
+          summary: t('homepage.services.sustainability.cases.1.summary', '因應我國2022年公布臺灣2050淨零排放路徑及策略，針對台灣淨零排放的政策目標，制定出12項關鍵戰略，逐步實現2050淨零排放之永續社會。'),
+          description: t('homepage.services.sustainability.cases.1.description', '推動淨零公正轉型過程中涉及的各產業利害關係人經過充分的溝通後，能因此更了解勞資雙方的需求與挑戰，提出更適合產業現況的建議，作為後續政府在制定相關政策的重要參考。協同NGO組織透過經驗交流，建立以人為本的淨零轉型社會共識、搭建跨領域對話平台，確保產業在轉型過程中實現社會公平與勞工權益的保障。'),
           features: [
             t('homepage.services.sustainability.cases.1.features.0', '智慧管理系統'),
             t('homepage.services.sustainability.cases.1.features.1', '低碳交通方案'),
@@ -1255,11 +1255,12 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.sustainability.cases.1.features.3', '數位行銷推廣')
           ],
           results: [
-            t('homepage.services.sustainability.cases.1.results.0', '商圈數位化率達80%'),
-            t('homepage.services.sustainability.cases.1.results.1', '碳排放減少20%'),
-            t('homepage.services.sustainability.cases.1.results.2', '營收成長15%')
+            t('homepage.services.sustainability.cases.1.results.0', '辦理產業關鍵座談及培力活動'),
+            t('homepage.services.sustainability.cases.1.results.1', '完成勞動議題框架性檢核研究調查'),
+            t('homepage.services.sustainability.cases.1.results.2', '辦理學術交流會與公正轉型博覽會成果'),
+            t('homepage.services.sustainability.cases.1.results.3', '辦理勞動幸福與環境友善的關鍵研討會')
           ],
-          image: require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_2.jpg')
+          image: require('../assets/img/services/前瞻永續/前瞻永續_淨零公正轉型.jpg')
         }
       ],
       results: [
