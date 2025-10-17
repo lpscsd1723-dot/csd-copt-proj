@@ -230,7 +230,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
               🌟 {t('homepage.ui.service-features', '服務特色')}
             </Typography>
             <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ flex: 1, alignItems: 'flex-start' }}>
-              {features.slice(0, 3).map((feature, index) => (
+              {(cases && cases.length > 0 ? cases.slice(0, 3).map(c => c.services_item) : features.slice(0, 3)).map((feature, index) => (
                 <Chip
                   key={index}
                   label={feature}
@@ -1032,8 +1032,8 @@ const EnhancedServicesSection: React.FC = () => {
     },
     {
       id: 'indigenous',
-      title: t('homepage.services.indigenous.title', '原民通路與產業'),
-      summary: t('homepage.services.indigenous.summary', '型塑全台最大原住民族商品通路品牌LiMA，整合線上線下購物'),
+      title: t('homepage.services.indigenous.title', '原民經濟永續發展'),
+      summary: t('homepage.services.indigenous.summary', '型塑全國最大原民通路品牌LiMA、發展部落產業升級、強化原民合作社經營基礎'),
       icon: <PublicIcon />,
       color: '#ff9800',
       features: [
