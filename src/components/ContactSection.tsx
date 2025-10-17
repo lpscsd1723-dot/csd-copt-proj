@@ -54,8 +54,9 @@ const ContactSection: React.FC = () => {
   const serviceCategories = [
     { value: 'agriculture', label: t('homepage.contact.contacts.0.service', '農企業經營與創新轉型'), color: '#4CAF50' },
     { value: 'healthcare', label: t('homepage.contact.contacts.1.service', '健康照護'), color: '#2196F3' },
-    { value: 'indigenous', label: t('homepage.contact.contacts.2.service', '原民通路與產業'), color: '#FF9800' },
-    { value: 'sustainability', label: t('homepage.contact.contacts.3.service', '公正轉型與永續發展'), color: '#9C27B0' },
+    { value: 'healthcare2', label: t('homepage.contact.contacts.2.service', '健康照護'), color: '#2196F3' },
+    { value: 'indigenous', label: t('homepage.contact.contacts.3.service', '原民通路與產業'), color: '#FF9800' },
+    { value: 'sustainability', label: t('homepage.contact.contacts.4.service', '公正轉型與永續發展'), color: '#9C27B0' },
   ];
 
 
