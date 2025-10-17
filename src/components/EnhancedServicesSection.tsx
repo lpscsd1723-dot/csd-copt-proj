@@ -1225,11 +1225,11 @@ const EnhancedServicesSection: React.FC = () => {
       ],
       cases: [
         {
-          company: t('homepage.services.sustainability.cases.0.company', '製造業ESG轉型'),
+          company: t('homepage.services.sustainability.cases.0.company', '農業淨零國際交流'),
           services_item: t('homepage.services.sustainability.cases.0.services_item', '農業淨零國際交流'),
-          title: t('homepage.services.sustainability.cases.0.title', 'ESG轉型與淨零策略'),
-          summary: t('homepage.services.sustainability.cases.0.summary', '協助製造業進行ESG轉型，建立永續經營模式，推動淨零碳排策略'),
-          description: t('homepage.services.sustainability.cases.0.description', '協助傳統製造業進行ESG轉型，從環境、社會、治理三個面向建立永續經營模式。透過碳盤查、能源管理、供應鏈管理等工具，幫助企業建立完整的永續管理體系。'),
+          title: t('homepage.services.sustainability.cases.0.title', '提供我國農業場域淨零碳排政策規劃參考'),
+          summary: t('homepage.services.sustainability.cases.0.summary', '因應國際2050淨零碳排趨勢，農業產業鏈的各級廠商逐步進行減碳、節能、再利用以及使用潔淨能源等方式，以增加產品之市場競爭優勢。'),
+          description: t('homepage.services.sustainability.cases.0.description', '為借鏡日本於實務推動之案例與思考邏輯，加速我國農企業建立低碳清潔能源供應鏈與生態系。辦理「供應鏈減碳」及「地方潔淨能源發展」2主題日本參訪研習團，供我國農企業與公部門人員，瞭解日本農政組織機構、農業清潔能源政策發展與示範場域、農業供應鏈淨零等實際規劃與執行經驗，以作為我國農業場域淨零碳排政策規劃與推動之參考。'),
           features: [
             t('homepage.services.sustainability.cases.0.features.0', 'ESG轉型輔導'),
             t('homepage.services.sustainability.cases.0.features.1', '淨零碳排策略'),
@@ -1237,11 +1237,10 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.sustainability.cases.0.features.3', '氣候變遷因應')
           ],
           results: [
-            t('homepage.services.sustainability.cases.0.results.0', '碳排量減少25%'),
-            t('homepage.services.sustainability.cases.0.results.1', '能源效率提升30%'),
-            t('homepage.services.sustainability.cases.0.results.2', 'ESG評級提升2級')
+            t('homepage.services.sustainability.cases.0.results.0', '辦理農業淨零日本參訪團2場'),
+            t('homepage.services.sustainability.cases.0.results.1', '榮獲2025年「台灣農業永續合作夥伴獎」')
           ],
-          image: require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_4.jpg')
+          image: require('../assets/img/services/前瞻永續/前瞻永續_農業淨零國際交流.jpg')
         },
         {
           company: t('homepage.services.sustainability.cases.1.company', '商圈智慧化'),
@@ -1261,25 +1260,6 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.sustainability.cases.1.results.2', '營收成長15%')
           ],
           image: require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_2.jpg')
-        },
-        {
-          company: t('homepage.services.sustainability.cases.2.company', '農業碳管理'),
-          services_item: t('homepage.services.sustainability.cases.2.services_item', '農業碳管理'),
-          title: t('homepage.services.sustainability.cases.2.title', '農業碳盤查及低碳化'),
-          summary: t('homepage.services.sustainability.cases.2.summary', '推動農業碳盤查與低碳化，建立農業永續發展模式'),
-          description: t('homepage.services.sustainability.cases.2.description', '協助農業部門建立碳盤查與低碳化機制，透過精準農業、智慧灌溉、有機耕作等方式，減少農業碳排放，建立永續農業發展模式。'),
-          features: [
-            t('homepage.services.sustainability.cases.2.features.0', '農業碳盤查'),
-            t('homepage.services.sustainability.cases.2.features.1', '智慧灌溉系統'),
-            t('homepage.services.sustainability.cases.2.features.2', '有機耕作推廣'),
-            t('homepage.services.sustainability.cases.2.features.3', '碳權交易機制')
-          ],
-          results: [
-            t('homepage.services.sustainability.cases.2.results.0', '農業碳排放減少30%'),
-            t('homepage.services.sustainability.cases.2.results.1', '水資源使用效率提升25%'),
-            t('homepage.services.sustainability.cases.2.results.2', '有機耕作面積增加40%')
-          ],
-          image: require('../assets/img/services/前瞻永續/前瞻永續組_淨零永續_1.jpg')
         }
       ],
       results: [

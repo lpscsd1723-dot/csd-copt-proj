@@ -612,11 +612,11 @@
         "phone": "02-23911368#1189",
         "cases": [
           {
-            "company": "Manufacturing ESG Transformation",
+            "company": "Agricultural Net-Zero International Exchange",
             "services_item": "Agricultural Net-Zero International Exchange",
-            "title": "ESG Transformation and Net-Zero Strategy",
-            "summary": "Assisting manufacturing industry in ESG transformation, establishing sustainable business models, promoting net-zero carbon strategies",
-            "description": "Assisting traditional manufacturing in ESG transformation, establishing sustainable business models from environmental, social, and governance perspectives. Through carbon accounting, energy management, supply chain management and other tools, helping enterprises establish complete sustainability management systems.",
+            "title": "Providing Policy Planning Reference for Net-Zero Carbon Emissions in Taiwan's Agricultural Fields",
+            "summary": "In response to the international trend of net-zero carbon emissions by 2050, various levels of suppliers in the agricultural industry chain are gradually implementing carbon reduction, energy saving, reuse, and clean energy methods to enhance product market competitiveness.",
+            "description": "To learn from Japan's practical implementation cases and thinking logic, accelerating the establishment of low-carbon clean energy supply chains and ecosystems for Taiwan's agricultural enterprises. Organizing two themed study tours to Japan on 'Supply Chain Carbon Reduction' and 'Local Clean Energy Development' for Taiwan's agricultural enterprises and government personnel to understand Japan's agricultural organizations, agricultural clean energy policy development and demonstration sites, and agricultural supply chain net-zero planning and execution experience, serving as reference for policy planning and promotion of net-zero carbon emissions in Taiwan's agricultural fields.",
             "features": [
               "ESG Transformation Guidance",
               "Net-Zero Carbon Strategy",
@@ -624,9 +624,8 @@
               "Climate Change Response"
             ],
             "results": [
-              "Carbon emissions reduced by 25%",
-              "Energy efficiency improved by 30%",
-              "ESG rating improved by 2 levels"
+              "Organized 2 agricultural net-zero study tours to Japan",
+              "Awarded the 2025 'Taiwan Agricultural Sustainability Partnership Award'"
             ]
           },
           {
@@ -645,24 +644,6 @@
               "Commercial district digitalization rate reached 80%",
               "Carbon emissions reduced by 20%",
               "Revenue growth of 15%"
-            ]
-          },
-          {
-            "company": "Agricultural Carbon Management",
-            "services_item": "Agricultural Carbon Management",
-            "title": "Agricultural Carbon Accounting and Low-Carbon Practices",
-            "summary": "Promoting agricultural carbon accounting and low-carbon practices, establishing sustainable agricultural development models",
-            "description": "Assisting agricultural sector in establishing carbon accounting and low-carbon mechanisms, through precision agriculture, smart irrigation, organic farming and other methods, reducing agricultural carbon emissions and establishing sustainable agricultural development models.",
-            "features": [
-              "Agricultural Carbon Accounting",
-              "Smart Irrigation System",
-              "Organic Farming Promotion",
-              "Carbon Credit Trading Mechanism"
-            ],
-            "results": [
-              "Agricultural carbon emissions reduced by 30%",
-              "Water resource efficiency improved by 25%",
-              "Organic farming area increased by 40%"
             ]
           }
         ],
