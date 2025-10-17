@@ -1206,10 +1206,8 @@ const EnhancedServicesSection: React.FC = () => {
       icon: <TrendingUpIcon />,
       color: '#9c27b0',
       features: [
-        t('homepage.services.sustainability.features.0', 'ESG轉型輔導'),
-        t('homepage.services.sustainability.features.1', '淨零碳排策略'),
-        t('homepage.services.sustainability.features.2', '永續管理顧問'),
-        t('homepage.services.sustainability.features.3', '氣候變遷因應')
+        t('homepage.services.sustainability.features.0', '農業淨零國際交流'),
+        t('homepage.services.sustainability.features.1', '淨零公正轉型')
       ],
       achievements: [
         t('homepage.services.sustainability.achievements.0', '成為企業永續轉型的夥伴'),
