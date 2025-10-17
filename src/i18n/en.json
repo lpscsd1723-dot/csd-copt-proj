@@ -245,6 +245,7 @@
         "cases": [
           {
             "company": "Hongyang Food",
+            "services_item": "Hongyang Food",
             "title": "Sustainable Lean × Low-Carbon Transformation",
             "summary": "Using a three-stage approach of 'Disclosure → Reduction → Neutralization', implementing carbon accounting and energy digitization, starting from on-site lean improvement to balance cost, efficiency, and risk control",
             "description": "Through CSDC guidance, Hongyang Food established a complete carbon and energy management system, starting from on-site lean improvement to gradually build a sustainable business model. Through data management, not only improved operational efficiency but also established trust foundation in supply chain dialogue.",
@@ -261,6 +262,7 @@
           },
           {
             "company": "Rural Industry Cooperative",
+            "services_item": "Rural Industry Cooperative",
             "title": "Domestic Grain Integration Marketing",
             "summary": "Promoting domestic grain branding, establishing a complete value chain from production to sales",
             "description": "Assisting rural cooperatives in establishing brand identity, integrating marketing resources, and enhancing market competitiveness of domestic grains. Through digital tools, establishing a traceability system that allows consumers to track product origins.",
@@ -381,6 +383,7 @@
         "cases": [
           {
             "company": "China Chemical & Pharmaceutical",
+            "services_item": "China Chemical & Pharmaceutical",
             "title": "Quality Home Care Service Network Development Plan",
             "summary": "Guiding the establishment of quality home care service networks to improve long-term care service quality and efficiency",
             "description": "Assisting China Chemical & Pharmaceutical in establishing a complete home care service network through standardized processes, professional training, and quality monitoring to enhance the professional level and service efficiency of long-term care services. Establishing a complete process from application to service completion to ensure service quality consistency.",
@@ -397,6 +400,7 @@
           },
           {
             "company": "Min-Sheng Medical Control",
+            "services_item": "Min-Sheng Medical Control",
             "title": "24/7 Caring Nursing Home Chain Service Model",
             "summary": "Promoting 24/7 caring nursing home chain service model to provide more comprehensive long-term care services",
             "description": "Assisting Min-Sheng Medical Control in establishing a 24/7 nursing service model through chain operations and standardized management, providing uninterrupted 24-hour care services. Integrating medical resources with community services to establish a complete care ecosystem.",
@@ -413,6 +417,7 @@
           },
           {
             "company": "Sports Technology Applications",
+            "services_item": "Sports Technology Applications",
             "title": "Smart Health Management Platform",
             "summary": "Combining wearable devices with AI analysis to establish personalized health management systems",
             "description": "Utilizing the latest sports technology, including wearable devices, AI skeleton analysis, gait analysis, and other technologies to establish personalized health management platforms. Through data collection and analysis, providing precise health recommendations and exercise guidance.",
@@ -492,6 +497,7 @@
         "cases": [
           {
             "company": "LiMA Indigenous Channel",
+            "services_item": "LiMA Indigenous Channel",
             "title": "Taiwan's Largest Indigenous Product Channel Brand",
             "summary": "Brand name derived from the common word 'five' in Austronesian languages, symbolizing indigenous peoples from various regions joining hands",
             "description": "LiMA is a channel brand established by the Council of Indigenous Peoples, dedicated to promoting indigenous products and culture. Through integrated online and offline sales models, establishing a complete product supply chain, enabling more people to discover and purchase quality indigenous products.",
@@ -508,6 +514,7 @@
           },
           {
             "company": "Tribal Industry Cooperative",
+            "services_item": "Tribal Industry Cooperative",
             "title": "Indigenous Tribal Industry Upgrading",
             "summary": "Assisting indigenous tribes in establishing cooperatives, promoting cultural industrialization and sustainable development",
             "description": "Assisting indigenous tribes in establishing cooperative organizations, combining traditional culture with modern business models to promote cultural industrialization. Through professional guidance and resource integration, helping tribes establish sustainable economic models.",
@@ -524,6 +531,7 @@
           },
           {
             "company": "Indigenous Product Design",
+            "services_item": "Indigenous Product Design",
             "title": "Indigenous Cultural Creative Product Development",
             "summary": "Combining traditional culture with modern design to develop culturally creative products with market competitiveness",
             "description": "Assisting indigenous businesses in developing culturally distinctive creative products, combining traditional craftsmanship with modern design concepts to create products with both cultural value and market demand.",
@@ -605,6 +613,7 @@
         "cases": [
           {
             "company": "Manufacturing ESG Transformation",
+            "services_item": "Manufacturing ESG Transformation",
             "title": "ESG Transformation and Net-Zero Strategy",
             "summary": "Assisting manufacturing industry in ESG transformation, establishing sustainable business models, promoting net-zero carbon strategies",
             "description": "Assisting traditional manufacturing in ESG transformation, establishing sustainable business models from environmental, social, and governance perspectives. Through carbon accounting, energy management, supply chain management and other tools, helping enterprises establish complete sustainability management systems.",
@@ -622,6 +631,7 @@
           },
           {
             "company": "Smart Commercial District",
+            "services_item": "Smart Commercial District",
             "title": "Smart Commercial District and Low-Carbon Guidance",
             "summary": "Promoting smart commercial district transformation, combining digital technology with low-carbon strategies",
             "description": "Assisting commercial districts in smart transformation, introducing digital technology and low-carbon strategies to improve operational efficiency and environmental friendliness. Through smart management systems, low-carbon transportation, green energy and other solutions, establishing smart sustainable commercial districts.",
@@ -639,6 +649,7 @@
           },
           {
             "company": "Agricultural Carbon Management",
+            "services_item": "Agricultural Carbon Management",
             "title": "Agricultural Carbon Accounting and Low-Carbon Practices",
             "summary": "Promoting agricultural carbon accounting and low-carbon practices, establishing sustainable agricultural development models",
             "description": "Assisting agricultural sector in establishing carbon accounting and low-carbon mechanisms, through precision agriculture, smart irrigation, organic farming and other methods, reducing agricultural carbon emissions and establishing sustainable agricultural development models.",
