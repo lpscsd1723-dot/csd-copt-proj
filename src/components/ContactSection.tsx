@@ -20,7 +20,7 @@ import {
   Divider,
   Fade,
 } from '@mui/material';
-import teamImage from '../assets/img/services/前瞻永續/前瞻永續組_淨零永續_1.jpg';
+import teamImage from '../assets/img/services/05聯絡我們/線上表單.jpg';
 import {
   Phone as PhoneIcon,
   Email as EmailIcon,
