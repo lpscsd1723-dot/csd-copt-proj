@@ -1085,9 +1085,10 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.indigenous.cases.1.features.2', '永續經營模式')
           ],
           results: [
-            t('homepage.services.indigenous.cases.1.results.0', '輔導合作社15家'),
-            t('homepage.services.indigenous.cases.1.results.1', '就業機會增加200個'),
-            t('homepage.services.indigenous.cases.1.results.2', '文化傳承率提升50%')
+            t('homepage.services.indigenous.cases.1.results.0', '創造6億1,568萬元的產值'),
+            t('homepage.services.indigenous.cases.1.results.1', '提供1,313個就業機會'),
+            t('homepage.services.indigenous.cases.1.results.2', '輔導族人取得專業證照達566人'),
+            t('homepage.services.indigenous.cases.1.results.3', '人才培育8,065人次')
           ],
           image: require('../assets/img/services/原民通路與產業/部落產業合作社.jpg')
         },
@@ -1103,10 +1104,9 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.indigenous.cases.2.features.2', '行銷展售與市場拓展')
           ],
           results: [
-            t('homepage.services.indigenous.cases.2.results.0', '創造6億1,568萬元的產值'),
-            t('homepage.services.indigenous.cases.2.results.1', '提供1,313個就業機會'),
-            t('homepage.services.indigenous.cases.2.results.2', '輔導族人取得專業證照達566人'),
-            t('homepage.services.indigenous.cases.2.results.3', '人才培育8,065人次')
+            t('homepage.services.indigenous.cases.2.results.0', '輔導合作社15家'),
+            t('homepage.services.indigenous.cases.2.results.1', '就業機會增加200個'),
+            t('homepage.services.indigenous.cases.2.results.2', '文化傳承率提升50%')
           ],
           image: require('../assets/img/services/原民通路與產業/原民商品設計.jpg')
         }
