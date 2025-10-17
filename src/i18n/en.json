@@ -187,7 +187,7 @@
         {
           "title": "Agricultural Innovation Group",
           "members": "Qi-Chang, Li-Wan, Shi-Xun",
-          "summary": "Promoting agricultural digital transformation and sustainable development, assisting agricultural enterprises in implementing AI, digital tools, and ESG strategies"
+          "summary": "Our team is committed to driving comprehensive transformation of Taiwan's agriculture, with 'Smartification, Internationalization, and Sustainability' at its core, empowering agricultural enterprises and farms through operational optimization, technology application, and brand upgrading to fully enhance competitiveness."
         },
         {
           "title": "Healthcare Group",
@@ -228,7 +228,7 @@
       "description": "Providing comprehensive industry guidance services, from agricultural innovation to healthcare, from indigenous industries to sustainable development",
       "agriculture": {
         "title": "Agricultural Management & Innovation Transformation",
-        "summary": "Assisting agricultural enterprises in implementing AI, digital tools, and sustainable strategies, promoting agricultural digital transformation",
+        "summary": "Our team is committed to driving comprehensive transformation of Taiwan's agriculture, with 'Smartification, Internationalization, and Sustainability' at its core, empowering agricultural enterprises and farms through operational optimization, technology application, and brand upgrading to fully enhance competitiveness.",
         "features": [
           "Tech Agricultural Enterprise Guidance",
           "Rural Industry Development",
@@ -724,7 +724,7 @@
       "process-steps": "Process Steps:",
       "case-study": "Case Study",
       "results": "Results",
-      "application-process": "Guidance Application Process"
+      "guidance-application-process": "Guidance Application Process"
     },
     "contact": {
       "title": "Contact Us",
