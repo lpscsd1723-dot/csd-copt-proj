@@ -687,7 +687,7 @@ const DepartmentIntro: React.FC = () => {
                   {
                     title: t('homepage.department-structure.groups.2.title', '原民產業組'),
                     members: t('homepage.department-structure.groups.2.members', '奕誠、小孟'),
-                    summary: t('homepage.department-structure.groups.2.summary', '協助原住民族委員會執行政策，推動原民產業發展，建構以文化為核心的永續經營發展模式'),
+                    summary: t('homepage.department-structure.groups.2.summary', '協助原民企業建構以文化為核心的永續經營發展模式，並積極朝向承接綠色創新(部落綠色創新專案)及綠色品牌構建(原民企業商品碳盤查)等新計畫案為目標'),
                     "focus-areas": (t('homepage.department-structure.groups.2.focus-areas', { returnObjects: true }) as string[])
                   },
                   {
