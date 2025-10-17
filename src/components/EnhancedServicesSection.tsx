@@ -669,18 +669,6 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
         >
 {t('homepage.ui.close', '關閉')}
         </Button>
-        <Button
-          variant="contained"
-          sx={{
-            bgcolor: service.color,
-            '&:hover': {
-              bgcolor: service.color,
-              filter: 'brightness(0.9)',
-            },
-          }}
-        >
-{t('homepage.ui.apply-now', '立即申請')}
-        </Button>
       </DialogActions>
     </Dialog>
   );
