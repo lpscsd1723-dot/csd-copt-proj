@@ -676,7 +676,7 @@ const DepartmentIntro: React.FC = () => {
                   {
                     title: t('homepage.department-structure.groups.0.title', '農業創新組'),
                     members: t('homepage.department-structure.groups.0.members', '啟昌、麗婉、士勳'),
-                    summary: t('homepage.department-structure.groups.0.summary', '推動農業數位轉型與永續發展，協助農企業導入AI、數位工具與ESG策略')
+                    summary: t('homepage.department-structure.groups.0.summary', '本團隊致力驅動台灣農業全面轉型，以「智慧化、國際化、永續化」為核心，賦能農企業與農場，從營運優化、科技應用到品牌升級，全面提升競爭力。我們以系統性輔導，貫穿產銷價值鏈，推動供應鏈智慧化、田間數位管理，並引領台灣農業邁向國際市場。同時，深耕產業基礎，透過培育專業人才、推廣農機共享、整合雜糧行銷等關鍵業務，為農業的永續發展奠定基石。')
                   },
                   {
                     title: t('homepage.department-structure.groups.1.title', '健康照護組'),
