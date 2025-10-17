@@ -1226,7 +1226,7 @@ const EnhancedServicesSection: React.FC = () => {
       cases: [
         {
           company: t('homepage.services.sustainability.cases.0.company', '製造業ESG轉型'),
-          services_item: t('homepage.services.sustainability.cases.0.services_item', '製造業ESG轉型'),
+          services_item: t('homepage.services.sustainability.cases.0.services_item', '農業淨零國際交流'),
           title: t('homepage.services.sustainability.cases.0.title', 'ESG轉型與淨零策略'),
           summary: t('homepage.services.sustainability.cases.0.summary', '協助製造業進行ESG轉型，建立永續經營模式，推動淨零碳排策略'),
           description: t('homepage.services.sustainability.cases.0.description', '協助傳統製造業進行ESG轉型，從環境、社會、治理三個面向建立永續經營模式。透過碳盤查、能源管理、供應鏈管理等工具，幫助企業建立完整的永續管理體系。'),
