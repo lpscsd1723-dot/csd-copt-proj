@@ -375,7 +375,7 @@ const DepartmentIntro: React.FC = () => {
                       initial={{ opacity: 0, y: 50 }}
                       animate={isInView ? { opacity: 1, y: 0 } : {}}
                       transition={{ duration: 0.6, delay: 0.8 + index * 0.2 }}
-                      style={{ flex: 1, position: 'relative', zIndex: 1 }}
+                      style={{ flex: 1, position: 'relative', zIndex: 1, minWidth: 0 }}
                     >
                       <Card
                         sx={{
@@ -537,6 +537,15 @@ const DepartmentIntro: React.FC = () => {
                                                 : `1px solid ${theme.palette.primary.main}`,
                                               mb: 1,
                                               mr: 0.5,
+                                              maxWidth: '100%',
+                                              height: 'auto',
+                                              '& .MuiChip-label': {
+                                                display: 'block',
+                                                whiteSpace: 'normal',
+                                                wordBreak: 'break-word',
+                                                maxWidth: '100%',
+                                                padding: '8px 12px',
+                                              },
                                             }}
                                           />
                                         </motion.div>
@@ -560,6 +569,14 @@ const DepartmentIntro: React.FC = () => {
                                             : `1px solid ${theme.palette.primary.main}`,
                                           mb: 0.5,
                                           mr: 0.5,
+                                          maxWidth: '100%',
+                                          '& .MuiChip-label': {
+                                            display: 'block',
+                                            whiteSpace: 'nowrap',
+                                            overflow: 'hidden',
+                                            textOverflow: 'ellipsis',
+                                            maxWidth: '100%',
+                                          },
                                         }}
                                       />
                                     ))}

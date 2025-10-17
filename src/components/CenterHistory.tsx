@@ -167,7 +167,7 @@ const CenterHistory: React.FC = () => {
               <Box sx={{ p: { xs: 4, md: 6 } }}>
                 <Box sx={{ display: 'flex', flexDirection: { xs: 'column', lg: 'row' }, gap: 6 }}>
                   {/* 左側：歷史脈絡 - 陳述句形式 */}
-                  <Box sx={{ flex: { xs: 1, lg: 2 } }}>
+                  <Box sx={{ flex: 1 }}>
                     <motion.div
                       initial={{ opacity: 0, x: -30 }}
                       animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -220,7 +220,7 @@ const CenterHistory: React.FC = () => {
                   </Box>
 
                   {/* 右側：關鍵措施 */}
-                  <Box sx={{ flex: { xs: 1, lg: 1 } }}>
+                  <Box sx={{ flex: 1 }}>
                     <motion.div
                       initial={{ opacity: 0, x: 30 }}
                       animate={isInView ? { opacity: 1, x: 0 } : {}}
