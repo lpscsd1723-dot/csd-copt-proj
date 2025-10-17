@@ -1212,7 +1212,7 @@ const EnhancedServicesSection: React.FC = () => {
         t('homepage.services.sustainability.features.3', '氣候變遷因應')
       ],
       achievements: [
-        t('homepage.services.sustainability.achievements.0', '培養永續管理顧問人才'),
+        t('homepage.services.sustainability.achievements.0', '成為企業永續轉型的夥伴'),
         t('homepage.services.sustainability.achievements.1', '建立永續輔導模式'),
         t('homepage.services.sustainability.achievements.2', '推動淨零政策')
       ],
