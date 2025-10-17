@@ -1074,11 +1074,11 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/原民通路與產業/LiMA照片.jpg')
         },
         {
-          company: t('homepage.services.indigenous.cases.1.company', '部落產業合作社'),
-          services_item: t('homepage.services.indigenous.cases.1.services_item', '部落產業合作社'),
-          title: t('homepage.services.indigenous.cases.1.title', '原民部落產業升級'),
-          summary: t('homepage.services.indigenous.cases.1.summary', '協助原民部落建立合作社，推動文化產業化與永續發展'),
-          description: t('homepage.services.indigenous.cases.1.description', '協助原住民族部落建立合作社組織，將傳統文化與現代商業模式結合，推動文化產業化。透過專業輔導與資源整合，幫助部落建立可持續的經濟模式。'),
+          company: t('homepage.services.indigenous.cases.1.company', '部落產業升級'),
+          services_item: t('homepage.services.indigenous.cases.1.services_item', '部落產業升級'),
+          title: t('homepage.services.indigenous.cases.1.title', '型塑部落產業示範亮點'),
+          summary: t('homepage.services.indigenous.cases.1.summary', '透過輔導與管考部落產業升級計畫案，經由訪視、分區工作坊、產業座談會等輔導作為，挖掘具多元發展潛力之區域型產業'),
+          description: t('homepage.services.indigenous.cases.1.description', '型塑部落產業示範亮點，整合原民產業之特色農業、部落旅遊產業價值鏈，朝向六級產業化發展，為原民經濟產業邁向永續發展奠基與深耕。'),
           features: [
             t('homepage.services.indigenous.cases.1.features.0', '合作社組織建立'),
             t('homepage.services.indigenous.cases.1.features.1', '文化產業化'),
@@ -1092,20 +1092,21 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/原民通路與產業/部落產業合作社.jpg')
         },
         {
-          company: t('homepage.services.indigenous.cases.2.company', '原民商品設計'),
-          services_item: t('homepage.services.indigenous.cases.2.services_item', '原民商品設計'),
-          title: t('homepage.services.indigenous.cases.2.title', '原民文創商品開發'),
-          summary: t('homepage.services.indigenous.cases.2.summary', '結合傳統文化與現代設計，開發具有市場競爭力的文創商品'),
-          description: t('homepage.services.indigenous.cases.2.description', '協助原住民族業者開發具有文化特色的文創商品，結合傳統工藝與現代設計理念，創造出既具有文化價值又符合市場需求的商品。'),
+          company: t('homepage.services.indigenous.cases.2.company', '原住民族合作社'),
+          services_item: t('homepage.services.indigenous.cases.2.services_item', '原住民族合作社'),
+          title: t('homepage.services.indigenous.cases.2.title', '強化原合社經營發展基礎'),
+          summary: t('homepage.services.indigenous.cases.2.summary', '落實提供原住民族合作社全面諮詢、診斷與輔導服務，包含辦理線上諮詢會議及實地輔導訪視'),
+          description: t('homepage.services.indigenous.cases.2.description', '建立與各社場之初步連結與溝通管道，依實際運作情況提出問題診斷與策略建議；辦理合作社研習課程，促進社場間的經驗交流與能力提升；以及規劃行銷展售活動，提高社場產品與服務之曝光度與市場能見度，全面強化合作社的經營發展基礎。'),
           features: [
-            t('homepage.services.indigenous.cases.2.features.0', '文創商品開發'),
-            t('homepage.services.indigenous.cases.2.features.1', '設計能力提升'),
-            t('homepage.services.indigenous.cases.2.features.2', '市場通路拓展')
+            t('homepage.services.indigenous.cases.2.features.0', '諮詢診斷與實地輔導'),
+            t('homepage.services.indigenous.cases.2.features.1', '研習課程與經驗交流'),
+            t('homepage.services.indigenous.cases.2.features.2', '行銷展售與市場拓展')
           ],
           results: [
-            t('homepage.services.indigenous.cases.2.results.0', '商品設計100+件'),
-            t('homepage.services.indigenous.cases.2.results.1', '設計師培訓50人'),
-            t('homepage.services.indigenous.cases.2.results.2', '商品銷售成長40%')
+            t('homepage.services.indigenous.cases.2.results.0', '創造6億1,568萬元的產值'),
+            t('homepage.services.indigenous.cases.2.results.1', '提供1,313個就業機會'),
+            t('homepage.services.indigenous.cases.2.results.2', '輔導族人取得專業證照達566人'),
+            t('homepage.services.indigenous.cases.2.results.3', '人才培育8,065人次')
           ],
           image: require('../assets/img/services/原民通路與產業/原民商品設計.jpg')
         }
