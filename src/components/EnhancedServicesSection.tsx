@@ -306,11 +306,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                 📞 {phone}
               </Typography>
             </Box>
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                ✉️ {contact}
-              </Typography>
-            </Box>
+            {contact.split('/').map((contactPerson, index) => (
+              <Box key={index} sx={{ display: 'flex', alignItems: 'center', mb: 0.5 }}>
+                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                  ✉️ {contactPerson.trim()}
+                </Typography>
+              </Box>
+            ))}
           </Box>
         </CardContent>
       </Card>
@@ -939,8 +941,8 @@ const EnhancedServicesSection: React.FC = () => {
           '辦理數百場健康活動、培育上千名專業人員、建構多項智慧照護產品與雲端管理平台，促進醫療與長照資源整合。更協助地方政府建構高齡友善與健康社區，推動AI與大數據在健康服務中的應用，成為健康產業創新的重要推手。'
         )
       ],
-      contact: t('homepage.services.healthcare.contact', '陳經理'),
-      phone: t('homepage.services.healthcare.phone', '02-23911368#1189'),
+      contact: t('homepage.services.healthcare.contact', '黃經理(#8732)/陳經理(#1189)'),
+      phone: t('homepage.services.healthcare.phone', '02-23911368'),
       images: [
         require('../assets/img/services/健康照護-長期照顧/106-107全國性長照業務聯繫會議暨表揚大會.jpg'),
         require('../assets/img/services/健康照護-運動科技/sports-forum-2020.jpg'),
