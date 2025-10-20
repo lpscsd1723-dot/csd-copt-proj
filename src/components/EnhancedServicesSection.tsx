@@ -699,7 +699,7 @@ const EnhancedServicesSection: React.FC = () => {
     {
       id: 'agriculture',
       title: t('homepage.services.agriculture.title', '農業經營與創新轉型'),
-      summary: t('homepage.services.agriculture.summary', '協助農企業導入AI、數位工具與永續策略，推動農業數位轉型'),
+      summary: t('homepage.services.agriculture.summary', '賦能農企業，整合 AI、數位科技與永續思維，加速農業數位轉型，開創產業新未來'),
       icon: <AgricultureIcon />,
       color: '#4caf50',
       features: [
