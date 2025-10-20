@@ -998,22 +998,24 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/健康照護-運動科技/sports-tech-2024.jpg')
         },
         {
-          company: t('homepage.services.healthcare.cases.3.company', '護理之家評鑑與輔導'),
-          services_item: t('homepage.services.healthcare.cases.3.services_item', '護理之家評鑑與輔導'),
-          title: t('homepage.services.healthcare.cases.3.title', '護理之家評鑑制度創新與品質提升計畫'),
-          summary: t('homepage.services.healthcare.cases.3.summary', '推動護理之家評鑑制度創新，提升照護品質與管理效能'),
-          description: t('homepage.services.healthcare.cases.3.description', '協助衛生福利部推動護理之家評鑑制度創新變革，從五大面向128個指標簡化至四大面向14個指標，著重全人照護、護理過程邏輯、感染控制等訓練，並建立護理之家照護管理系統，提升評鑑效率。'),
+          company: t('homepage.services.healthcare.cases.3.company', '護理之家評鑑制度創新變革'),
+          services_item: t('homepage.services.healthcare.cases.3.services_item', '護理之家評鑑制度創新變革'),
+          title: t('homepage.services.healthcare.cases.3.title', '以全人照護及住民安全為核心，導入護理之家評鑑數位化'),
+          summary: t('homepage.services.healthcare.cases.3.summary', '協助推動「護理機構評鑑制度創新改革」政策，從探討評鑑核心價值與目的開始進行各項機制的調整。'),
+          description: t('homepage.services.healthcare.cases.3.description', '包含評鑑基準指標修正與簡化、推動中央評鑑與地方督考指標一致、導入資訊化評鑑作業、建立評鑑儲備委員培訓機制及培訓機構實務專家等，迄今仍不斷推動相關的制度創新政策。包含行政制度、品質管理、指標簡化、專業精進、住民安全、作業E化逐步調整導入線上審閱及實地訪查評鑑作業流程。'),
           features: [
             t('homepage.services.healthcare.cases.3.features.0', '評鑑制度創新'),
             t('homepage.services.healthcare.cases.3.features.1', '專業訓練強化'),
             t('homepage.services.healthcare.cases.3.features.2', '作業E化系統')
           ],
           results: [
-            t('homepage.services.healthcare.cases.3.results.0', '評鑑護理之家920家次'),
-            t('homepage.services.healthcare.cases.3.results.1', '評鑑指標從128項簡化至14項'),
-            t('homepage.services.healthcare.cases.3.results.2', '系統建置完成率100%')
+            t('homepage.services.healthcare.cases.3.results.0', '自108年至114年共評鑑輔導護理之家920家次'),
+            t('homepage.services.healthcare.cases.3.results.1', '簡化評鑑基準由五面向128項指標減至四面向14項指標'),
+            t('homepage.services.healthcare.cases.3.results.2', '導入護理之家評鑑夜間災害情境緊急應變模擬演練'),
+            t('homepage.services.healthcare.cases.3.results.3', '補助全國增設公共安全設施設備'),
+            t('homepage.services.healthcare.cases.3.results.4', '辦理勞動幸福與環境友善的關鍵研討會')
           ],
-          image: require('../assets/img/services/健康照護-長期照顧/welmo-AI照顧計畫撰寫-長照數據智慧分析.jpg')
+          image: require('../assets/img/services/健康照護(NANA)/護理之家評鑑制度創新改革.JPG')
         },
         {
           company: t('homepage.services.healthcare.cases.4.company', '國際長照交流與合作'),
