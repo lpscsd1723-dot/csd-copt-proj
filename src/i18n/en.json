@@ -244,37 +244,39 @@
         "phone": "02-23911368#8842",
         "cases": [
           {
-            "company": "Hongyang Food",
-            "services_item": "Hongyang Food",
-            "title": "Sustainable Lean × Low-Carbon Transformation",
-            "summary": "Using a three-stage approach of 'Disclosure → Reduction → Neutralization', implementing carbon accounting and energy digitization, starting from on-site lean improvement to balance cost, efficiency, and risk control",
-            "description": "Through CSDC guidance, Hongyang Food established a complete carbon and energy management system, starting from on-site lean improvement to gradually build a sustainable business model. Through data management, not only improved operational efficiency but also established trust foundation in supply chain dialogue.",
+            "company": "Tech Agricultural Enterprise Guidance",
+            "services_item": "Tech Agricultural Enterprise Guidance",
+            "title": "Industry Transformation: Agricultural Enterprise Integration to Enhance Competitiveness",
+            "summary": "Facing environmental changes and industry upgrades, our team assists tech agricultural enterprises in dual-axis transformation of 'Digital × Sustainability', integrating industry-government-academia-research resources to drive transformation through three dimensions: tiered guidance, talent development, and benchmark diffusion.",
+            "description": "Guidance is tailored to enterprise scale and stage, providing professional diagnosis and mentor support, introducing digital management and sustainability strategies, and cultivating autonomous improvement capabilities. Talent development focuses on AMMOT+ and AMEP+ advanced classes as the core, cultivating mid-to-senior level integrated talent and injecting new industry momentum. Benchmark diffusion selects and showcases excellent practice cases through Excellence Awards, promoting cross-industry exchange and collaborative learning, driving continuous innovation diffusion and helping agricultural enterprises steadily advance toward sustainable development.",
             "features": [
               "Establish carbon and energy management foundation",
               "On-site lean production improvement",
               "Enhanced trust in supply chain dialogue"
             ],
             "results": [
-              "15% improvement in energy efficiency",
-              "20% reduction in production process time",
-              "30% reduction in carbon footprint"
+              "Promote sustainable low-carbon and digital transformation",
+              "Brand repositioning and market repositioning",
+              "Benchmark enterprise innovation diffusion",
+              "Strengthen operational capabilities and talent development"
             ]
           },
           {
-            "company": "Rural Industry Cooperative",
-            "services_item": "Rural Industry Cooperative",
-            "title": "Domestic Grain Integration Marketing",
-            "summary": "Promoting domestic grain branding, establishing a complete value chain from production to sales",
-            "description": "Assisting rural cooperatives in establishing brand identity, integrating marketing resources, and enhancing market competitiveness of domestic grains. Through digital tools, establishing a traceability system that allows consumers to track product origins.",
+            "company": "Domestic Grains",
+            "services_item": "Domestic Grains",
+            "title": "Targeting Young Adult Demographics with Innovative Marketing to Promote Healthy Grains, Enhancing Recognition and Sales for Sustainable Industry Development",
+            "summary": "To promote domestic grains, our team partnered with Kaohsiung's renowned brand 'Bu Er Zhi Guo' to organize a creative baking competition, attracting industry professionals to participate, and successfully commercialized the gold award-winning product 'Red Quinoa Crispy' for sale in stores and online.",
+            "description": "The activity strengthened professionals' understanding of local ingredients, enhancing product exposure, sales, and brand value through subsequent marketing. The marketing strategy focused on health-conscious demographics aged 45 and above, collaborating with health brands like Liren and Curves for co-branding and channel integration, and deepening consumer trust in domestic grains through health-themed activities. Omnichannel marketing combined online and offline approaches, using data analytics to improve precision, and assisted suppliers in developing new products, ensuring product quality and stable supply, effectively driving domestic grain market expansion.",
             "features": [
               "Brand identity establishment",
               "Digital marketing promotion",
               "Product traceability tracking"
             ],
             "results": [
-              "40% increase in brand awareness",
-              "25% increase in sales channels",
-              "30% increase in farmer income"
+              "Revenue reached NT$15.3 million",
+              "Red bean usage exceeded 8 tons",
+              "Health marketing, expanding senior demographic",
+              "Collecting feedback to support industry sustainability"
             ]
           }
         ],

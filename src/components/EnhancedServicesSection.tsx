@@ -722,38 +722,40 @@ const EnhancedServicesSection: React.FC = () => {
       ],
       cases: [
         {
-          company: t('homepage.services.agriculture.cases.0.company', '弘陽食品'),
-          services_item: t('homepage.services.agriculture.cases.0.services_item', '弘陽食品'),
-          title: t('homepage.services.agriculture.cases.0.title', '永續精實 × 低碳轉型'),
-          summary: t('homepage.services.agriculture.cases.0.summary', '以「揭露→減量→中和」三段式路徑，導入碳盤查與能源數據化，從現場精實改善切入，兼顧成本、效率與風險控管'),
-          description: t('homepage.services.agriculture.cases.0.description', '弘陽食品透過中衛輔導，建立完整的碳與能源管理系統，從生產現場的精實改善開始，逐步建立永續經營模式。透過數據化管理，不僅提升了營運效率，更在供應鏈對話中建立了信任基礎。'),
+          company: t('homepage.services.agriculture.cases.0.company', '科技農企業輔導'),
+          services_item: t('homepage.services.agriculture.cases.0.services_item', '科技農企業輔導'),
+          title: t('homepage.services.agriculture.cases.0.title', '產業翻轉 農企整合提高競爭力 '),
+          summary: t('homepage.services.agriculture.cases.0.summary', '面對環境變遷與產業升級，團隊協助科技農企業以「數位 × 永續」雙軸轉型，整合產官學研資源，從分級輔導、人才培力、標竿擴散三面向推動轉型。'),
+          description: t('homepage.services.agriculture.cases.0.description', '輔導依企業規模與階段，提供專業診斷與業師陪跑，導入數位管理和永續策略，培養自主改善能力。人才培力以 AMMOT+、AMEP+ 進階班為核心，培養中高階整合型人才，注入產業新動能。標竿擴散則透過菁創獎遴選與成果展示，推廣優良實踐案例，促進跨業交流與共學，帶動創新持續擴散，助力農企業穩健邁向永續發展。'),
           features: [
             t('homepage.services.agriculture.cases.0.features.0', '建立碳與能源管理底座'),
             t('homepage.services.agriculture.cases.0.features.1', '生產現場精實改善'),
             t('homepage.services.agriculture.cases.0.features.2', '供應鏈對話更具信任')
           ],
           results: [
-            t('homepage.services.agriculture.cases.0.results.0', '能源使用效率提升15%'),
-            t('homepage.services.agriculture.cases.0.results.1', '生產流程縮短20%'),
-            t('homepage.services.agriculture.cases.0.results.2', '碳足跡減少30%')
+            t('homepage.services.agriculture.cases.0.results.0', '推動永續低碳與數位轉型'),
+            t('homepage.services.agriculture.cases.0.results.1', '品牌重塑與市場再定位'),
+            t('homepage.services.agriculture.cases.0.results.2', '標竿企業創新擴散'),
+            t('homepage.services.agriculture.cases.0.results.3', '強化營運體質與人才培育'),
           ],
           image: require('../assets/img/services/農村社企與區域產業/1.jpg')
         },
         {
-          company: t('homepage.services.agriculture.cases.1.company', '農村產業合作社'),
-          services_item: t('homepage.services.agriculture.cases.1.services_item', '農村產業合作社'),
-          title: t('homepage.services.agriculture.cases.1.title', '國產雜糧整合行銷'),
-          summary: t('homepage.services.agriculture.cases.1.summary', '推動國產雜糧品牌化，建立從生產到銷售的完整價值鏈'),
-          description: t('homepage.services.agriculture.cases.1.description', '協助農村合作社建立品牌識別，整合行銷資源，提升國產雜糧的市場競爭力。透過數位化工具，建立產銷履歷系統，讓消費者能夠追蹤產品來源。'),
+          company: t('homepage.services.agriculture.cases.1.company', '國產雜糧'),
+          services_item: t('homepage.services.agriculture.cases.1.services_item', '國產雜糧'),
+          title: t('homepage.services.agriculture.cases.1.title', '鎖定青壯年客群，以創新行銷推廣健康雜糧，提升認同與銷量，促進產業永續。 '),
+          summary: t('homepage.services.agriculture.cases.1.summary', '為推廣國產雜糧，團隊攜手高雄知名品牌「不二緻果」舉辦創意烘焙競賽，吸引業界專業人才參與，並將金獎作品「紅藜卡滋」成功商品化於門市及官網販售。'),
+          description: t('homepage.services.agriculture.cases.1.description', '活動強化專業對在地食材的認識，透過後續行銷提升產品曝光、銷量與品牌價值。行銷策略聚焦45歲以上健康意識族群，與里仁、Curves等健康品牌合作，進行聯名及通路導入，並透過健康主題活動加深消費者對國產雜糧的信任。全通路行銷結合線上與線下，運用數據分析提升精準度，並協助供應商開發新品，確保產品品質與穩定供應，有效推動國產雜糧市場擴展。'),
           features: [
             t('homepage.services.agriculture.cases.1.features.0', '品牌識別建立'),
             t('homepage.services.agriculture.cases.1.features.1', '數位行銷推廣'),
             t('homepage.services.agriculture.cases.1.features.2', '產銷履歷追蹤')
           ],
           results: [
-            t('homepage.services.agriculture.cases.1.results.0', '品牌知名度提升40%'),
-            t('homepage.services.agriculture.cases.1.results.1', '銷售通路增加25%'),
-            t('homepage.services.agriculture.cases.1.results.2', '農民收入提升30%')
+            t('homepage.services.agriculture.cases.1.results.0', '營業額達1,530萬元'),
+            t('homepage.services.agriculture.cases.1.results.1', '紅豆用量突破8公噸'),
+            t('homepage.services.agriculture.cases.1.results.2', '行銷健康，拓展樂齡族群'),
+            t('homepage.services.agriculture.cases.1.results.3', '收集回饋，助產業永續'),
           ],
           image: require('../assets/img/services/農村社企與區域產業/2.jpg')
         }
