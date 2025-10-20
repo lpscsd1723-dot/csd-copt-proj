@@ -420,37 +420,38 @@
         "phone": "02-23911368#1189",
         "cases": [
           {
-            "company": "China Chemical & Pharmaceutical",
+            "company": "Industry Operation Model Guidance",
             "services_item": "Industry Operation Model Guidance",
-            "title": "Quality Home Care Service Network Development Plan",
-            "summary": "Guiding the establishment of quality home care service networks to improve long-term care service quality and efficiency",
-            "description": "Assisting China Chemical & Pharmaceutical in establishing a complete home care service network through standardized processes, professional training, and quality monitoring to enhance the professional level and service efficiency of long-term care services. Establishing a complete process from application to service completion to ensure service quality consistency.",
+            "title": "MOEA Industrial Development Bureau \"Health Care Industry Development Promotion Plan\" (2011-2012)",
+            "summary": "Guiding the establishment of long-term care service networks and innovative models to improve long-term care service quality and efficiency",
+            "description": "Guided China Chemical & Pharmaceutical's \"Quality Home Care Service Network Development Plan\", Min-Sheng Medical Control's \"24/7 Caring Nursing Home Chain Service Model Promotion Plan\", and MOS Food Services (MOS) and Dongjie Information's \"MOS Quality Health Integrated Social Action Service\".",
             "features": [
               "Service Network Establishment",
               "Service Quality Enhancement",
               "Service Efficiency Optimization"
             ],
             "results": [
-              "Service coverage increased by 60%",
-              "Service satisfaction reached 95%",
-              "Service efficiency improved by 40%"
+              "Organized 43 care management professional courses and workshops, training over 2,000 participants",
+              "Developed standardized training materials for care management personnel qualification training totaling 36 hours",
+              "Established 10 care service indicators for research and promotion",
+              "Established 10 care management quality and evaluation indicators",
+              "Reduced national new case service approval processing time to 4.8 days"
             ]
           },
           {
-            "company": "Min-Sheng Medical Control",
-            "services_item": "Min-Sheng Medical Control",
-            "title": "24/7 Caring Nursing Home Chain Service Model",
-            "summary": "Promoting 24/7 caring nursing home chain service model to provide more comprehensive long-term care services",
-            "description": "Assisting Min-Sheng Medical Control in establishing a 24/7 nursing service model through chain operations and standardized management, providing uninterrupted 24-hour care services. Integrating medical resources with community services to establish a complete care ecosystem.",
+            "company": "Local Government Long-term Care Quality Monitoring and Guidance",
+            "services_item": "Local Government Long-term Care Quality Monitoring and Guidance",
+            "title": "County and City Government Long-term Care Service Contracted Unit Guidance and Quality Monitoring Plan",
+            "summary": "Strengthening the management and quality of long-term care contracted units, providing guidance for county and city governments",
+            "description": "New Taipei City \"2022-2025 New Taipei City Long-term Care Service Contracted Unit Guidance and Quality Monitoring Plan\", Kaohsiung City \"2023-2025 Kaohsiung City Home-based Long-term Care Institution Quality Monitoring and Training Course Plan\" and \"Kaohsiung City Community Integrated Service Center A Unit Evaluation and Quality Enhancement Training\", Chiayi County, Keelung City, Hsinchu County and other health bureaus' long-term care data analysis projects.",
             "features": [
               "24/7 Service",
               "Chain Service Model",
               "Caring Nursing Service"
             ],
             "results": [
-              "Service hours extended to 24 hours",
-              "Chain locations increased to 15",
-              "Service quality evaluation: Excellent"
+              "Completed a total of 4,300 long-term care institution inspections",
+              "Conducted telephone interview satisfaction surveys totaling 3,100 responses"
             ]
           },
           {
