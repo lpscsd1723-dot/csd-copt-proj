@@ -79,6 +79,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 
   return (
     <motion.div
+      style={{ height: '100%' }}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       whileHover={{ 
@@ -1544,6 +1545,8 @@ const EnhancedServicesSection: React.FC = () => {
                   display: 'grid',
                   gridTemplateColumns: 'repeat(4, 1fr)',
                   gap: 3,
+                  alignItems: 'stretch',
+                  gridAutoRows: '1fr',
                   mb: 4,
                   '@media (max-width: 1400px)': {
                     gridTemplateColumns: 'repeat(2, 1fr)',
@@ -1561,6 +1564,7 @@ const EnhancedServicesSection: React.FC = () => {
               >
                 {currentServices.map((service, index) => (
                   <motion.div
+                    style={{ height: '100%' }}
                     key={service.id}
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
