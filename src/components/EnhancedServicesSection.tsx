@@ -230,7 +230,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
               🌟 {t('homepage.ui.service-features', '服務特色')}
             </Typography>
             <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ flex: 1, alignItems: 'flex-start' }}>
-              {(cases && cases.length > 0 ? cases.slice(0, 3).map(c => c.services_item) : features.slice(0, 3)).map((feature, index) => (
+              {(cases && cases.length > 0 ? cases.slice(0, 4).map(c => c.services_item) : features.slice(0, 4)).map((feature, index) => (
                 <Chip
                   key={index}
                   label={feature}
