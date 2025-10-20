@@ -298,6 +298,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
             bgcolor: `${color}08`, 
             borderRadius: 2,
             border: `1px solid ${color}20`,
+            mt: 'auto',
           }}>
             <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}>
               💬 {t('homepage.ui.contact-us', '聯絡我們')}
