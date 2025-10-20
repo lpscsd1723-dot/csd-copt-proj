@@ -128,17 +128,31 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         )}
 
         {/* 背景漸層 */}
-        <Box
-          sx={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            right: 0,
-            height: images && images.length > 0 ? 60 : 120,
-            background: `linear-gradient(135deg, ${color}20, ${color}40)`,
-            zIndex: 0,
-          }}
-        />
+        {images && images.length > 0 ? (
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 200, // 放在圖片下方
+              left: 0,
+              right: 0,
+              height: 60,
+              background: `linear-gradient(135deg, ${color}20, ${color}40)`,
+              zIndex: 0,
+            }}
+          />
+        ) : (
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              height: 120,
+              background: `linear-gradient(135deg, ${color}20, ${color}40)`,
+              zIndex: 0,
+            }}
+          />
+        )}
         
         {/* 內容 */}
         <CardContent sx={{ position: 'relative', zIndex: 1, p: 3, flex: 1, display: 'flex', flexDirection: 'column' }}>
