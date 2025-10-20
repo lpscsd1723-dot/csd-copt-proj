@@ -947,7 +947,7 @@ const EnhancedServicesSection: React.FC = () => {
       ],
       cases: [
         {
-          company: t('homepage.services.healthcare.cases.0.company', '產運業營模式輔導'),
+          company: t('homepage.services.healthcare.cases.0.company', '產業營運模式輔導'),
           services_item: t('homepage.services.healthcare.cases.0.services_item', '產業營運模式輔導'),
           title: t('homepage.services.healthcare.cases.0.title', '經部工業局濟「養生照護產業發展推動計畫」（2011-2012年）'),
           summary: t('homepage.services.healthcare.cases.0.summary', '輔導建立長期照顧服務網絡與創新模式，提升長照服務品質與效率'),
