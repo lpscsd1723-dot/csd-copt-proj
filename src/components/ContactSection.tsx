@@ -190,7 +190,7 @@ const ContactSection: React.FC = () => {
 
 
         {/* Main Content Grid */}
-        <Grid container spacing={{ xs: 2.5, md: 4 }} alignItems="stretch">
+        <Grid container spacing={{ xs: 2.5, md: 4 }} alignItems="stretch" justifyContent="center">
           {/* Contact Information */}
           <Grid size={{ xs: 12, lg: 6 }} sx={{ display: 'flex' }}>
             <motion.div
