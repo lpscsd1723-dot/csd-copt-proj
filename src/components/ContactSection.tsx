@@ -137,7 +137,7 @@ const ContactSection: React.FC = () => {
         },
       }}
     >
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         {/* Hero Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -190,9 +190,9 @@ const ContactSection: React.FC = () => {
 
 
         {/* Main Content Grid */}
-        <Grid container spacing={6} alignItems="stretch">
+        <Grid container spacing={{ xs: 2.5, md: 4 }} justifyContent="center" alignItems="stretch">
           {/* Contact Information */}
-          <Grid size={{ xs: 12, lg: 5 }}>
+          <Grid size={{ xs: 12, lg: 6 }} sx={{ display: 'flex' }}>
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
@@ -208,7 +208,7 @@ const ContactSection: React.FC = () => {
                   overflow: 'hidden',
                 }}
               >
-                <CardContent sx={{ p: 4 }}>
+                <CardContent sx={{ p: { xs: 3, md: 4 }, display: 'flex', flexDirection: 'column', height: '100%' }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
                     <Avatar
                       sx={{
@@ -231,29 +231,44 @@ const ContactSection: React.FC = () => {
                     </Typography>
                   </Box>
 
-                  <Box sx={{ mb: 4 }}>
+                  <Box
+                    sx={{
+                      mb: 4,
+                      display: 'grid',
+                      gridTemplateColumns: { xs: '1fr' },
+                      gap: 2,
+                      alignItems: 'stretch',
+                      gridAutoRows: '1fr',
+                    }}
+                  >
                     {(t('homepage.contact.contacts', { returnObjects: true }) as any[] || []).map((contactItem: any, index: number) => (
                       <motion.div
                         key={index}
+                        style={{ height: '100%' }}
                         initial={{ opacity: 0, y: 20 }}
                         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ duration: 0.5, delay: 1.2 + index * 0.1 }}
                       >
                         <Card
                           sx={{
-                            mb: 2,
+                            height: '100%',
+                            width: '100%',
+                            minHeight: 180,
                             background: 'rgba(255, 255, 255, 0.05)',
                             border: '1px solid rgba(255, 255, 255, 0.1)',
                             borderRadius: 2,
                             transition: 'all 0.3s ease',
-                            '&:hover': {
-                              background: 'rgba(255, 255, 255, 0.1)',
-                              transform: 'translateX(8px)',
+                            '@media (hover: hover) and (pointer: fine)': {
+                              '&:hover': {
+                                background: 'rgba(255, 255, 255, 0.1)',
+                                transform: 'translateY(-4px)',
+                              },
                             },
                           }}
                         >
-                          <CardContent sx={{ p: 3 }}>
-                            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                          <CardContent sx={{ p: { xs: 2.5, md: 3 } }}>
+                            {/* 服務類別 Chip：左對齊 */}
+                            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start', mb: 1 }}>
                               <Chip
                                 label={contactItem.service}
                                 size="small"
@@ -261,44 +276,79 @@ const ContactSection: React.FC = () => {
                                   backgroundColor: serviceCategories[index]?.color || '#666',
                                   color: 'white',
                                   fontWeight: 600,
-                                  mr: 2,
+                                  mr: 0,
+                                  '& .MuiChip-label': {
+                                    fontSize: { xs: '0.85rem', md: '0.9rem' },
+                                    fontWeight: 700,
+                                    px: 1,
+                                  },
                                 }}
                               />
                             </Box>
-                            
+
+                            {/* 圖示＋姓名：同一行左對齊 */}
                             <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                               <Avatar
                                 sx={{
-                                  width: 32,
-                                  height: 32,
-                                  mr: 2,
+                                  width: 36,
+                                  height: 36,
+                                  mr: 1,
                                   background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
                                 }}
                               >
-                                <ContactIcon sx={{ fontSize: '1rem' }} />
+                                <ContactIcon sx={{ fontSize: '1.1rem' }} />
                               </Avatar>
                               <Typography
                                 variant="h6"
                                 sx={{
                                   color: 'white',
-                                  fontWeight: 600,
+                                  fontWeight: 700,
+                                  fontSize: { xs: '1.2rem', md: '1.35rem' },
+                                  lineHeight: 1,
                                 }}
                               >
                                 {contactItem.contact}
                               </Typography>
                             </Box>
-                            
-                            <Box sx={{ display: 'flex', alignItems: 'center', ml: 4 }}>
+
+                            {/* 電話：主號＋#分機，容器可換行；必要時只截斷分機 */}
+                            <Box sx={{ display: 'flex', alignItems: 'center', pl: 4/8, flexWrap: 'wrap' }}>
                               <PhoneIcon sx={{ mr: 1, fontSize: '1.2rem', color: 'rgba(255, 255, 255, 0.8)' }} />
-                              <Typography
-                                variant="body1"
-                                sx={{
-                                  color: 'rgba(255, 255, 255, 0.9)',
-                                  fontWeight: 500,
-                                }}
-                              >
-                                {contactItem.phone}
-                              </Typography>
+                              {(() => {
+                                const phoneText = String(contactItem.phone || '');
+                                const [phoneBase, phoneExt] = phoneText.split('#');
+                                return (
+                                  <Box sx={{ display: 'inline-flex', alignItems: 'center', flexWrap: 'wrap' }}>
+                                    <Typography
+                                      variant="body1"
+                                      sx={{
+                                        color: 'rgba(255, 255, 255, 0.9)',
+                                        fontWeight: 600,
+                                        fontSize: { xs: '1.05rem', md: '1.15rem' },
+                                      }}
+                                    >
+                                      {phoneBase}
+                                    </Typography>
+                                    {phoneExt && (
+                                      <Typography
+                                        variant="body1"
+                                        sx={{
+                                          color: 'rgba(255, 255, 255, 0.9)',
+                                          fontWeight: 600,
+                                          fontSize: { xs: '1.05rem', md: '1.15rem' },
+                                          ml: 0.5,
+                                          overflow: 'hidden',
+                                          textOverflow: 'ellipsis',
+                                          whiteSpace: 'nowrap',
+                                          maxWidth: '100%',
+                                        }}
+                                      >
+                                        #{phoneExt}
+                                      </Typography>
+                                    )}
+                                  </Box>
+                                );
+                              })()}
                             </Box>
                           </CardContent>
                         </Card>
@@ -306,43 +356,14 @@ const ContactSection: React.FC = () => {
                     ))}
                   </Box>
 
-                  <Divider sx={{ borderColor: 'rgba(255, 255, 255, 0.2)', my: 3 }} />
-
-                  <Box sx={{ p: 3, background: 'rgba(255, 255, 255, 0.05)', borderRadius: 2 }}>
-                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                      <BusinessIcon sx={{ mr: 2, color: 'rgba(255, 255, 255, 0.8)' }} />
-                      <Typography
-                        variant="h6"
-                        sx={{
-                          color: 'white',
-                          fontWeight: 600,
-                        }}
-                      >
-                        {t('homepage.contact.headquarters', '中衛中心總部')}
-                      </Typography>
-                    </Box>
-                    
-                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                      <LocationIcon sx={{ mr: 1, fontSize: '1.2rem', color: 'rgba(255, 255, 255, 0.8)' }} />
-                      <Typography variant="body1" sx={{ color: 'rgba(255, 255, 255, 0.9)' }}>
-                        {t('homepage.contact.address', '台北市大安區信義路三段41號')}
-                      </Typography>
-                    </Box>
-                    
-                    <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                      <EmailIcon sx={{ mr: 1, fontSize: '1.2rem', color: 'rgba(255, 255, 255, 0.8)' }} />
-                      <Typography variant="body1" sx={{ color: 'rgba(255, 255, 255, 0.9)' }}>
-                        info@cws.org.tw
-                      </Typography>
-                    </Box>
-                  </Box>
+                  {/* 中衛中心總部區塊已移至右側表單按鈕下方 */}
                 </CardContent>
               </Card>
             </motion.div>
           </Grid>
 
           {/* Contact Form */}
-          <Grid size={{ xs: 12, lg: 7 }}>
+          <Grid size={{ xs: 12, lg: 6 }} sx={{ display: 'flex' }}>
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
@@ -550,6 +571,37 @@ const ContactSection: React.FC = () => {
                           </Button>
                         </motion.div>
                       </Box>
+
+                        {/* 中衛中心總部（移動到送出按鈕下方） */}
+                        <Box
+                          sx={{
+                            mt: 3,
+                            p: 3,
+                            background: 'linear-gradient(135deg, rgba(102,126,234,0.08) 0%, rgba(118,75,162,0.08) 100%)',
+                            border: '1px solid rgba(102,126,234,0.25)',
+                            borderRadius: 3,
+                          }}
+                        >
+                          <Box sx={{ display: 'flex', alignItems: 'center', mb: 1.5 }}>
+                            <BusinessIcon sx={{ mr: 1.5, color: 'primary.main' }} />
+                            <Typography variant="h6" sx={{ fontWeight: 700, color: 'text.primary' }}>
+                              {t('homepage.contact.headquarters', '中衛中心總部')}
+                            </Typography>
+                          </Box>
+                          <Divider sx={{ mb: 1.5, borderColor: 'rgba(102,126,234,0.25)' }} />
+                          <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                            <LocationIcon sx={{ mr: 1, fontSize: '1.1rem', color: 'text.secondary' }} />
+                            <Typography variant="body1" sx={{ color: 'text.secondary', fontWeight: 600 }}>
+                              {t('homepage.contact.address', '台北市大安區信義路三段41號')}
+                            </Typography>
+                          </Box>
+                          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                            <EmailIcon sx={{ mr: 1, fontSize: '1.1rem', color: 'text.secondary' }} />
+                            <Typography variant="body1" sx={{ color: 'text.secondary', fontWeight: 600 }}>
+                              info@cws.org.tw
+                            </Typography>
+                          </Box>
+                        </Box>
                     </Box>
                   </form>
                 </CardContent>
