@@ -1022,20 +1022,19 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/健康照護(NANA)/護理之家評鑑制度創新改革.JPG')
         },
         {
-          company: t('homepage.services.healthcare.cases.4.company', '國際長照交流與合作'),
-          services_item: t('homepage.services.healthcare.cases.4.services_item', '國際長照交流與合作'),
-          title: t('homepage.services.healthcare.cases.4.title', '日本日照中心經營管理與長照思維創新服務'),
-          summary: t('homepage.services.healthcare.cases.4.summary', '推動國際長照交流，引進日本先進照護模式與管理經驗'),
-          description: t('homepage.services.healthcare.cases.4.description', '與日本鈴木龜吉學校合作，辦理日照中心經營管理課程，引進日本長照思維創新服務模式。透過國際交流與實務觀摩，提升台灣長照服務品質與管理水準，建立跨國合作平台。'),
+          company: t('homepage.services.healthcare.cases.4.company', '國際長照合作與交流'),
+          services_item: t('homepage.services.healthcare.cases.4.services_item', '國際長照合作與交流'),
+          title: t('homepage.services.healthcare.cases.4.title', '透過台日國際交流，創造產業人才培訓新思維'),
+          summary: t('homepage.services.healthcare.cases.4.summary', '探討 AI 長照系統導入台灣評估，並分析其實行問題點，洽談未來合作事宜，透過參訪、課程講習，引進長照創新思維。'),
+          description: t('homepage.services.healthcare.cases.4.description', 'JETRO協會(日本貿易振興機構)台日高齡市場比較交流分享、Welmo&特思爾宇宙公司AI長照系統導入台灣規劃評估、失智症未来共創中心系列線上課程規劃、開辦龜吉進修學校線上課程、辦理NPO法人銀髮総合研究所台灣照顧技巧交流講座。 '),
           features: [
             t('homepage.services.healthcare.cases.4.features.0', '國際交流合作'),
             t('homepage.services.healthcare.cases.4.features.1', '先進模式引進'),
             t('homepage.services.healthcare.cases.4.features.2', '實務觀摩學習')
           ],
           results: [
-            t('homepage.services.healthcare.cases.4.results.0', '辦理國際交流活動15場'),
-            t('homepage.services.healthcare.cases.4.results.1', '培訓專業人員300人次'),
-            t('homepage.services.healthcare.cases.4.results.2', '建立跨國合作平台')
+            t('homepage.services.healthcare.cases.4.results.0', '台日長照交流會逾50場'),
+            t('homepage.services.healthcare.cases.4.results.1', '參訪國際單位超過20家')
           ],
           image: require('../assets/img/services/健康照護-長期照顧/鈴木龜吉學校課程-日本日照中心經營管理-長照思維創新服務.jpg')
         }
