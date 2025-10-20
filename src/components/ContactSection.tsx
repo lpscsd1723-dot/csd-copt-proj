@@ -235,17 +235,16 @@ const ContactSection: React.FC = () => {
                   <Box
                     sx={{
                       mb: 4,
-                      display: 'grid',
-                      gridTemplateColumns: { xs: '1fr' },
+                      display: 'flex',
+                      flexDirection: 'column',
                       gap: 2,
-                      alignItems: 'stretch',
-                      gridAutoRows: '1fr',
+                      height: '100%',
                     }}
                   >
                     {(t('homepage.contact.contacts', { returnObjects: true }) as any[] || []).map((contactItem: any, index: number) => (
                       <motion.div
                         key={index}
-                        style={{ height: '100%' }}
+                        style={{ flex: 1 }}
                         initial={{ opacity: 0, y: 20 }}
                         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ duration: 0.5, delay: 1.2 + index * 0.1 }}
@@ -254,7 +253,8 @@ const ContactSection: React.FC = () => {
                           sx={{
                             height: '100%',
                             width: '100%',
-                            minHeight: 180,
+                            display: 'flex',
+                            flexDirection: 'column',
                             background: 'rgba(255, 255, 255, 0.05)',
                             border: '1px solid rgba(255, 255, 255, 0.1)',
                             borderRadius: 2,
@@ -267,52 +267,55 @@ const ContactSection: React.FC = () => {
                             },
                           }}
                         >
-                          <CardContent sx={{ p: { xs: 2.5, md: 3 } }}>
-                            {/* 服務類別 Chip：左對齊 */}
-                            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start', mb: 1 }}>
-                              <Chip
-                                label={contactItem.service}
-                                size="small"
-                                sx={{
-                                  backgroundColor: serviceCategories[index]?.color || '#666',
-                                  color: 'white',
-                                  fontWeight: 600,
-                                  mr: 0,
-                                  '& .MuiChip-label': {
-                                    fontSize: { xs: '0.85rem', md: '0.9rem' },
+                          <CardContent sx={{ p: { xs: 2.5, md: 3 }, display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
+                            {/* 上方內容區域 */}
+                            <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                              {/* 服務類別 Chip：左對齊 */}
+                              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start', mb: 1.5 }}>
+                                <Chip
+                                  label={contactItem.service}
+                                  size="small"
+                                  sx={{
+                                    backgroundColor: serviceCategories[index]?.color || '#666',
+                                    color: 'white',
+                                    fontWeight: 600,
+                                    mr: 0,
+                                    '& .MuiChip-label': {
+                                      fontSize: { xs: '0.85rem', md: '0.9rem' },
+                                      fontWeight: 700,
+                                      px: 1,
+                                    },
+                                  }}
+                                />
+                              </Box>
+
+                              {/* 圖示＋姓名：同一行左對齊 */}
+                              <Box sx={{ display: 'flex', alignItems: 'center', mb: 1.5 }}>
+                                <Avatar
+                                  sx={{
+                                    width: 36,
+                                    height: 36,
+                                    mr: 1,
+                                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                                  }}
+                                >
+                                  <ContactIcon sx={{ fontSize: '1.1rem' }} />
+                                </Avatar>
+                                <Typography
+                                  variant="h6"
+                                  sx={{
+                                    color: 'white',
                                     fontWeight: 700,
-                                    px: 1,
-                                  },
-                                }}
-                              />
+                                    fontSize: { xs: '1.2rem', md: '1.35rem' },
+                                    lineHeight: 1,
+                                  }}
+                                >
+                                  {contactItem.contact}
+                                </Typography>
+                              </Box>
                             </Box>
 
-                            {/* 圖示＋姓名：同一行左對齊 */}
-                            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                              <Avatar
-                                sx={{
-                                  width: 36,
-                                  height: 36,
-                                  mr: 1,
-                                  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                                }}
-                              >
-                                <ContactIcon sx={{ fontSize: '1.1rem' }} />
-                              </Avatar>
-                              <Typography
-                                variant="h6"
-                                sx={{
-                                  color: 'white',
-                                  fontWeight: 700,
-                                  fontSize: { xs: '1.2rem', md: '1.35rem' },
-                                  lineHeight: 1,
-                                }}
-                              >
-                                {contactItem.contact}
-                              </Typography>
-                            </Box>
-
-                            {/* 電話：主號＋#分機，容器可換行；必要時只截斷分機 */}
+                            {/* 下方電話區域 */}
                             <Box sx={{ display: 'flex', alignItems: 'center', pl: 4/8, flexWrap: 'wrap' }}>
                               <PhoneIcon sx={{ mr: 1, fontSize: '1.2rem', color: 'rgba(255, 255, 255, 0.8)' }} />
                               {(() => {
