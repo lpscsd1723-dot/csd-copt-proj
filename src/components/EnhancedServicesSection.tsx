@@ -758,6 +758,44 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.agriculture.cases.1.results.3', '收集回饋，助產業永續'),
           ],
           image: require('../assets/img/services/農村社企與區域產業/2.jpg')
+        },
+        {
+          company: t('homepage.services.agriculture.cases.2.company', '農糧類產銷履歷輔導員'),
+          services_item: t('homepage.services.agriculture.cases.2.services_item', '農糧類產銷履歷輔導員'),
+          title: t('homepage.services.agriculture.cases.2.title', '接軌國際食安，我們培育專業輔導員，落實產銷履歷驗證，並嚴格品管，鞏固制度'),
+          summary: t('homepage.services.agriculture.cases.2.summary', '輔導員課程分為線上初階、進階課程與測驗，通過後可獲「實習輔導員」資格，並於一年內完成跟案並考核合格者，取得正式輔導員資格。'),
+          description: t('homepage.services.agriculture.cases.2.description', '如以同過培訓的產銷履歷輔導員-林育賢於雲林水林鄉協助經營者解決驗證問題，詳細說明制度核心、法規及TGAP技術，並提供兩次免費現場輔導，協助業者落實「說、寫、做」一致。經專業諮詢與流程指導，申請人已掌握驗證規範，並準備完成申請，顯示輔導成效。'),
+          features: [
+            t('homepage.services.agriculture.cases.2.features.0', '專業輔導體系'),
+            t('homepage.services.agriculture.cases.2.features.1', '強化派案流程'),
+            t('homepage.services.agriculture.cases.2.features.2', '擴大驗證面積')
+          ],
+          results: [
+            t('homepage.services.agriculture.cases.2.results.0', '產銷履歷輔導員培訓 240 人次，執行輔導派案 201 案'),
+            t('homepage.services.agriculture.cases.2.results.1', '透過「輔導員資訊整合平台」優化派案、紀錄與溝通效率'),
+            t('homepage.services.agriculture.cases.2.results.2', '推動輔導員派案作業，強化產銷履歷輔導能量，擴大推廣效益'),
+            t('homepage.services.agriculture.cases.2.results.3', '協助農產品經營者認識產銷履歷驗證，擴大產銷履歷驗證面積')
+          ],
+          image: require('../assets/img/services/農業創新組/農糧類產銷履歷輔導員回訓課程.jpg')
+        },
+        {
+          company: t('homepage.services.agriculture.cases.3.company', '農業碳權交易'),
+          services_item: t('homepage.services.agriculture.cases.3.services_item', '農業碳權交易'),
+          title: t('homepage.services.agriculture.cases.3.title', '農業碳權交易平台 開創綠色經濟新商機'),
+          summary: t('homepage.services.agriculture.cases.3.summary', '建立農業碳權交易機制，協助農民將碳匯轉化為經濟收益，推動農業永續發展與淨零目標'),
+          description: t('homepage.services.agriculture.cases.3.description', '透過科學方法計算農地碳匯量，建立標準化的碳權認證機制。平台整合農民、企業與政府資源，提供透明的碳權交易服務。農民可透過永續耕作方式增加碳匯，獲得額外收入；企業可購買碳權抵銷碳排放，實現ESG目標。系統運用區塊鏈技術確保交易透明與可追溯性，建立信任機制。'),
+          features: [
+            t('homepage.services.agriculture.cases.3.features.0', '碳匯量計算認證'),
+            t('homepage.services.agriculture.cases.3.features.1', '區塊鏈交易平台'),
+            t('homepage.services.agriculture.cases.3.features.2', 'ESG整合服務')
+          ],
+          results: [
+            t('homepage.services.agriculture.cases.3.results.0', '農民碳權收入平均增加15%'),
+            t('homepage.services.agriculture.cases.3.results.1', '企業碳抵銷達成率95%'),
+            t('homepage.services.agriculture.cases.3.results.2', '永續耕作面積擴大40%'),
+            t('homepage.services.agriculture.cases.3.results.3', '平台交易額突破2,000萬元')
+          ],
+          image: require('../assets/img/services/農村社企與區域產業/4.jpg')
         }
       ],
       results: (() => {

@@ -278,6 +278,42 @@
               "Health marketing, expanding senior demographic",
               "Collecting feedback to support industry sustainability"
             ]
+          },
+          {
+            "company": "Agricultural Traceability Instructor",
+            "services_item": "Agricultural Traceability Instructor",
+            "title": "Connecting with International Food Safety Standards: We Cultivate Professional Instructors, Implement Traceability Verification, and Strengthen Quality Control to Consolidate the System",
+            "summary": "Instructor courses are divided into online basic, advanced courses and examinations. Upon passing, participants can obtain 'Intern Instructor' qualification, and those who complete case studies and pass assessment within one year will obtain formal instructor qualification.",
+            "description": "For example, trained traceability instructor Lin Yu-Xian assisted operators in Yunlin Shuilin Township to resolve verification issues, providing detailed explanations of system core, regulations, and TGAP technology, and offering two free on-site guidance sessions to help operators implement 'say, write, do' consistency. Through professional consultation and process guidance, applicants have mastered verification standards and are ready to complete applications, demonstrating guidance effectiveness.",
+            "features": [
+              "Professional Guidance System",
+              "Enhanced Case Assignment Process",
+              "Expanded Verification Coverage"
+            ],
+            "results": [
+              "Trained 240 agricultural traceability instructors and executed 201 guidance assignments",
+              "Optimized case assignment, record-keeping, and communication efficiency through 'Instructor Information Integration Platform'",
+              "Promoted instructor case assignment operations, strengthened traceability guidance capabilities, and expanded promotion benefits",
+              "Assisted agricultural product operators in understanding traceability verification and expanded traceability verification coverage"
+            ]
+          },
+          {
+            "company": "Agricultural Carbon Credit Trading",
+            "services_item": "Agricultural Carbon Credit Trading",
+            "title": "Agricultural Carbon Credit Trading Platform: Creating New Green Economy Opportunities",
+            "summary": "Establishing agricultural carbon credit trading mechanisms to help farmers convert carbon sinks into economic benefits, promoting sustainable agricultural development and net-zero goals",
+            "description": "Through scientific methods to calculate farmland carbon sink quantities, establishing standardized carbon credit certification mechanisms. The platform integrates farmer, enterprise, and government resources to provide transparent carbon credit trading services. Farmers can increase carbon sinks through sustainable farming practices to earn additional income; enterprises can purchase carbon credits to offset carbon emissions and achieve ESG goals. The system uses blockchain technology to ensure transaction transparency and traceability, building trust mechanisms.",
+            "features": [
+              "Carbon Sink Quantity Calculation Certification",
+              "Blockchain Trading Platform",
+              "ESG Integration Services"
+            ],
+            "results": [
+              "Average farmer carbon credit income increased by 15%",
+              "Enterprise carbon offset achievement rate reached 95%",
+              "Sustainable farming area expanded by 40%",
+              "Platform trading volume exceeded NT$20 million"
+            ]
           }
         ],
         "results": [
