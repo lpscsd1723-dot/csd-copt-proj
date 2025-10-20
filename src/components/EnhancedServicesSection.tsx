@@ -428,7 +428,10 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
                           height="200"
                           image={caseItem.image}
                           alt={caseItem.title}
-                          sx={{ objectFit: 'cover' }}
+                          sx={{ 
+                            objectFit: 'cover',
+                            objectPosition: caseItem.image.includes('護理之家評鑑制度創新改革') ? 'center 90%' : 'center'
+                          }}
                         />
                       )}
                       <CardContent>
