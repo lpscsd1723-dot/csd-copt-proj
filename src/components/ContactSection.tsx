@@ -137,7 +137,7 @@ const ContactSection: React.FC = () => {
         },
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         {/* Hero Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -190,7 +190,7 @@ const ContactSection: React.FC = () => {
 
 
         {/* Main Content Grid */}
-        <Grid container spacing={{ xs: 2.5, md: 4 }} justifyContent="center" alignItems="stretch">
+        <Grid container spacing={{ xs: 2.5, md: 4 }} alignItems="stretch">
           {/* Contact Information */}
           <Grid size={{ xs: 12, lg: 6 }} sx={{ display: 'flex' }}>
             <motion.div
@@ -200,6 +200,7 @@ const ContactSection: React.FC = () => {
             >
               <Card
                 sx={{
+                  width: '100%',
                   height: '100%',
                   background: 'rgba(255, 255, 255, 0.1)',
                   backdropFilter: 'blur(20px)',
@@ -371,6 +372,7 @@ const ContactSection: React.FC = () => {
             >
               <Card
                 sx={{
+                  width: '100%',
                   height: '100%',
                   background: 'rgba(255, 255, 255, 0.95)',
                   backdropFilter: 'blur(20px)',
