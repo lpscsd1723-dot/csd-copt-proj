@@ -996,6 +996,42 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.healthcare.cases.2.results.2', '健康指標改善率80%')
           ],
           image: require('../assets/img/services/健康照護-運動科技/sports-tech-2024.jpg')
+        },
+        {
+          company: t('homepage.services.healthcare.cases.3.company', '護理之家評鑑與輔導'),
+          services_item: t('homepage.services.healthcare.cases.3.services_item', '護理之家評鑑與輔導'),
+          title: t('homepage.services.healthcare.cases.3.title', '護理之家評鑑制度創新與品質提升計畫'),
+          summary: t('homepage.services.healthcare.cases.3.summary', '推動護理之家評鑑制度創新，提升照護品質與管理效能'),
+          description: t('homepage.services.healthcare.cases.3.description', '協助衛生福利部推動護理之家評鑑制度創新變革，從五大面向128個指標簡化至四大面向14個指標，著重全人照護、護理過程邏輯、感染控制等訓練，並建立護理之家照護管理系統，提升評鑑效率。'),
+          features: [
+            t('homepage.services.healthcare.cases.3.features.0', '評鑑制度創新'),
+            t('homepage.services.healthcare.cases.3.features.1', '專業訓練強化'),
+            t('homepage.services.healthcare.cases.3.features.2', '作業E化系統')
+          ],
+          results: [
+            t('homepage.services.healthcare.cases.3.results.0', '評鑑護理之家920家次'),
+            t('homepage.services.healthcare.cases.3.results.1', '評鑑指標從128項簡化至14項'),
+            t('homepage.services.healthcare.cases.3.results.2', '系統建置完成率100%')
+          ],
+          image: require('../assets/img/services/健康照護-長期照顧/welmo-AI照顧計畫撰寫-長照數據智慧分析.jpg')
+        },
+        {
+          company: t('homepage.services.healthcare.cases.4.company', '國際長照交流與合作'),
+          services_item: t('homepage.services.healthcare.cases.4.services_item', '國際長照交流與合作'),
+          title: t('homepage.services.healthcare.cases.4.title', '日本日照中心經營管理與長照思維創新服務'),
+          summary: t('homepage.services.healthcare.cases.4.summary', '推動國際長照交流，引進日本先進照護模式與管理經驗'),
+          description: t('homepage.services.healthcare.cases.4.description', '與日本鈴木龜吉學校合作，辦理日照中心經營管理課程，引進日本長照思維創新服務模式。透過國際交流與實務觀摩，提升台灣長照服務品質與管理水準，建立跨國合作平台。'),
+          features: [
+            t('homepage.services.healthcare.cases.4.features.0', '國際交流合作'),
+            t('homepage.services.healthcare.cases.4.features.1', '先進模式引進'),
+            t('homepage.services.healthcare.cases.4.features.2', '實務觀摩學習')
+          ],
+          results: [
+            t('homepage.services.healthcare.cases.4.results.0', '辦理國際交流活動15場'),
+            t('homepage.services.healthcare.cases.4.results.1', '培訓專業人員300人次'),
+            t('homepage.services.healthcare.cases.4.results.2', '建立跨國合作平台')
+          ],
+          image: require('../assets/img/services/健康照護-長期照顧/鈴木龜吉學校課程-日本日照中心經營管理-長照思維創新服務.jpg')
         }
       ],
       results: [

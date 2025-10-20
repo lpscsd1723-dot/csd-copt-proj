@@ -470,6 +470,40 @@
               "Interaction sessions: 496,000 times",
               "Health indicator improvement rate: 80%"
             ]
+          },
+          {
+            "company": "Nursing Home Evaluation and Guidance",
+            "services_item": "Nursing Home Evaluation and Guidance",
+            "title": "Nursing Home Evaluation System Innovation and Quality Enhancement Plan",
+            "summary": "Promoting nursing home evaluation system innovation to improve care quality and management efficiency",
+            "description": "Assisting the Ministry of Health and Welfare in promoting nursing home evaluation system innovation and reform, simplifying from five dimensions with 128 indicators to four dimensions with 14 indicators, focusing on holistic care, nursing process logic, infection control training, and establishing nursing home care management systems to improve evaluation efficiency.",
+            "features": [
+              "Evaluation System Innovation",
+              "Professional Training Enhancement",
+              "E-Operation Systems"
+            ],
+            "results": [
+              "Evaluated 920 nursing homes",
+              "Simplified evaluation indicators from 128 to 14 items",
+              "System implementation completion rate: 100%"
+            ]
+          },
+          {
+            "company": "International Long-term Care Exchange and Cooperation",
+            "services_item": "International Long-term Care Exchange and Cooperation",
+            "title": "Japanese Day Care Center Management and Long-term Care Innovation Service",
+            "summary": "Promoting international long-term care exchange and introducing advanced Japanese care models and management experience",
+            "description": "Collaborating with Japanese Suzuki Kamekichi School to conduct day care center management courses and introduce Japanese long-term care innovation service models. Through international exchange and practical observation, improving Taiwan's long-term care service quality and management standards, establishing cross-border cooperation platforms.",
+            "features": [
+              "International Exchange Cooperation",
+              "Advanced Model Introduction",
+              "Practical Observation Learning"
+            ],
+            "results": [
+              "Conducted 15 international exchange activities",
+              "Trained 300 professional personnel",
+              "Established cross-border cooperation platform"
+            ]
           }
         ],
         "processes": [
