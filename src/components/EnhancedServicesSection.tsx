@@ -779,23 +779,23 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/農業創新組/農糧類產銷履歷輔導員回訓課程.jpg')
         },
         {
-          company: t('homepage.services.agriculture.cases.3.company', '農業碳權交易'),
-          services_item: t('homepage.services.agriculture.cases.3.services_item', '農業碳權交易'),
-          title: t('homepage.services.agriculture.cases.3.title', '農業碳權交易平台 開創綠色經濟新商機'),
-          summary: t('homepage.services.agriculture.cases.3.summary', '建立農業碳權交易機制，協助農民將碳匯轉化為經濟收益，推動農業永續發展與淨零目標'),
-          description: t('homepage.services.agriculture.cases.3.description', '透過科學方法計算農地碳匯量，建立標準化的碳權認證機制。平台整合農民、企業與政府資源，提供透明的碳權交易服務。農民可透過永續耕作方式增加碳匯，獲得額外收入；企業可購買碳權抵銷碳排放，實現ESG目標。系統運用區塊鏈技術確保交易透明與可追溯性，建立信任機制。'),
+          company: t('homepage.services.agriculture.cases.3.company', '農村社企與地方產業'),
+          services_item: t('homepage.services.agriculture.cases.3.services_item', '農村社企與地方產業'),
+          title: t('homepage.services.agriculture.cases.3.title', '整合地方DNA，跨域永續加值，共創農村新經濟'),
+          summary: t('homepage.services.agriculture.cases.3.summary', '輔導臺灣農村企業與地方產業，推動轉型與加值。'),
+          description: t('homepage.services.agriculture.cases.3.description', '跳脫傳統農業生產，轉而強調「跨域整合」、「永續經營（ESG）」與「品牌價值」。案例包括：臺南分署推動的跨縣市「低碳永續旅遊」；南臺灣的「雙黑金計畫」將可可與咖啡透過設計、品牌故事與碳足跡管理，打入精品市場；以及臺東採用「中心－衛星工廠」模式，整合紅烏龍、米製品等產業，共享行銷資源並拓展國際通路。期望能提升地方產業的競爭力，將農產品轉型為兼具文化、設計與永續理念的商品，並藉此促進青年返鄉、活絡社區經濟循環。'),
           features: [
-            t('homepage.services.agriculture.cases.3.features.0', '碳匯量計算認證'),
-            t('homepage.services.agriculture.cases.3.features.1', '區塊鏈交易平台'),
-            t('homepage.services.agriculture.cases.3.features.2', 'ESG整合服務')
+            t('homepage.services.agriculture.cases.3.features.0', '跨區整合推動低碳旅遊'),
+            t('homepage.services.agriculture.cases.3.features.1', '在地加值打造精品品牌'),
+            t('homepage.services.agriculture.cases.3.features.2', '運用ESG拓展國內外通路')
           ],
           results: [
-            t('homepage.services.agriculture.cases.3.results.0', '農民碳權收入平均增加15%'),
-            t('homepage.services.agriculture.cases.3.results.1', '企業碳抵銷達成率95%'),
-            t('homepage.services.agriculture.cases.3.results.2', '永續耕作面積擴大40%'),
-            t('homepage.services.agriculture.cases.3.results.3', '平台交易額突破2,000萬元')
+            t('homepage.services.agriculture.cases.3.results.0', '串聯逾150家業者，活絡跨區經濟'),
+            t('homepage.services.agriculture.cases.3.results.1', '輔導女性創業，強化青年返鄉能量'),
+            t('homepage.services.agriculture.cases.3.results.2', '拓展國際通路，助業者進軍東南亞'),
+            t('homepage.services.agriculture.cases.3.results.3', '連結企業福委會，開拓高端旅遊市場')
           ],
-          image: require('../assets/img/services/農村社企與區域產業/4.jpg')
+          image: require('../assets/img/services/農業創新組/農村社企與地方產業.webp')
         }
       ],
       results: (() => {
