@@ -603,9 +603,9 @@ const ContactSection: React.FC = () => {
                             </Typography>
                           </Box>
                           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                            <EmailIcon sx={{ mr: 1, fontSize: '1.1rem', color: 'text.secondary' }} />
+                            <PhoneIcon sx={{ mr: 1, fontSize: '1.1rem', color: 'text.secondary' }} />
                             <Typography variant="body1" sx={{ color: 'text.secondary', fontWeight: 600 }}>
-                              info@cws.org.tw
+                              02-6605-7528
                             </Typography>
                           </Box>
                         </Box>
