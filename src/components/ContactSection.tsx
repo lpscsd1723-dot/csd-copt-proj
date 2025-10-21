@@ -405,6 +405,7 @@ const ContactSection: React.FC = () => {
                           height: 'auto',
                           borderRadius: 3,
                           boxShadow: '0 8px 32px rgba(0, 0, 0, 0.15)',
+                          objectPosition: 'center 90%',
                           transition: 'transform 0.3s ease',
                           '&:hover': {
                             transform: 'scale(1.02)',
