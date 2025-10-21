@@ -269,7 +269,7 @@ const ContactSection: React.FC = () => {
                           }}
                         >
                           <CardContent sx={{ p: { xs: 2.5, md: 3 }, display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
-                            {/* 上方內容區域 */}
+                            {/* 聯絡資訊區域 */}
                             <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
                               {/* 服務類別 Chip：左對齊 */}
                               <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start', mb: 1.5 }}>
@@ -314,46 +314,46 @@ const ContactSection: React.FC = () => {
                                   {contactItem.contact}
                                 </Typography>
                               </Box>
-                            </Box>
 
-                            {/* 下方電話區域 */}
-                            <Box sx={{ display: 'flex', alignItems: 'center', pl: 4/8, flexWrap: 'wrap' }}>
-                              <PhoneIcon sx={{ mr: 1, fontSize: '1.2rem', color: 'rgba(255, 255, 255, 0.8)' }} />
-                              {(() => {
-                                const phoneText = String(contactItem.phone || '');
-                                const [phoneBase, phoneExt] = phoneText.split('#');
-                                return (
-                                  <Box sx={{ display: 'inline-flex', alignItems: 'center', flexWrap: 'wrap' }}>
-                                    <Typography
-                                      variant="body1"
-                                      sx={{
-                                        color: 'rgba(255, 255, 255, 0.9)',
-                                        fontWeight: 600,
-                                        fontSize: { xs: '1.05rem', md: '1.15rem' },
-                                      }}
-                                    >
-                                      {phoneBase}
-                                    </Typography>
-                                    {phoneExt && (
+                              {/* 電話區域 */}
+                              <Box sx={{ display: 'flex', alignItems: 'center', pl: 4/8, flexWrap: 'wrap' }}>
+                                <PhoneIcon sx={{ mr: 1, fontSize: '1.2rem', color: 'rgba(255, 255, 255, 0.8)' }} />
+                                {(() => {
+                                  const phoneText = String(contactItem.phone || '');
+                                  const [phoneBase, phoneExt] = phoneText.split('#');
+                                  return (
+                                    <Box sx={{ display: 'inline-flex', alignItems: 'center', flexWrap: 'wrap' }}>
                                       <Typography
                                         variant="body1"
                                         sx={{
                                           color: 'rgba(255, 255, 255, 0.9)',
                                           fontWeight: 600,
                                           fontSize: { xs: '1.05rem', md: '1.15rem' },
-                                          ml: 0.5,
-                                          overflow: 'hidden',
-                                          textOverflow: 'ellipsis',
-                                          whiteSpace: 'nowrap',
-                                          maxWidth: '100%',
                                         }}
                                       >
-                                        #{phoneExt}
+                                        {phoneBase}
                                       </Typography>
-                                    )}
-                                  </Box>
-                                );
-                              })()}
+                                      {phoneExt && (
+                                        <Typography
+                                          variant="body1"
+                                          sx={{
+                                            color: 'rgba(255, 255, 255, 0.9)',
+                                            fontWeight: 600,
+                                            fontSize: { xs: '1.05rem', md: '1.15rem' },
+                                            ml: 0.5,
+                                            overflow: 'hidden',
+                                            textOverflow: 'ellipsis',
+                                            whiteSpace: 'nowrap',
+                                            maxWidth: '100%',
+                                          }}
+                                        >
+                                          #{phoneExt}
+                                        </Typography>
+                                      )}
+                                    </Box>
+                                  );
+                                })()}
+                              </Box>
                             </Box>
                           </CardContent>
                         </Card>
