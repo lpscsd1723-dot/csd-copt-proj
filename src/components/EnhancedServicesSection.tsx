@@ -437,7 +437,8 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
                             objectPosition: caseItem.image.includes('護理之家評鑑制度創新改革') ? 'center 90%' : 
                                            caseItem.image.includes('sports-tech-2024') ? 'center 30%' : 
                                            caseItem.image.includes('國產雜糧') ? 'center 80%' : 
-                                           caseItem.image.includes('農村社企與地方產業') ? 'center 30%' : 'center'
+                                           caseItem.image.includes('農村社企與地方產業') ? 'center 30%' : 
+                                           caseItem.image.includes('原民商品設計') ? 'center 30%' : 'center'
                           }}
                         />
                       )}
