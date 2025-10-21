@@ -801,6 +801,47 @@
             ]
           }
         ],
+        "results": [
+          {
+            "title": "Sustainability Guidance Results",
+            "items": [
+              "Cultivating sustainability management consultant talent",
+              "Establishing sustainability guidance models",
+              "Promoting net-zero policies"
+            ],
+            "statistics": [
+              { "label": "Consultant Talent", "value": "100+", "unit": "people" },
+              { "label": "Guidance Models", "value": "5", "unit": "types" },
+              { "label": "Policy Promotion", "value": "10+", "unit": "items" }
+            ]
+          },
+          {
+            "title": "ESG Transformation Results",
+            "items": [
+              "Assisting enterprises in establishing ESG management systems",
+              "Promoting supply chain sustainability management",
+              "Establishing sustainability reporting mechanisms"
+            ],
+            "statistics": [
+              { "label": "Enterprises Guided", "value": "200+", "unit": "companies" },
+              { "label": "ESG Rating Improvement", "value": "80%", "unit": "enterprises" },
+              { "label": "Sustainability Reports", "value": "150+", "unit": "reports" }
+            ]
+          },
+          {
+            "title": "Net-Zero Policy Results",
+            "items": [
+              "Promoting net-zero carbon emission policies",
+              "Establishing carbon credit trading mechanisms",
+              "Promoting green energy"
+            ],
+            "statistics": [
+              { "label": "Carbon Accounting Completed", "value": "300+", "unit": "companies" },
+              { "label": "Carbon Emission Reduction", "value": "25%", "unit": "average" },
+              { "label": "Green Energy Introduction", "value": "50+", "unit": "MW" }
+            ]
+          }
+        ],
         "processes": [
           {
             "title": "ESG Transformation Guidance Process",

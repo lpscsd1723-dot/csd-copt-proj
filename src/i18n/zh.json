@@ -1233,6 +1233,47 @@
             ]
           }
         ],
+        "results": [
+          {
+            "title": "永續輔導成果",
+            "items": [
+              "培養永續管理顧問人才",
+              "建立永續輔導模式",
+              "推動淨零政策"
+            ],
+            "statistics": [
+              { "label": "顧問人才", "value": "100+", "unit": "人" },
+              { "label": "輔導模式", "value": "5", "unit": "種" },
+              { "label": "政策推動", "value": "10+", "unit": "項" }
+            ]
+          },
+          {
+            "title": "ESG轉型成果",
+            "items": [
+              "協助企業建立ESG管理體系",
+              "推動供應鏈永續管理",
+              "建立永續報告機制"
+            ],
+            "statistics": [
+              { "label": "輔導企業", "value": "200+", "unit": "家" },
+              { "label": "ESG評級提升", "value": "80%", "unit": "企業" },
+              { "label": "永續報告", "value": "150+", "unit": "份" }
+            ]
+          },
+          {
+            "title": "淨零政策成果",
+            "items": [
+              "推動淨零碳排政策",
+              "建立碳權交易機制",
+              "推廣綠色能源"
+            ],
+            "statistics": [
+              { "label": "碳盤查完成", "value": "300+", "unit": "家" },
+              { "label": "碳排減少", "value": "25%", "unit": "平均" },
+              { "label": "綠能導入", "value": "50+", "unit": "MW" }
+            ]
+          }
+        ],
         "processes": [
           {
             "title": "ESG轉型輔導流程",

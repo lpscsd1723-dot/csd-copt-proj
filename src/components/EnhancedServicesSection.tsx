@@ -1375,87 +1375,93 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/前瞻永續/前瞻永續_淨零公正轉型.jpg')
         }
       ],
-      results: [
-        {
-          title: '永續輔導成果',
-          items: [
-            '培養永續管理顧問人才',
-            '建立永續輔導模式',
-            '推動淨零政策'
-          ],
-          statistics: [
-            { label: '顧問人才', value: '100+', unit: '人' },
-            { label: '輔導模式', value: '5', unit: '種' },
-            { label: '政策推動', value: '10+', unit: '項' }
-          ]
-        },
-        {
-          title: 'ESG轉型成果',
-          items: [
-            '協助企業建立ESG管理體系',
-            '推動供應鏈永續管理',
-            '建立永續報告機制'
-          ],
-          statistics: [
-            { label: '輔導企業', value: '200+', unit: '家' },
-            { label: 'ESG評級提升', value: '80%', unit: '企業' },
-            { label: '永續報告', value: '150+', unit: '份' }
-          ]
-        },
-        {
-          title: '淨零政策成果',
-          items: [
-            '推動淨零碳排政策',
-            '建立碳權交易機制',
-            '推廣綠色能源'
-          ],
-          statistics: [
-            { label: '碳盤查完成', value: '300+', unit: '家' },
-            { label: '碳排減少', value: '25%', unit: '平均' },
-            { label: '綠能導入', value: '50+', unit: 'MW' }
-          ]
-        }
-      ],
-      processes: [
-        {
-          title: 'ESG轉型輔導流程',
-          summary: '協助企業進行ESG轉型',
-          process: [
-            'ESG現況評估 → 評估企業ESG現況與挑戰',
-            '轉型策略規劃 → 制定ESG轉型策略與目標',
-            '執行方案設計 → 設計具體執行方案與時程',
-            '成效追蹤檢核 → 持續追蹤轉型成效與調整'
-          ],
-          duration: '6-18個月',
-          requirements: ['企業基本資料', 'ESG現況報告', '轉型目標設定']
-        },
-        {
-          title: '淨零碳排輔導流程',
-          summary: '協助企業建立淨零碳排策略',
-          process: [
-            '碳盤查執行 → 建立企業碳排放基線',
-            '減碳策略規劃 → 制定減碳策略與路徑',
-            '技術導入 → 導入低碳技術與設備',
-            '碳權交易 → 建立碳權交易機制',
-            '成效驗證 → 驗證減碳成效與認證'
-          ],
-          duration: '12-24個月',
-          requirements: ['能源使用資料', '生產流程資料', '減碳目標設定']
-        },
-        {
-          title: '永續管理顧問培訓',
-          summary: '培養永續管理顧問專業人才',
-          process: [
-            '基礎課程 → 永續發展基礎理論',
-            '實務訓練 → 實際案例操作與演練',
-            '專業認證 → 通過專業認證考試',
-            '實習輔導 → 實際輔導企業案例',
-            '持續進修 → 定期更新專業知識'
-          ],
-          duration: '6-12個月',
-          requirements: ['相關學歷背景', '工作經驗證明', '學習動機說明']
-        }
-      ],
+      results: (() => {
+        const resultsData = t('homepage.services.sustainability.results', { returnObjects: true });
+        return Array.isArray(resultsData) ? resultsData : [
+          {
+            title: '永續輔導成果',
+            items: [
+              '培養永續管理顧問人才',
+              '建立永續輔導模式',
+              '推動淨零政策'
+            ],
+            statistics: [
+              { label: '顧問人才', value: '100+', unit: '人' },
+              { label: '輔導模式', value: '5', unit: '種' },
+              { label: '政策推動', value: '10+', unit: '項' }
+            ]
+          },
+          {
+            title: 'ESG轉型成果',
+            items: [
+              '協助企業建立ESG管理體系',
+              '推動供應鏈永續管理',
+              '建立永續報告機制'
+            ],
+            statistics: [
+              { label: '輔導企業', value: '200+', unit: '家' },
+              { label: 'ESG評級提升', value: '80%', unit: '企業' },
+              { label: '永續報告', value: '150+', unit: '份' }
+            ]
+          },
+          {
+            title: '淨零政策成果',
+            items: [
+              '推動淨零碳排政策',
+              '建立碳權交易機制',
+              '推廣綠色能源'
+            ],
+            statistics: [
+              { label: '碳盤查完成', value: '300+', unit: '家' },
+              { label: '碳排減少', value: '25%', unit: '平均' },
+              { label: '綠能導入', value: '50+', unit: 'MW' }
+            ]
+          }
+        ];
+      })(),
+      processes: (() => {
+        const processesData = t('homepage.services.sustainability.processes', { returnObjects: true });
+        return Array.isArray(processesData) ? processesData : [
+          {
+            title: 'ESG轉型輔導流程',
+            summary: '協助企業進行ESG轉型',
+            process: [
+              'ESG現況評估 → 評估企業ESG現況與挑戰',
+              '轉型策略規劃 → 制定ESG轉型策略與目標',
+              '執行方案設計 → 設計具體執行方案與時程',
+              '成效追蹤檢核 → 持續追蹤轉型成效與調整'
+            ],
+            duration: '6-18個月',
+            requirements: ['企業基本資料', 'ESG現況報告', '轉型目標設定']
+          },
+          {
+            title: '淨零碳排輔導流程',
+            summary: '協助企業建立淨零碳排策略',
+            process: [
+              '碳盤查執行 → 建立企業碳排放基線',
+              '減碳策略規劃 → 制定減碳策略與路徑',
+              '技術導入 → 導入低碳技術與設備',
+              '碳權交易 → 建立碳權交易機制',
+              '成效驗證 → 驗證減碳成效與認證'
+            ],
+            duration: '12-24個月',
+            requirements: ['能源使用資料', '生產流程資料', '減碳目標設定']
+          },
+          {
+            title: '永續管理顧問培訓',
+            summary: '培養永續管理顧問專業人才',
+            process: [
+              '基礎課程 → 永續發展基礎理論',
+              '實務訓練 → 實際案例操作與演練',
+              '專業認證 → 通過專業認證考試',
+              '實習輔導 → 實際輔導企業案例',
+              '持續進修 → 定期更新專業知識'
+            ],
+            duration: '6-12個月',
+            requirements: ['相關學歷背景', '工作經驗證明', '學習動機說明']
+          }
+        ];
+      })(),
       content: null, // 前瞻永續內容待開發
     },
   ];
