@@ -435,7 +435,8 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
                           sx={{ 
                             objectFit: 'cover',
                             objectPosition: caseItem.image.includes('護理之家評鑑制度創新改革') ? 'center 90%' : 
-                                           caseItem.image.includes('sports-tech-2024') ? 'center 30%' : 'center'
+                                           caseItem.image.includes('sports-tech-2024') ? 'center 30%' : 
+                                           caseItem.image.includes('國產雜糧') ? 'center 80%' : 'center'
                           }}
                         />
                       )}
@@ -779,7 +780,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.agriculture.cases.1.results.2', '行銷健康，拓展樂齡族群'),
             t('homepage.services.agriculture.cases.1.results.3', '收集回饋，助產業永續'),
           ],
-          image: require('../assets/img/services/農村社企與區域產業/2.jpg')
+          image: require('../assets/img/services/農業創新組/國產雜糧.jpg')
         },
         {
           company: t('homepage.services.agriculture.cases.2.company', '農糧類產銷履歷輔導員'),
