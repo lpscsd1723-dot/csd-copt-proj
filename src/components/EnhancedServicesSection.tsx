@@ -738,7 +738,7 @@ const EnhancedServicesSection: React.FC = () => {
       contact: t('homepage.services.agriculture.contact', '朱經理'),
       phone: t('homepage.services.agriculture.phone', '02-23911368#8842'),
       images: [
-        require('../assets/img/services/農村社企與區域產業/1.jpg'),
+        require('../assets/img/services/農業創新組/科技農企業輔導.jpg'),
         require('../assets/img/services/農村社企與區域產業/2.jpg'),
         require('../assets/img/services/農村社企與區域產業/3.jpg'),
       ],
@@ -760,7 +760,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.agriculture.cases.0.results.2', '標竿企業創新擴散'),
             t('homepage.services.agriculture.cases.0.results.3', '強化營運體質與人才培育'),
           ],
-          image: require('../assets/img/services/農村社企與區域產業/1.jpg')
+          image: require('../assets/img/services/農業創新組/科技農企業輔導.jpg')
         },
         {
           company: t('homepage.services.agriculture.cases.1.company', '國產雜糧'),
