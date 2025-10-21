@@ -270,7 +270,7 @@ const ContactSection: React.FC = () => {
                         >
                           <CardContent sx={{ p: { xs: 2.5, md: 3 }, display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
                             {/* 聯絡資訊區域 */}
-                            <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                            <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', mt: 2 }}>
                               {/* 服務類別 Chip：左對齊 */}
                               <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start', mb: 1.5 }}>
                                 <Chip
