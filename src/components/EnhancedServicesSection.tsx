@@ -1021,8 +1021,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.healthcare.cases.3.results.0', '自108年至114年共評鑑輔導護理之家920家次'),
             t('homepage.services.healthcare.cases.3.results.1', '簡化評鑑基準由五面向128項指標減至四面向14項指標'),
             t('homepage.services.healthcare.cases.3.results.2', '導入護理之家評鑑夜間災害情境緊急應變模擬演練'),
-            t('homepage.services.healthcare.cases.3.results.3', '補助全國增設公共安全設施設備'),
-            t('homepage.services.healthcare.cases.3.results.4', '辦理勞動幸福與環境友善的關鍵研討會')
+            t('homepage.services.healthcare.cases.3.results.3', '補助全國增設公共安全設施設備')
           ],
           image: require('../assets/img/services/健康照護(NANA)/護理之家評鑑制度創新改革.JPG')
         },
