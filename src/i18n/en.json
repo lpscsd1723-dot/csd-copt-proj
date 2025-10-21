@@ -548,6 +548,47 @@
             "duration": "3-6 months",
             "requirements": ["Venue assessment", "Equipment needs", "Personnel training"]
           }
+        ],
+        "results": [
+          {
+            "title": "Basic Network Construction Results",
+            "items": [
+              "Completed national care management center guidance and on-site visits, fully establishing local services",
+              "Professional talent training: Organized 43 care management professional courses and workshops, cumulative training of approximately 2,000 person-times",
+              "Management indicators: Cumulatively developed and promoted 10 care service indicators and 10 care management quality and evaluation indicators"
+            ],
+            "statistics": [
+              { "label": "Care Management Centers", "value": "22", "unit": "Counties/Cities" },
+              { "label": "Training Sessions", "value": "2,000+", "unit": "Person-times" },
+              { "label": "Management Indicators", "value": "20", "unit": "Items" }
+            ]
+          },
+          {
+            "title": "Technology Application and Service Quantification Results",
+            "items": [
+              "Technology introduction: Extensive use of wearable devices, AI skeleton and gait analysis, and Line data platform technologies",
+              "Focus on three major health themes: body composition management, healthy physical fitness promotion, and elderly health promotion",
+              "Expanded service capacity: Cumulatively promoted 14 counties/cities with 50 diverse venues introducing innovative sports technology equipment"
+            ],
+            "statistics": [
+              { "label": "Service Counties/Cities", "value": "14", "unit": "Counties/Cities" },
+              { "label": "Service Venues", "value": "50", "unit": "Locations" },
+              { "label": "Service Population", "value": "13,000", "unit": "People" }
+            ]
+          },
+          {
+            "title": "Nursing Home Evaluation Results",
+            "items": [
+              "Evaluation system innovation: Simplified from five dimensions with 128 indicators to four dimensions with 14 indicators",
+              "Professional advancement: Emphasis on holistic care, nursing process logic, infection control training",
+              "Operation digitalization: Established nursing home care management system, improving evaluation efficiency"
+            ],
+            "statistics": [
+              { "label": "Evaluated Institutions", "value": "920", "unit": "Instances" },
+              { "label": "Evaluation Indicators", "value": "14", "unit": "Items" },
+              { "label": "System Implementation", "value": "100%", "unit": "Completion Rate" }
+            ]
+          }
         ]
       },
       "indigenous": {
