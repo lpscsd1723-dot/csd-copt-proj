@@ -439,7 +439,8 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
                                            caseItem.image.includes('國產雜糧') ? 'center 80%' : 
                                            caseItem.image.includes('農村社企與地方產業') ? 'center 30%' : 
                                            caseItem.image.includes('原民商品設計') ? 'center 30%' : 
-                                           caseItem.image.includes('農業淨零國際交流') ? 'center 90%' : 'center'
+                                           caseItem.image.includes('農業淨零國際交流') ? 'center 90%' : 
+                                           caseItem.image.includes('淨零公正轉型') ? 'center 90%' : 'center'
                           }}
                         />
                       )}
