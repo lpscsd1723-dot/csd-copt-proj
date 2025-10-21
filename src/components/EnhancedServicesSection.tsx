@@ -988,7 +988,7 @@ const EnhancedServicesSection: React.FC = () => {
             t('homepage.services.healthcare.cases.1.results.0', '完成總計 4,300 件長照機構查核'),
             t('homepage.services.healthcare.cases.1.results.1', '實施電話訪談滿意度調查共3,100份')
           ],
-          image: require('../assets/img/services/健康照護-長期照顧/nursing-training.JPG')
+          image: require('../assets/img/services/健康照護-長期照顧/106-107全國性長照業務聯繫會議暨表揚大會.jpg')
         },
         {
           company: t('homepage.services.healthcare.cases.2.company', '運動科技應用'),
