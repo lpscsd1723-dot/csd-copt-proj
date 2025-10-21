@@ -1218,93 +1218,99 @@ const EnhancedServicesSection: React.FC = () => {
           image: require('../assets/img/services/原民通路與產業/原民商品設計.jpg')
         }
       ],
-      results: [
-        {
-          title: '通路建構成果',
-          items: [
-            '建立全國最大原民通路',
-            '推動原民企業SDGs',
-            '強化永續經營能量'
-          ],
-          statistics: [
-            { label: '合作業者', value: '200+', unit: '家' },
-            { label: '商品種類', value: '1,000+', unit: '種' },
-            { label: '營業額成長', value: '30%', unit: '年成長率' }
-          ]
-        },
-        {
-          title: '部落產業輔導成果',
-          items: [
-            '協助部落建立合作社組織',
-            '推動文化產業化發展',
-            '建立永續經營模式'
-          ],
-          statistics: [
-            { label: '輔導合作社', value: '15', unit: '家' },
-            { label: '就業機會', value: '200+', unit: '個' },
-            { label: '文化傳承率', value: '50%', unit: '提升' }
-          ]
-        },
-        {
-          title: '文創商品開發成果',
-          items: [
-            '結合傳統文化與現代設計',
-            '提升原民業者設計能力',
-            '拓展商品市場通路'
-          ],
-          statistics: [
-            { label: '商品設計', value: '100+', unit: '件' },
-            { label: '設計師培訓', value: '50', unit: '人' },
-            { label: '銷售成長', value: '40%', unit: '年成長率' }
-          ]
-        }
-      ],
-      processes: [
-        {
-          title: '審查流程',
-          summary: '開放報名，一律採紙本郵寄報名作業',
-          process: [
-            '尚未合作者：須填寫申請表、提交繳交資料進行初審資格',
-            '已合作業者：須補件填寫合作同意書後續進行審核'
-          ],
-          duration: '1-2週',
-          requirements: ['申請表', '基本資料', '商品樣品']
-        },
-        {
-          title: '資格審查',
-          summary: '收到報名資料後，由工作小組進行資格審查',
-          process: [
-            '收到報名資料後，由工作小組進行資格審查，符合資格者通過初審',
-            '文件不齊者，應於工作小組通知後7日內補件，惟補件資料以一次為限'
-          ],
-          duration: '1週',
-          requirements: ['完整申請資料', '商品品質證明', '原民身份證明']
-        },
-        {
-          title: '商品審查',
-          summary: '通過資格查核後，進行商品審查與評估',
-          process: [
-            '商品品質檢核 → 檢查商品品質與安全性',
-            '文化特色評估 → 評估商品的文化價值',
-            '市場競爭力分析 → 分析商品市場潛力',
-            '審查結果通知 → 通知審查結果與後續作業'
-          ],
-          duration: '2-3週',
-          requirements: ['商品樣品', '品質證明', '文化說明']
-        },
-        {
-          title: '進駐合作',
-          summary: '簽訂合作同意書，完成商品上架',
-          process: [
-            '簽訂進駐合作同意書 → 確認合作條件與權利義務',
-            '商品上架作業 → 完成商品資料建檔與上架',
-            '系統功能設定 → 設定商品管理與銷售功能',
-            '後續營運支援 → 提供營運指導與技術支援'
-          ],
-          duration: '1-2週',
-          requirements: ['合作同意書', '商品資料', '營運計畫']
-        }
-      ],
+      results: (() => {
+        const resultsData = t('homepage.services.indigenous.results', { returnObjects: true });
+        return Array.isArray(resultsData) ? resultsData : [
+          {
+            title: '通路建構成果',
+            items: [
+              '建立全國最大原民通路',
+              '推動原民企業SDGs',
+              '強化永續經營能量'
+            ],
+            statistics: [
+              { label: '合作業者', value: '200+', unit: '家' },
+              { label: '商品種類', value: '1,000+', unit: '種' },
+              { label: '營業額成長', value: '30%', unit: '年成長率' }
+            ]
+          },
+          {
+            title: '部落產業輔導成果',
+            items: [
+              '協助部落建立合作社組織',
+              '推動文化產業化發展',
+              '建立永續經營模式'
+            ],
+            statistics: [
+              { label: '輔導合作社', value: '15', unit: '家' },
+              { label: '就業機會', value: '200+', unit: '個' },
+              { label: '文化傳承率', value: '50%', unit: '提升' }
+            ]
+          },
+          {
+            title: '文創商品開發成果',
+            items: [
+              '結合傳統文化與現代設計',
+              '提升原民業者設計能力',
+              '拓展商品市場通路'
+            ],
+            statistics: [
+              { label: '商品設計', value: '100+', unit: '件' },
+              { label: '設計師培訓', value: '50', unit: '人' },
+              { label: '銷售成長', value: '40%', unit: '年成長率' }
+            ]
+          }
+        ];
+      })(),
+      processes: (() => {
+        const processesData = t('homepage.services.indigenous.processes', { returnObjects: true });
+        return Array.isArray(processesData) ? processesData : [
+          {
+            title: '審查流程',
+            summary: '開放報名，一律採紙本郵寄報名作業',
+            process: [
+              '尚未合作者：須填寫申請表、提交繳交資料進行初審資格',
+              '已合作業者：須補件填寫合作同意書後續進行審核'
+            ],
+            duration: '1-2週',
+            requirements: ['申請表', '基本資料', '商品樣品']
+          },
+          {
+            title: '資格審查',
+            summary: '收到報名資料後，由工作小組進行資格審查',
+            process: [
+              '收到報名資料後，由工作小組進行資格審查，符合資格者通過初審',
+              '文件不齊者，應於工作小組通知後7日內補件，惟補件資料以一次為限'
+            ],
+            duration: '1週',
+            requirements: ['完整申請資料', '商品品質證明', '原民身份證明']
+          },
+          {
+            title: '商品審查',
+            summary: '通過資格查核後，進行商品審查與評估',
+            process: [
+              '商品品質檢核 → 檢查商品品質與安全性',
+              '文化特色評估 → 評估商品的文化價值',
+              '市場競爭力分析 → 分析商品市場潛力',
+              '審查結果通知 → 通知審查結果與後續作業'
+            ],
+            duration: '2-3週',
+            requirements: ['商品樣品', '品質證明', '文化說明']
+          },
+          {
+            title: '進駐合作',
+            summary: '簽訂合作同意書，完成商品上架',
+            process: [
+              '簽訂進駐合作同意書 → 確認合作條件與權利義務',
+              '商品上架作業 → 完成商品資料建檔與上架',
+              '系統功能設定 → 設定商品管理與銷售功能',
+              '後續營運支援 → 提供營運指導與技術支援'
+            ],
+            duration: '1-2週',
+            requirements: ['合作同意書', '商品資料', '營運計畫']
+          }
+        ];
+      })(),
       content: null,
     },
     {
