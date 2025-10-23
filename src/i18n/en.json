@@ -752,6 +752,7 @@
         "title": "Forward-Looking Sustainability",
         "summary": "Responding to global climate change and international net-zero trends, assisting government in promoting sustainability policies",
         "features": [
+          "Agricultural Sustainability",
           "Agricultural Net-Zero International Exchange",
           "Net-Zero Just Transition"
         ],
@@ -763,6 +764,23 @@
         "contact": "Manager Chen",
         "phone": "02-23911368#1189",
         "cases": [
+          {
+            "company": "Agricultural Sustainability",
+            "services_item": "Agricultural Sustainability",
+            "title": "Promoting Agricultural Carbon Management and Popularizing Knowledge and Professional Training for Sustainable Development",
+            "summary": "Empowering agriculture with digital tools to build carbon footprint management infrastructure",
+            "description": "Connecting green supply chains, assisting the Ministry of Agriculture in integrating carbon footprint accounting functions into the 'Agricultural Affairs e-Grasp System', reducing the threshold for farmers' carbon footprint accounting data collection, improving collection efficiency, and increasing the reliability of data verification. Simultaneously guiding multiple farmers and agricultural enterprises to successfully pass third-party verification for carbon footprints of strawberries, edamame kernels, green tea, and oolong tea, and providing verified data as a foundation for building Taiwan's domestic agricultural product coefficient database. To assist Taiwan's agricultural industry in moving toward sustainable development, partnering with National Taiwan University and domestic agricultural research institutions, organizing over 15 lectures, cultivating over 500 sustainable agriculture talents, and strengthening resource sharing and innovative cooperation among domestic industries.",
+            "features": [
+              "Digital transformation to enhance carbon footprint management",
+              "Assisting agricultural data collection threshold reduction",
+              "Promoting verification to strengthen data reliability",
+              "Cultivating sustainable agriculture professional talent"
+            ],
+            "results": [
+              "Organized training courses including CBAM, ISO14064-1, ISO14067 (Product Carbon Footprint Accounting)",
+              "Awarded the 2025 'Taiwan Agricultural Sustainability Partnership Award'"
+            ]
+          },
           {
             "company": "Agricultural Net-Zero International Exchange",
             "services_item": "Agricultural Net-Zero International Exchange",

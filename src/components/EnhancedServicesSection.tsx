@@ -447,6 +447,7 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
                                            caseItem.image.includes('國產雜糧') ? 'center 80%' : 
                                            caseItem.image.includes('農村社企與地方產業') ? 'center 30%' : 
                                            caseItem.image.includes('原民商品設計') ? 'center 30%' : 
+                                           caseItem.image.includes('農業永續') ? 'center 90%' : 
                                            caseItem.image.includes('農業淨零國際交流') ? 'center 90%' : 
                                            caseItem.image.includes('淨零公正轉型') ? 'center 90%' : 'center'
                           }}
@@ -1360,40 +1361,58 @@ const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({
       ],
       cases: [
         {
-          company: t('homepage.services.sustainability.cases.0.company', '農業淨零國際交流'),
-          services_item: t('homepage.services.sustainability.cases.0.services_item', '農業淨零國際交流'),
-          title: t('homepage.services.sustainability.cases.0.title', '提供我國農業場域淨零碳排政策規劃參考'),
-          summary: t('homepage.services.sustainability.cases.0.summary', '因應國際2050淨零碳排趨勢，農業產業鏈的各級廠商逐步進行減碳、節能、再利用以及使用潔淨能源等方式，以增加產品之市場競爭優勢。'),
-          description: t('homepage.services.sustainability.cases.0.description', '為借鏡日本於實務推動之案例與思考邏輯，加速我國農企業建立低碳清潔能源供應鏈與生態系。辦理「供應鏈減碳」及「地方潔淨能源發展」2主題日本參訪研習團，供我國農企業與公部門人員，瞭解日本農政組織機構、農業清潔能源政策發展與示範場域、農業供應鏈淨零等實際規劃與執行經驗，以作為我國農業場域淨零碳排政策規劃與推動之參考。'),
+          company: t('homepage.services.sustainability.cases.0.company', '農業永續'),
+          services_item: t('homepage.services.sustainability.cases.0.services_item', '農業永續'),
+          title: t('homepage.services.sustainability.cases.0.title', '推動農業碳管理與永續發展相關知識的普及與專業培訓'),
+          summary: t('homepage.services.sustainability.cases.0.summary', '以數位工具賦能農業，打造碳足跡管理基礎建設'),
+          description: t('homepage.services.sustainability.cases.0.description', '串聯綠色供應鏈，協助農業部將碳足跡盤查功能導入「農務e把抓系統」，降低農民碳足跡盤查資料收集門檻，提升蒐集效率，並增加資料數據的查證可靠性；同時輔導多位農民與農企業順利通過草莓、毛豆仁、綠茶及烏龍茶等碳足跡第三方查證，並將相關查證後數據提供做為台灣自建本土農產品係數資料庫之基礎。為協助台灣農產業邁向永續發展，攜手台灣大學與國內農業科研機構，辦理超過15場講座，培育超過500人次永續農業人才，強化國內產業間的資源共享與創新合作。'),
           features: [
-            t('homepage.services.sustainability.cases.0.features.0', 'ESG轉型輔導'),
-            t('homepage.services.sustainability.cases.0.features.1', '淨零碳排策略'),
-            t('homepage.services.sustainability.cases.0.features.2', '永續管理顧問'),
-            t('homepage.services.sustainability.cases.0.features.3', '氣候變遷因應')
+            t('homepage.services.sustainability.cases.0.features.0', '數位轉型提升碳足跡管理'),
+            t('homepage.services.sustainability.cases.0.features.1', '協助農業資料蒐集門檻'),
+            t('homepage.services.sustainability.cases.0.features.2', '推動查證強化數據可靠性'),
+            t('homepage.services.sustainability.cases.0.features.3', '培育永續農業專業人才')
           ],
           results: [
-            t('homepage.services.sustainability.cases.0.results.0', '辦理農業淨零日本參訪團2場'),
+            t('homepage.services.sustainability.cases.0.results.0', '辦理CBAM、ISO14064-1、ISO14067（產品碳足跡盤查）等培訓課程'),
             t('homepage.services.sustainability.cases.0.results.1', '榮獲2025年「台灣農業永續合作夥伴獎」')
+          ],
+          image: require('../assets/img/services/前瞻永續/農業永續.jpg')
+        },
+        {
+          company: t('homepage.services.sustainability.cases.1.company', '農業淨零國際交流'),
+          services_item: t('homepage.services.sustainability.cases.1.services_item', '農業淨零國際交流'),
+          title: t('homepage.services.sustainability.cases.1.title', '提供我國農業場域淨零碳排政策規劃參考'),
+          summary: t('homepage.services.sustainability.cases.1.summary', '因應國際2050淨零碳排趨勢，農業產業鏈的各級廠商逐步進行減碳、節能、再利用以及使用潔淨能源等方式，以增加產品之市場競爭優勢。'),
+          description: t('homepage.services.sustainability.cases.1.description', '為借鏡日本於實務推動之案例與思考邏輯，加速我國農企業建立低碳清潔能源供應鏈與生態系。辦理「供應鏈減碳」及「地方潔淨能源發展」2主題日本參訪研習團，供我國農企業與公部門人員，瞭解日本農政組織機構、農業清潔能源政策發展與示範場域、農業供應鏈淨零等實際規劃與執行經驗，以作為我國農業場域淨零碳排政策規劃與推動之參考。'),
+          features: [
+            t('homepage.services.sustainability.cases.1.features.0', 'ESG轉型輔導'),
+            t('homepage.services.sustainability.cases.1.features.1', '淨零碳排策略'),
+            t('homepage.services.sustainability.cases.1.features.2', '永續管理顧問'),
+            t('homepage.services.sustainability.cases.1.features.3', '氣候變遷因應')
+          ],
+          results: [
+            t('homepage.services.sustainability.cases.1.results.0', '辦理農業淨零日本參訪團2場'),
+            t('homepage.services.sustainability.cases.1.results.1', '榮獲2025年「台灣農業永續合作夥伴獎」')
           ],
           image: require('../assets/img/services/前瞻永續/前瞻永續_農業淨零國際交流.jpg')
         },
         {
-          company: t('homepage.services.sustainability.cases.1.company', '淨零公正轉型'),
-          services_item: t('homepage.services.sustainability.cases.1.services_item', '淨零公正轉型'),
-          title: t('homepage.services.sustainability.cases.1.title', '確保企業在淨零轉型過程中實現社會公平與勞工權益之保障'),
-          summary: t('homepage.services.sustainability.cases.1.summary', '因應我國2022年公布臺灣2050淨零排放路徑及策略，針對台灣淨零排放的政策目標，制定出12項關鍵戰略，逐步實現2050淨零排放之永續社會。'),
-          description: t('homepage.services.sustainability.cases.1.description', '推動淨零公正轉型過程中涉及的各產業利害關係人經過充分的溝通後，能因此更了解勞資雙方的需求與挑戰，提出更適合產業現況的建議，作為後續政府在制定相關政策的重要參考。協同NGO組織透過經驗交流，建立以人為本的淨零轉型社會共識、搭建跨領域對話平台，確保產業在轉型過程中實現社會公平與勞工權益的保障。'),
+          company: t('homepage.services.sustainability.cases.2.company', '淨零公正轉型'),
+          services_item: t('homepage.services.sustainability.cases.2.services_item', '淨零公正轉型'),
+          title: t('homepage.services.sustainability.cases.2.title', '確保企業在淨零轉型過程中實現社會公平與勞工權益之保障'),
+          summary: t('homepage.services.sustainability.cases.2.summary', '因應我國2022年公布臺灣2050淨零排放路徑及策略，針對台灣淨零排放的政策目標，制定出12項關鍵戰略，逐步實現2050淨零排放之永續社會。'),
+          description: t('homepage.services.sustainability.cases.2.description', '推動淨零公正轉型過程中涉及的各產業利害關係人經過充分的溝通後，能因此更了解勞資雙方的需求與挑戰，提出更適合產業現況的建議，作為後續政府在制定相關政策的重要參考。協同NGO組織透過經驗交流，建立以人為本的淨零轉型社會共識、搭建跨領域對話平台，確保產業在轉型過程中實現社會公平與勞工權益的保障。'),
           features: [
-            t('homepage.services.sustainability.cases.1.features.0', '智慧管理系統'),
-            t('homepage.services.sustainability.cases.1.features.1', '低碳交通方案'),
-            t('homepage.services.sustainability.cases.1.features.2', '綠色能源導入'),
-            t('homepage.services.sustainability.cases.1.features.3', '數位行銷推廣')
+            t('homepage.services.sustainability.cases.2.features.0', '智慧管理系統'),
+            t('homepage.services.sustainability.cases.2.features.1', '低碳交通方案'),
+            t('homepage.services.sustainability.cases.2.features.2', '綠色能源導入'),
+            t('homepage.services.sustainability.cases.2.features.3', '數位行銷推廣')
           ],
           results: [
-            t('homepage.services.sustainability.cases.1.results.0', '辦理產業關鍵座談及培力活動'),
-            t('homepage.services.sustainability.cases.1.results.1', '完成勞動議題框架性檢核研究調查'),
-            t('homepage.services.sustainability.cases.1.results.2', '辦理學術交流會與公正轉型博覽會成果'),
-            t('homepage.services.sustainability.cases.1.results.3', '辦理勞動幸福與環境友善的關鍵研討會')
+            t('homepage.services.sustainability.cases.2.results.0', '辦理產業關鍵座談及培力活動'),
+            t('homepage.services.sustainability.cases.2.results.1', '完成勞動議題框架性檢核研究調查'),
+            t('homepage.services.sustainability.cases.2.results.2', '辦理學術交流會與公正轉型博覽會成果'),
+            t('homepage.services.sustainability.cases.2.results.3', '辦理勞動幸福與環境友善的關鍵研討會')
           ],
           image: require('../assets/img/services/前瞻永續/前瞻永續_淨零公正轉型.jpg')
         }
