@@ -56,6 +56,7 @@ interface ServiceDetailDialogProps {
   open: boolean;
   onClose: () => void;
   service: any;
+  initialTabIndex?: number;
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
@@ -323,11 +324,18 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 };
 
 // 服務詳情對話框組件
-const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose, service }) => {
-  const [activeTab, setActiveTab] = useState(0);
+const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose, service, initialTabIndex = 0 }) => {
+  const [activeTab, setActiveTab] = useState(initialTabIndex);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const { t } = useTranslation();
+
+  // 當 initialTabIndex 變化時更新 activeTab
+  useEffect(() => {
+    if (open) {
+      setActiveTab(initialTabIndex);
+    }
+  }, [initialTabIndex, open]);
 
   const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
     setActiveTab(newValue);
@@ -703,16 +711,19 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
 
 interface EnhancedServicesSectionProps {
   openServiceId?: string | null;
+  openServiceTabIndex?: number;
   onServiceClose?: () => void;
 }
 
 const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({ 
-  openServiceId, 
+  openServiceId,
+  openServiceTabIndex,
   onServiceClose 
 }) => {
   const [activeService, setActiveService] = useState(0);
   const [selectedService, setSelectedService] = useState<any>(null);
   const [dialogOpen, setDialogOpen] = useState(false);
+  const [initialTabIndex, setInitialTabIndex] = useState<number>(0);
   const { t, i18n } = useTranslation();
 
   // 監聽語言變化，強制重新渲染
@@ -1488,10 +1499,11 @@ const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({
       if (serviceIndex !== -1) {
         setActiveService(serviceIndex);
         setSelectedService(serviceData[serviceIndex]);
+        setInitialTabIndex(openServiceTabIndex ?? 0);
         setDialogOpen(true);
       }
     }
-  }, [openServiceId, serviceData]);
+  }, [openServiceId, openServiceTabIndex, serviceData]);
 
   const handleServiceClick = (index: number) => {
     setActiveService(index);
@@ -1652,6 +1664,7 @@ const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({
         open={dialogOpen}
         onClose={handleDialogClose}
         service={selectedService}
+        initialTabIndex={initialTabIndex}
       />
     </Box>
   );

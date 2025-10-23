@@ -269,6 +269,412 @@
       }
     },
     {
+      "id": "service-agriculture-tech",
+      "name": {
+        "zh": "科技農企業輔導",
+        "en": "Tech Agribusiness Consulting",
+        "ja": "科学技術農業企業指導"
+      },
+      "href": "#services",
+      "serviceId": "agriculture",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["科技農企業輔導", "科技農企業", "農企業輔導"],
+          "fuzzy": ["科技", "農企業", "輔導", "數位轉型", "AI"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["tech agribusiness consulting", "agribusiness consulting"],
+          "fuzzy": ["tech", "agribusiness", "consulting", "digital", "transformation"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["科学技術農業企業指導", "農業企業指導"],
+          "fuzzy": ["科学技術", "農業企業", "指導"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-agriculture-grain",
+      "name": {
+        "zh": "國產雜糧",
+        "en": "Domestic Grains",
+        "ja": "国産雑穀"
+      },
+      "href": "#services",
+      "serviceId": "agriculture",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["國產雜糧", "雜糧"],
+          "fuzzy": ["國產", "雜糧", "穀物", "行銷"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["domestic grains", "grains"],
+          "fuzzy": ["domestic", "grains", "cereals", "marketing"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["国産雑穀", "雑穀"],
+          "fuzzy": ["国産", "雑穀", "穀物"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-agriculture-trace",
+      "name": {
+        "zh": "農糧類產銷履歷輔導員",
+        "en": "Agricultural Traceability Counselor",
+        "ja": "農産物トレーサビリティ指導員"
+      },
+      "href": "#services",
+      "serviceId": "agriculture",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["農糧類產銷履歷輔導員", "產銷履歷輔導員", "產銷履歷"],
+          "fuzzy": ["農糧", "產銷", "履歷", "輔導員", "追溯"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["agricultural traceability counselor", "traceability counselor"],
+          "fuzzy": ["agricultural", "traceability", "counselor", "supply", "chain"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["農産物トレーサビリティ指導員", "トレーサビリティ指導員"],
+          "fuzzy": ["農産物", "トレーサビリティ", "指導員"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-agriculture-rural",
+      "name": {
+        "zh": "農村社企與地方產業",
+        "en": "Rural Social Enterprise",
+        "ja": "農村社会的企業"
+      },
+      "href": "#services",
+      "serviceId": "agriculture",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["農村社企與地方產業", "農村社企", "地方產業"],
+          "fuzzy": ["農村", "社企", "地方", "產業", "社會企業"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["rural social enterprise", "local industry"],
+          "fuzzy": ["rural", "social", "enterprise", "local", "industry"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["農村社会的企業", "地方産業"],
+          "fuzzy": ["農村", "社会的企業", "地方", "産業"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-healthcare-operations",
+      "name": {
+        "zh": "產業營運模式輔導",
+        "en": "Industry Operations Consulting",
+        "ja": "産業運営モデル指導"
+      },
+      "href": "#services",
+      "serviceId": "healthcare",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["產業營運模式輔導", "營運模式輔導"],
+          "fuzzy": ["產業", "營運", "模式", "輔導"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["industry operations consulting", "operations consulting"],
+          "fuzzy": ["industry", "operations", "consulting", "business", "model"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["産業運営モデル指導", "運営モデル指導"],
+          "fuzzy": ["産業", "運営", "モデル", "指導"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-healthcare-quality",
+      "name": {
+        "zh": "地方政府長照品質監測與輔導",
+        "en": "Long-term Care Quality Monitoring",
+        "ja": "長期介護品質監視指導"
+      },
+      "href": "#services",
+      "serviceId": "healthcare",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["地方政府長照品質監測與輔導", "長照品質監測", "長照輔導"],
+          "fuzzy": ["地方政府", "長照", "品質", "監測", "輔導"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["long-term care quality monitoring", "care quality monitoring"],
+          "fuzzy": ["long-term", "care", "quality", "monitoring", "local", "government"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["長期介護品質監視指導", "介護品質監視"],
+          "fuzzy": ["長期", "介護", "品質", "監視", "指導"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-healthcare-sports",
+      "name": {
+        "zh": "運動科技應用",
+        "en": "Sports Technology Application",
+        "ja": "スポーツ技術応用"
+      },
+      "href": "#services",
+      "serviceId": "healthcare",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["運動科技應用", "運動科技"],
+          "fuzzy": ["運動", "科技", "應用", "健康", "智慧"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["sports technology application", "sports tech"],
+          "fuzzy": ["sports", "technology", "application", "health", "fitness"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["スポーツ技術応用", "スポーツ技術"],
+          "fuzzy": ["スポーツ", "技術", "応用", "健康"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-healthcare-nursing",
+      "name": {
+        "zh": "護理之家評鑑制度創新變革",
+        "en": "Nursing Home Accreditation Reform",
+        "ja": "介護施設評価制度改革"
+      },
+      "href": "#services",
+      "serviceId": "healthcare",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["護理之家評鑑制度創新變革", "護理之家評鑑", "護理之家"],
+          "fuzzy": ["護理", "評鑑", "制度", "創新", "變革"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["nursing home accreditation reform", "nursing home accreditation"],
+          "fuzzy": ["nursing", "home", "accreditation", "reform", "innovation"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["介護施設評価制度改革", "介護施設評価"],
+          "fuzzy": ["介護", "施設", "評価", "制度", "改革"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-healthcare-international",
+      "name": {
+        "zh": "國際長照合作與交流",
+        "en": "International Long-term Care Cooperation",
+        "ja": "国際長期介護協力交流"
+      },
+      "href": "#services",
+      "serviceId": "healthcare",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["國際長照合作與交流", "國際長照合作", "國際長照"],
+          "fuzzy": ["國際", "長照", "合作", "交流", "日本"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["international long-term care cooperation", "international care cooperation"],
+          "fuzzy": ["international", "long-term", "care", "cooperation", "exchange"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["国際長期介護協力交流", "国際介護協力"],
+          "fuzzy": ["国際", "長期", "介護", "協力", "交流"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-indigenous-lima",
+      "name": {
+        "zh": "LiMA原民通路",
+        "en": "LiMA Indigenous Channel",
+        "ja": "LiMA先住民流通"
+      },
+      "href": "#services",
+      "serviceId": "indigenous",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["LiMA原民通路", "LiMA", "原民通路"],
+          "fuzzy": ["LiMA", "原民", "通路", "平台", "銷售"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["LiMA indigenous channel", "LiMA channel"],
+          "fuzzy": ["LiMA", "indigenous", "channel", "platform", "sales"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["LiMA先住民流通", "LiMA"],
+          "fuzzy": ["LiMA", "先住民", "流通", "プラットフォーム"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-indigenous-upgrade",
+      "name": {
+        "zh": "部落產業升級",
+        "en": "Tribal Industry Upgrade",
+        "ja": "部落産業向上"
+      },
+      "href": "#services",
+      "serviceId": "indigenous",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["部落產業升級", "部落升級"],
+          "fuzzy": ["部落", "產業", "升級", "發展"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["tribal industry upgrade", "tribal upgrade"],
+          "fuzzy": ["tribal", "industry", "upgrade", "development"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["部落産業向上", "部落向上"],
+          "fuzzy": ["部落", "産業", "向上", "発展"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-indigenous-coop",
+      "name": {
+        "zh": "原住民族合作社",
+        "en": "Indigenous Cooperative",
+        "ja": "先住民協同組合"
+      },
+      "href": "#services",
+      "serviceId": "indigenous",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["原住民族合作社", "原民合作社"],
+          "fuzzy": ["原住民", "合作社", "部落", "組織"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["indigenous cooperative", "tribal cooperative"],
+          "fuzzy": ["indigenous", "cooperative", "tribal", "organization"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["先住民協同組合", "協同組合"],
+          "fuzzy": ["先住民", "協同組合", "部落", "組織"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-sustainability-agri",
+      "name": {
+        "zh": "農業淨零國際交流",
+        "en": "Agricultural Net Zero Exchange",
+        "ja": "農業ネットゼロ国際交流"
+      },
+      "href": "#services",
+      "serviceId": "sustainability",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["農業淨零國際交流", "農業淨零"],
+          "fuzzy": ["農業", "淨零", "國際", "交流", "碳排"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["agricultural net zero exchange", "agricultural net zero"],
+          "fuzzy": ["agricultural", "net", "zero", "international", "exchange"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["農業ネットゼロ国際交流", "農業ネットゼロ"],
+          "fuzzy": ["農業", "ネットゼロ", "国際", "交流"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-sustainability-transition",
+      "name": {
+        "zh": "淨零公正轉型",
+        "en": "Just Transition to Net Zero",
+        "ja": "公正な移行ネットゼロ"
+      },
+      "href": "#services",
+      "serviceId": "sustainability",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["淨零公正轉型", "公正轉型"],
+          "fuzzy": ["淨零", "公正", "轉型", "勞工", "社會"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["just transition to net zero", "just transition"],
+          "fuzzy": ["just", "transition", "net", "zero", "labor", "social"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["公正な移行ネットゼロ", "公正な移行"],
+          "fuzzy": ["公正", "移行", "ネットゼロ", "労働", "社会"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
       "id": "contact",
       "name": {
         "zh": "聯絡我們",

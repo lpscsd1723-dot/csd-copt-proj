@@ -45,9 +45,10 @@ const theme = createTheme({
 
 function App() {
   const [openServiceId, setOpenServiceId] = useState<string | null>(null);
+  const [openServiceTabIndex, setOpenServiceTabIndex] = useState<number | undefined>(undefined);
 
   // 處理語音導航
-  const handleVoiceNavigation = useCallback((href: string, serviceId?: string) => {
+  const handleVoiceNavigation = useCallback((href: string, serviceId?: string, tabIndex?: number) => {
     const element = document.querySelector(href) as HTMLElement;
     if (element) {
       const navElement = document.querySelector('.MuiAppBar-root') as HTMLElement;
@@ -80,6 +81,7 @@ function App() {
       if (serviceId) {
         setTimeout(() => {
           setOpenServiceId(serviceId);
+          setOpenServiceTabIndex(tabIndex);
         }, 800); // 等待滾動完成後再打開
       }
     }
@@ -95,7 +97,11 @@ function App() {
         <DepartmentIntro />
         <EnhancedServicesSection 
           openServiceId={openServiceId}
-          onServiceClose={() => setOpenServiceId(null)}
+          openServiceTabIndex={openServiceTabIndex}
+          onServiceClose={() => {
+            setOpenServiceId(null);
+            setOpenServiceTabIndex(undefined);
+          }}
         />
         {/* <InsightsSection /> */}
         <ContactSection />
