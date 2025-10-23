@@ -701,7 +701,15 @@ const ServiceDetailDialog: React.FC<ServiceDetailDialogProps> = ({ open, onClose
   );
 };
 
-const EnhancedServicesSection: React.FC = () => {
+interface EnhancedServicesSectionProps {
+  openServiceId?: string | null;
+  onServiceClose?: () => void;
+}
+
+const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({ 
+  openServiceId, 
+  onServiceClose 
+}) => {
   const [activeService, setActiveService] = useState(0);
   const [selectedService, setSelectedService] = useState<any>(null);
   const [dialogOpen, setDialogOpen] = useState(false);
@@ -1473,10 +1481,29 @@ const EnhancedServicesSection: React.FC = () => {
   // 直接顯示所有服務，不分頁
   const currentServices = serviceData;
 
+  // 監聽外部傳入的 openServiceId，自動打開對應的服務
+  useEffect(() => {
+    if (openServiceId) {
+      const serviceIndex = serviceData.findIndex(service => service.id === openServiceId);
+      if (serviceIndex !== -1) {
+        setActiveService(serviceIndex);
+        setSelectedService(serviceData[serviceIndex]);
+        setDialogOpen(true);
+      }
+    }
+  }, [openServiceId, serviceData]);
+
   const handleServiceClick = (index: number) => {
     setActiveService(index);
     setSelectedService(serviceData[index]);
     setDialogOpen(true);
+  };
+
+  const handleDialogClose = () => {
+    setDialogOpen(false);
+    if (onServiceClose) {
+      onServiceClose();
+    }
   };
 
   // 移除分頁相關函數，因為現在直接顯示所有服務
@@ -1623,7 +1650,7 @@ const EnhancedServicesSection: React.FC = () => {
       {/* 服務詳情對話框 */}
       <ServiceDetailDialog
         open={dialogOpen}
-        onClose={() => setDialogOpen(false)}
+        onClose={handleDialogClose}
         service={selectedService}
       />
     </Box>

@@ -157,6 +157,118 @@
       }
     },
     {
+      "id": "service-agriculture",
+      "name": {
+        "zh": "農業經營與創新轉型",
+        "en": "Agricultural Innovation",
+        "ja": "農業イノベーション"
+      },
+      "href": "#services",
+      "serviceId": "agriculture",
+      "action": "openService",
+      "keywords": {
+        "zh": {
+          "exact": ["農業經營與創新轉型", "農業經營", "農業創新", "農業轉型"],
+          "fuzzy": ["農業", "農企業", "創新", "轉型", "科技農業", "數位轉型"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["agricultural innovation", "agriculture transformation", "agribusiness"],
+          "fuzzy": ["agriculture", "farming", "innovation", "transformation", "agtech"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["農業イノベーション", "農業経営"],
+          "fuzzy": ["農業", "イノベーション", "経営", "変革"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-healthcare",
+      "name": {
+        "zh": "健康照護",
+        "en": "Healthcare",
+        "ja": "ヘルスケア"
+      },
+      "href": "#services",
+      "serviceId": "healthcare",
+      "action": "openService",
+      "keywords": {
+        "zh": {
+          "exact": ["健康照護", "長期照顧", "長照", "運動科技"],
+          "fuzzy": ["健康", "照護", "長照", "醫療", "照顧", "運動", "智慧醫療"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["healthcare", "long-term care", "health care"],
+          "fuzzy": ["health", "care", "medical", "nursing", "sports", "technology"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["ヘルスケア", "長期介護"],
+          "fuzzy": ["ヘルスケア", "医療", "介護", "健康"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-indigenous",
+      "name": {
+        "zh": "原民經濟與永續發展",
+        "en": "Indigenous Economy",
+        "ja": "先住民経済"
+      },
+      "href": "#services",
+      "serviceId": "indigenous",
+      "action": "openService",
+      "keywords": {
+        "zh": {
+          "exact": ["原民經濟與永續發展", "原民經濟", "原住民經濟", "原民產業"],
+          "fuzzy": ["原民", "原住民", "部落", "經濟", "永續", "產業", "LiMA"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["indigenous economy", "indigenous development", "tribal economy"],
+          "fuzzy": ["indigenous", "tribal", "economy", "development", "sustainable"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["先住民経済", "先住民開発"],
+          "fuzzy": ["先住民", "経済", "開発", "持続可能"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
+      "id": "service-sustainability",
+      "name": {
+        "zh": "前瞻永續",
+        "en": "Sustainability",
+        "ja": "持続可能性"
+      },
+      "href": "#services",
+      "serviceId": "sustainability",
+      "action": "openService",
+      "keywords": {
+        "zh": {
+          "exact": ["前瞻永續", "淨零", "永續發展", "淨零排放"],
+          "fuzzy": ["前瞻", "永續", "淨零", "氣候", "碳排", "轉型"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["sustainability", "net zero", "sustainable development"],
+          "fuzzy": ["sustainability", "sustainable", "zero", "climate", "carbon", "green"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["持続可能性", "ネットゼロ"],
+          "fuzzy": ["持続可能", "ゼロ", "気候", "カーボン"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
       "id": "contact",
       "name": {
         "zh": "聯絡我們",

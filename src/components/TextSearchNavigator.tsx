@@ -24,13 +24,15 @@ import {
 import voiceCommandsConfig from '../assets/voice_commands.json';
 
 interface TextSearchNavigatorProps {
-  onNavigate: (href: string) => void;
+  onNavigate: (href: string, serviceId?: string) => void;
 }
 
 interface SearchResult {
   id: string;
   name: string;
   href: string;
+  serviceId?: string;
+  action?: string;
   matchType: 'exact' | 'fuzzy';
   score: number;
   matchedKeywords: string[];
@@ -71,6 +73,8 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
           id: page.id,
           name: pageName,
           href: page.href,
+          serviceId: page.serviceId,
+          action: page.action,
           matchType: 'exact',
           score: 100,
           matchedKeywords: keywords.exact.filter((k: string) => 
@@ -93,6 +97,8 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
           id: page.id,
           name: pageName,
           href: page.href,
+          serviceId: page.serviceId,
+          action: page.action,
           matchType: 'fuzzy',
           score: Math.round(score),
           matchedKeywords: matchedFuzzy,
@@ -120,8 +126,8 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
   }, [searchText, performSearch]);
 
   // 處理導航
-  const handleNavigate = (href: string) => {
-    onNavigate(href);
+  const handleNavigate = (href: string, serviceId?: string) => {
+    onNavigate(href, serviceId);
     setIsOpen(false);
     setSearchText('');
     setSearchResults([]);
@@ -257,7 +263,7 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
                   {voiceCommandsConfig.pages.map((page: any) => (
                     <ListItemButton
                       key={page.id}
-                      onClick={() => handleNavigate(page.href)}
+                      onClick={() => handleNavigate(page.href, page.serviceId)}
                       sx={{
                         borderRadius: 2,
                         mb: 1,
@@ -290,7 +296,7 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
                   {searchResults.map((result) => (
                     <Fade in key={result.id}>
                       <ListItemButton
-                        onClick={() => handleNavigate(result.href)}
+                        onClick={() => handleNavigate(result.href, result.serviceId)}
                         sx={{
                           borderRadius: 2,
                           mb: 1,

@@ -77,7 +77,7 @@ declare global {
 }
 
 interface VoiceAssistantProps {
-  onNavigate: (href: string) => void;
+  onNavigate: (href: string, serviceId?: string) => void;
 }
 
 interface VoiceResult {
@@ -108,6 +108,8 @@ const VoiceAssistant: React.FC<VoiceAssistantProps> = ({ onNavigate }) => {
       name: string;
       href?: string;
       languageCode?: string;
+      serviceId?: string;
+      action?: string;
       score: number;
       matchType: 'exact' | 'fuzzy';
       keywords: string[];
@@ -129,6 +131,8 @@ const VoiceAssistant: React.FC<VoiceAssistantProps> = ({ onNavigate }) => {
               id: page.id,
               name: pageName,
               href: page.href,
+              serviceId: (page as any).serviceId,
+              action: (page as any).action,
               score,
               matchType: 'exact',
               keywords: [keyword]
@@ -154,6 +158,8 @@ const VoiceAssistant: React.FC<VoiceAssistantProps> = ({ onNavigate }) => {
             id: page.id,
             name: pageName,
             href: page.href,
+            serviceId: (page as any).serviceId,
+            action: (page as any).action,
             score,
             matchType: 'fuzzy',
             keywords: fuzzyMatches
@@ -252,8 +258,8 @@ const VoiceAssistant: React.FC<VoiceAssistantProps> = ({ onNavigate }) => {
           }
         }, 2000);
       } else if (match.href) {
-        // 頁面跳轉
-        onNavigate(match.href);
+        // 頁面跳轉，如果有 serviceId 則一併傳遞
+        onNavigate(match.href, match.serviceId);
         setTimeout(() => {
           setTranscript('');
           setResult(null);

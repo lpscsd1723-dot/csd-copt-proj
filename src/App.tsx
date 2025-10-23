@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Box, Container, Typography } from '@mui/material';
@@ -44,8 +44,10 @@ const theme = createTheme({
 });
 
 function App() {
+  const [openServiceId, setOpenServiceId] = useState<string | null>(null);
+
   // 處理語音導航
-  const handleVoiceNavigation = (href: string) => {
+  const handleVoiceNavigation = useCallback((href: string, serviceId?: string) => {
     const element = document.querySelector(href) as HTMLElement;
     if (element) {
       const navElement = document.querySelector('.MuiAppBar-root') as HTMLElement;
@@ -73,8 +75,15 @@ function App() {
           behavior: 'smooth'
         });
       });
+
+      // 如果有 serviceId，在滾動後打開服務
+      if (serviceId) {
+        setTimeout(() => {
+          setOpenServiceId(serviceId);
+        }, 800); // 等待滾動完成後再打開
+      }
     }
-  };
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
@@ -84,7 +93,10 @@ function App() {
         <HeroSection />
         <CenterHistory />
         <DepartmentIntro />
-        <EnhancedServicesSection />
+        <EnhancedServicesSection 
+          openServiceId={openServiceId}
+          onServiceClose={() => setOpenServiceId(null)}
+        />
         {/* <InsightsSection /> */}
         <ContactSection />
         <VoiceAssistant onNavigate={handleVoiceNavigation} />
