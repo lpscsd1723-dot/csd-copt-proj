@@ -1391,8 +1391,10 @@ const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({
             t('homepage.services.sustainability.cases.1.features.3', '氣候變遷因應')
           ],
           results: [
-            t('homepage.services.sustainability.cases.1.results.0', '辦理農業淨零日本參訪團2場'),
-            t('homepage.services.sustainability.cases.1.results.1', '榮獲2025年「台灣農業永續合作夥伴獎」')
+            t('homepage.services.sustainability.cases.1.results.0', '辦理九州熊本地方潔淨能源發展參訪考察'),
+            t('homepage.services.sustainability.cases.1.results.1', '辦理東京供應鏈淨零減碳考察研討'),
+            t('homepage.services.sustainability.cases.1.results.2', '舉辦成果分享，與政策人員、相關業者分享交流經驗'),
+            t('homepage.services.sustainability.cases.1.results.3', '交流規劃獲2025年「台灣農業永續合作夥伴獎」肯定')
           ],
           image: require('../assets/img/services/前瞻永續/前瞻永續_農業淨零國際交流.jpg')
         },
