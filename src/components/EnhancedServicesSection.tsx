@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   Box,
   Container,
@@ -730,7 +730,7 @@ const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({
   }, [i18n]);
 
   // 服務資料配置
-  const serviceData = [
+  const serviceData = useMemo(() => [
     {
       id: 'agriculture',
       title: t('homepage.services.agriculture.title', '農業經營與創新轉型'),
@@ -1476,7 +1476,7 @@ const EnhancedServicesSection: React.FC<EnhancedServicesSectionProps> = ({
       })(),
       content: null, // 前瞻永續內容待開發
     },
-  ];
+  ], [t]);
 
   // 直接顯示所有服務，不分頁
   const currentServices = serviceData;
