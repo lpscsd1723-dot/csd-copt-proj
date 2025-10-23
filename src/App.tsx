@@ -9,6 +9,7 @@ import DepartmentIntro from './components/DepartmentIntro';
 import EnhancedServicesSection from './components/EnhancedServicesSection';
 import ContactSection from './components/ContactSection';
 import VoiceAssistant from './components/VoiceAssistant';
+import TextSearchNavigator from './components/TextSearchNavigator';
 import './App.css';
 
 const theme = createTheme({
@@ -87,6 +88,7 @@ function App() {
         {/* <InsightsSection /> */}
         <ContactSection />
         <VoiceAssistant onNavigate={handleVoiceNavigation} />
+        <TextSearchNavigator onNavigate={handleVoiceNavigation} />
         
         {/* Copyright Section */}
         <Box
