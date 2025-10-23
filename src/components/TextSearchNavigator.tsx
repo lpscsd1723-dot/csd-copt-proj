@@ -30,9 +30,10 @@ interface TextSearchNavigatorProps {
 interface SearchResult {
   id: string;
   name: string;
-  href: string;
+  href?: string;
   serviceId?: string;
   tabIndex?: number;
+  languageCode?: string;
   action?: string;
   matchType: 'exact' | 'fuzzy';
   score: number;
@@ -109,6 +110,55 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
       }
     });
 
+    // 搜尋語言切換
+    voiceCommandsConfig.languages.forEach((lang: any) => {
+      const keywords = lang.keywords[currentLang];
+      if (!keywords) return;
+
+      const langName = lang.name;
+      
+      // 檢查精確匹配
+      const exactMatch = keywords.exact?.some((keyword: string) => 
+        searchLower.includes(keyword.toLowerCase()) || 
+        keyword.toLowerCase().includes(searchLower)
+      );
+
+      if (exactMatch) {
+        results.push({
+          id: lang.id,
+          name: langName,
+          languageCode: lang.code,
+          action: 'changeLanguage',
+          matchType: 'exact',
+          score: 100,
+          matchedKeywords: keywords.exact.filter((k: string) => 
+            searchLower.includes(k.toLowerCase()) || k.toLowerCase().includes(searchLower)
+          ),
+        });
+        return;
+      }
+
+      // 檢查模糊匹配
+      const matchedFuzzy = keywords.fuzzy?.filter((keyword: string) => 
+        searchLower.includes(keyword.toLowerCase()) || 
+        keyword.toLowerCase().includes(searchLower)
+      ) || [];
+
+      const minMatch = keywords.minMatch || 1;
+      if (matchedFuzzy.length >= minMatch) {
+        const score = (matchedFuzzy.length / keywords.fuzzy.length) * 100;
+        results.push({
+          id: lang.id,
+          name: langName,
+          languageCode: lang.code,
+          action: 'changeLanguage',
+          matchType: 'fuzzy',
+          score: Math.round(score),
+          matchedKeywords: matchedFuzzy,
+        });
+      }
+    });
+
     // 按分數排序
     results.sort((a, b) => {
       if (a.matchType === 'exact' && b.matchType !== 'exact') return -1;
@@ -128,9 +178,15 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
     return () => clearTimeout(timer);
   }, [searchText, performSearch]);
 
-  // 處理導航
-  const handleNavigate = (href: string, serviceId?: string, tabIndex?: number) => {
-    onNavigate(href, serviceId, tabIndex);
+  // 處理導航或動作
+  const handleAction = (result: SearchResult) => {
+    if (result.languageCode) {
+      // 語言切換
+      i18n.changeLanguage(result.languageCode);
+    } else if (result.href) {
+      // 頁面導航
+      onNavigate(result.href, result.serviceId, result.tabIndex);
+    }
     setIsOpen(false);
     setSearchText('');
     setSearchResults([]);
@@ -266,7 +322,13 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
                   {voiceCommandsConfig.pages.map((page: any) => (
                     <ListItemButton
                       key={page.id}
-                      onClick={() => handleNavigate(page.href, page.serviceId, page.tabIndex)}
+                      onClick={() => {
+                        if (page.href) {
+                          onNavigate(page.href, page.serviceId, page.tabIndex);
+                        }
+                        setIsOpen(false);
+                        setSearchText('');
+                      }}
                       sx={{
                         borderRadius: 2,
                         mb: 1,
@@ -299,7 +361,7 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
                   {searchResults.map((result) => (
                     <Fade in key={result.id}>
                       <ListItemButton
-                        onClick={() => handleNavigate(result.href, result.serviceId, result.tabIndex)}
+                        onClick={() => handleAction(result)}
                         sx={{
                           borderRadius: 2,
                           mb: 1,
