@@ -617,6 +617,35 @@
       }
     },
     {
+      "id": "service-sustainability-agri-sustainable",
+      "name": {
+        "zh": "農業永續",
+        "en": "Agricultural Sustainability",
+        "ja": "農業持続可能性"
+      },
+      "href": "#services",
+      "serviceId": "sustainability",
+      "tabIndex": 0,
+      "action": "openServiceTab",
+      "keywords": {
+        "zh": {
+          "exact": ["農業永續", "農業碳管理", "碳足跡管理"],
+          "fuzzy": ["農業", "永續", "碳", "足跡", "管理", "數位", "培訓"],
+          "minMatch": 2
+        },
+        "en": {
+          "exact": ["agricultural sustainability", "agricultural carbon management", "carbon footprint management"],
+          "fuzzy": ["agricultural", "sustainability", "carbon", "footprint", "management", "digital"],
+          "minMatch": 2
+        },
+        "ja": {
+          "exact": ["農業持続可能性", "農業カーボン管理"],
+          "fuzzy": ["農業", "持続可能", "カーボン", "管理", "デジタル"],
+          "minMatch": 2
+        }
+      }
+    },
+    {
       "id": "service-sustainability-agri",
       "name": {
         "zh": "農業淨零國際交流",
@@ -625,7 +654,7 @@
       },
       "href": "#services",
       "serviceId": "sustainability",
-      "tabIndex": 0,
+      "tabIndex": 1,
       "action": "openServiceTab",
       "keywords": {
         "zh": {
@@ -654,7 +683,7 @@
       },
       "href": "#services",
       "serviceId": "sustainability",
-      "tabIndex": 0,
+      "tabIndex": 2,
       "action": "openServiceTab",
       "keywords": {
         "zh": {
