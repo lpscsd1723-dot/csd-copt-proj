@@ -14,7 +14,6 @@ import {
   Chip,
   IconButton,
   Fade,
-  Paper,
 } from '@mui/material';
 import {
   Search as SearchIcon,
@@ -41,7 +40,7 @@ const TextSearchNavigator: React.FC<TextSearchNavigatorProps> = ({ onNavigate })
   const [isOpen, setIsOpen] = useState(false);
   const [searchText, setSearchText] = useState('');
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   // 搜尋匹配邏輯
   const performSearch = useCallback((text: string) => {
